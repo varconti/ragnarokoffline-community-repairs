@@ -8,7 +8,7 @@ English code, evidence and local recovery recipes from an extensively customized
 - [PR #43](https://github.com/Flux159/roBrowserLegacy/pull/43): missing skill-icon alias fallback, including Etc rows.
 - [PR #44](https://github.com/Flux159/roBrowserLegacy/pull/44): later item-metadata overrides can repair descriptions, image links and weapon views.
 - [PR #45](https://github.com/Flux159/roBrowserLegacy/pull/45): global/relative sound volume and explicit silence.
-- A separate broad draft carries accumulated skill mappings and lifecycle controllers for maintainer review. It is not a fully certified replacement client or an application vendor-pin update.
+- [Draft PR #46](https://github.com/Flux159/roBrowserLegacy/pull/46) carries accumulated skill mappings and lifecycle controllers for maintainer review. It is not a fully certified replacement client or an application vendor-pin update.
 
 ## What is included
 
