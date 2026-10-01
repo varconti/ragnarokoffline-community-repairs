@@ -1,0 +1,22 @@
+--- a/src/map/skills/summoner/kisulwaterspraying.cpp
++++ b/src/map/skills/summoner/kisulwaterspraying.cpp
+@@ -15,6 +15,11 @@
+ 	status_change *sc = status_get_sc(src);
+ 	map_session_data* sd = BL_CAST(BL_PC, src);
+ 
++	// Emit the dedicated skill animation once, including solo casts.
++	// Recursive party healing keeps the ordinary heal-value packets only.
++	if (!(flag & 1))
++		clif_skill_nodamage(src, *target, getSkillId(), skill_lv);
++
+ 	if (sd == nullptr || sd->status.party_id == 0 || (flag & 1)) {
+ 		// TODO: verify on official server, if this should be moved into skill_calc_heal
+ 		int32 heal = 500 * skill_lv + status_get_int(src) * 5;
+@@ -29,7 +34,6 @@
+ 		clif_skill_nodamage(nullptr, *target, AL_HEAL, heal);
+ 	}
+ 	else {
+-		clif_skill_nodamage(src, *target, getSkillId(), skill_lv);
+ 		int32 range = skill_get_splash(getSkillId(), skill_lv);
+ 		if( pc_checkskill( sd, SH_COMMUNE_WITH_KI_SUL ) > 0 || ( sc != nullptr && sc->getSCE( SC_TEMPORARY_COMMUNION ) != nullptr ) )
+ 			range += 2;

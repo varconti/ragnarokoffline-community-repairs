@@ -1,0 +1,11 @@
+--- a/src/map/skills/acolyte/laudaagnus.cpp
++++ b/src/map/skills/acolyte/laudaagnus.cpp
+@@ -27,6 +27,8 @@
+ 			status_change_end(target, SC_BURNING);
+ 			status_change_end(target, SC_FREEZING);
+ 			status_change_end(target, SC_CRYSTALIZE);
++			// Successful cleansing also needs the client application effect packet.
++			clif_skill_nodamage(target, *target, getSkillId(), skill_lv, 1);
+ 		} else //Success rate only applies to the curing effect and not stat bonus. Bonus status only applies to non infected targets
+ 			clif_skill_nodamage(target, *target, getSkillId(), skill_lv,
+ 				sc_start(src,target, type, 100, skill_lv, skill_get_time(getSkillId(), skill_lv)));

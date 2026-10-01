@@ -1,0 +1,391 @@
+--- a/third-party/population-engine/files/src/map/population_engine.cpp
++++ b/third-party/population-engine/files/src/map/population_engine.cpp
+@@ -2009,17 +2009,27 @@
+ 	return 0;
+ }
+ 
+-// Limited, real consumables for the Siroma route; native item scripts handle healing.
++// Finite supplies per life. Native scripts, weight, cooldowns and restrictions apply.
+ static void population_siroma_resupply(map_session_data* sd) {
+- if (!sd->pop.route_balanced || strcmp(map_mapid2mapname(sd->m), "ice_dun01")) return;
+- for (auto supply : {std::pair<t_itemid,int>{547,8}, {505,3}}) {
++ if(!sd->pop.route_balanced) return;
++ std::map<t_itemid,int> supplies;
++ if(sd->status.base_level>=160) supplies[608]=4; // 50% HP/SP, not full-heal berries.
++ else {supplies[547]=8;supplies[505]=5;}
++ for(const auto& sk:sd->status.skill) {
++  if(!sk.id || !sk.lv)continue;
++  auto req=skill_get_requirement(sd,sk.id,sk.lv);
++  for(int i=0;i<MAX_SKILL_ITEM_REQUIRE;++i)
++   if(req.itemid[i] && req.amount[i]>0)
++    supplies[req.itemid[i]]=std::max(supplies[req.itemid[i]],std::min(100,req.amount[i]*20));
++ }
++ for(auto supply:supplies) {
+   int have=0;
+-  for (const auto& item : sd->inventory.u.items_inventory) if(item.nameid==supply.first) have+=item.amount;
+-  if(have>=supply.second) continue;
+-  struct item item={}; item.nameid=supply.first; item.identify=1;
++  for(const auto& item:sd->inventory.u.items_inventory) if(item.nameid==supply.first)have+=item.amount;
++  if(have>=supply.second)continue;
++  struct item item={};item.nameid=supply.first;item.identify=1;
+   pc_additem(sd,&item,supply.second-have,LOG_TYPE_NONE,false);
+  }
+- sd->pop.route_potion_next=0;
++ sd->pop.route_potion_next=0;sd->pop.route_resting=false;
+ }
+ 
+ /// Respawn timer for mortal shells: fired ~5 s after death to teleport to spawn and revive.
+@@ -2831,6 +2841,7 @@
+ 	}
+ 
+  sd->pop.route_balanced = rb != nullptr;
++ if(rb) {sd->pop.route_caster=rb->caster;sd->pop.route_offense=rb->offense;}
+  if (rb) {
+   memset(&sd->status.skill,0,sizeof(sd->status.skill));
+   for (const auto& sk:rb->skills) pc_skill(sd,sk.first,sk.second,ADDSKILL_PERMANENT_GRANTED);
+@@ -3119,9 +3130,9 @@
+ 
+     if (rb) {
+         // Item IDs are uint32 here: modern equipment must not truncate to uint16.
+-        const uint32 slots[9]={EQP_HAND_R,EQP_HAND_L,EQP_HEAD_TOP,EQP_ARMOR,EQP_GARMENT,EQP_SHOES,EQP_ACC_R,EQP_ACC_L,EQP_HAND_L};
++        const uint32 slots[17]={EQP_HAND_R,EQP_HAND_L,EQP_HEAD_TOP,EQP_ARMOR,EQP_GARMENT,EQP_SHOES,EQP_ACC_R,EQP_ACC_L,EQP_HAND_L,EQP_HEAD_MID,EQP_HEAD_LOW,EQP_SHADOW_WEAPON,EQP_SHADOW_SHIELD,EQP_SHADOW_ARMOR,EQP_SHADOW_SHOES,EQP_SHADOW_ACC_R,EQP_SHADOW_ACC_L};
+         for(const auto& g:rb->gear) {
+-            struct item it={};it.nameid=g.id;it.amount=1;it.identify=1;it.refine=g.refine;
++            struct item it={};it.nameid=g.id;it.amount=1;it.identify=1;it.refine=g.refine;it.card[0]=g.card;
+             sd->max_weight=2000000;
+             if(pc_additem(sd,&it,1,LOG_TYPE_NONE,false)!=ADDITEM_SUCCESS) { ShowError("Route bot: item grant failed %u job %u\n",g.id,job_id);continue; }
+             int idx=sd->last_addeditem_index;
+--- before/population_life.inc
++++ after/population_life.inc
+@@ -66,7 +66,8 @@
+ }
+ int population_life_attack_chance(map_session_data* sd,int base) {
+  if(!sd->pop.route_balanced || pop_is_companion(sd) || sd->pop.arena_team)return base;
+- return std::max(10,std::min(90,base+(pop_life(sd).personality-1)*10));
++ if(sd->pop.route_caster)return 0;
++ return std::max(15,std::min(40,25+(pop_life(sd).personality-1)*10));
+ }
+ bool population_life_roam(map_session_data* sd) {
+  if(pop_is_companion(sd)||sd->pop.arena_team)return false;
+@@ -94,6 +95,10 @@
+  if(s.gx && !unit_walktoxy(sd,s.gx,s.gy,0)){s.gx=s.gy=0;s.pause=now+5000;}
+  return true;
+ }
++static int32 pop_route_attacker(block_list* bl,va_list ap) {
++ const int id=va_arg(ap,int);auto* md=BL_CAST(BL_MOB,bl);
++ return md && !status_isdead(*md) && md->target_id==id ? 1:0;
++}
+ bool population_life_combat(map_session_data* sd) {
+  auto& s=pop_life(sd);auto now=gettick();
+  if(pop_is_companion(sd)) {
+@@ -120,7 +125,17 @@
+   }
+  }
+  if(sd->pop.target_id && !population_life_target_allowed(sd,sd->pop.target_id)){unit_stop_attack(sd);sd->pop.target_id=0;}
+- // Low HP never suspends combat for a seated rest. Native defense/fleeing remains active.
++ const bool hurt=sd->pop.last_attacked_tick && now-sd->pop.last_attacked_tick<6000;
++ const bool threatened=hurt || map_foreachinrange(pop_route_attacker,sd,AREA_SIZE,BL_MOB,sd->id)>0;
++ const int hp=uint64(sd->battle_status.hp)*100/std::max(1u,sd->battle_status.max_hp);
++ const int sp=uint64(sd->battle_status.sp)*100/std::max(1u,sd->battle_status.max_sp);
++ if(!threatened && ((hp<45 || sp<18) || (sd->pop.route_resting && (hp<80 || sp<65)))) {
++  sd->pop.route_resting=true;sd->pop.target_id=0;unit_stop_attack(sd);
++  if(!pc_issit(sd)) {pc_setsit(sd);skill_sit(sd,1);clif_sitting(*sd);}
++  return true;
++ }
++ sd->pop.route_resting=false;
++ pop_life_stand(sd,s);
+  if(leader && !sd->pop.target_id && !unit_is_walking(sd) && distance_bl(sd,leader)>5) {
+   unit_walktobl(sd,leader,3,0);return true;
+  }
+--- before/population_engine/core/population_shell_state.hpp
++++ after/population_engine/core/population_shell_state.hpp
+@@ -121,7 +121,10 @@
+ 	uint32 session_guard       = 1;
+ 	t_tick route_potion_next = 0; ///< Native consumable throttle for the Siroma pilot.
+ 	t_tick route_retreat_next = 0; ///< Bound retreat attempts; combat must remain available.
+-	bool route_balanced = false; ///< Route loadout: all casts must use learned skills.
++	bool route_caster = false; ///< Caster routes never substitute staff melee for spells.
++ bool route_resting = false;
++ std::vector<uint16> route_offense;
++ bool route_balanced = false; ///< Route loadout: all casts must use learned skills.
+ 	bool   initialized         = false; ///< True after first combat init (was: ca.client_addr != 0).
+ 	uint32 unique_id           = 0;     ///< char_id or block id, set at init.
+ 	bool   manual_stop_requested = false;
+--- before/population_engine/runtime/population_engine_combat.cpp
++++ after/population_engine/runtime/population_engine_combat.cpp
+@@ -839,8 +839,8 @@
+ 	//    robin cursor advances past skills that are still on per-skill cooldown.
+ 	const t_tick now_tick = gettick();
+ 	const int min_sp_pct = battle_config.population_engine_shell_skill_min_sp_pct;
+-	const uint32 sp_floor = (min_sp_pct > 0 && sd->status.max_sp > 0)
+-		? static_cast<uint32>(sd->status.max_sp) * static_cast<uint32>(min_sp_pct) / 100u
++	const uint32 sp_floor = (min_sp_pct > 0 && sd->battle_status.max_sp > 0)
++		? static_cast<uint32>(sd->battle_status.max_sp) * static_cast<uint32>(min_sp_pct) / 100u
+ 		: 0u;
+ 	const bool strict_gate = battle_config.population_engine_shell_skill_strict_gate != 0;
+ 	const bool los_check   = battle_config.population_engine_shell_skill_los_check != 0;
+@@ -905,7 +905,8 @@
+ 	// Rate:10000 skill in the list monopolises every tick regardless of lower-rate
+ 	// entries later in the list.  Combo-promoted starts override the cursor.
+ 	// ally_only and ignore_rate passes use cursor=0 (forced picks, not rotation).
+-	const bool use_cursor = !ally_only && !ignore_rate && combo_promote_idx == SIZE_MAX;
++	const bool route_ambient=sd->pop.route_balanced && !sd->pop.companion_owner_account && !sd->pop.arena_team;
++ const bool use_cursor = !route_ambient && !ally_only && !ignore_rate && combo_promote_idx == SIZE_MAX;
+ 	const size_t cursor_start = (combo_promote_idx != SIZE_MAX)
+ 		? combo_promote_idx
+ 		: (use_cursor ? (static_cast<size_t>(sd->pop.attack_skill_cursor) % n) : 0);
+@@ -934,7 +935,22 @@
+ 		if (!pop_skill_cond_satisfied(sd, sk, target_bl)) {
+ 			continue;
+ 		}
+-		if (skill_isNotOk(sk.skill_id, *sd)) {
++		if (sd->scd.count(sk.skill_id)) continue;
++  if (route_ambient && !ally_only && target_bl) {
++   auto* ts=status_get_status_data(*target_bl);
++   auto* target_sc=status_get_sc(target_bl);
++   const bool marked=target_sc && target_sc->getSCE(SC_HOGOGONG);
++   if(sk.skill_id==SH_HOGOGONG_STRIKE && !marked)continue;
++   if(sk.skill_id==SH_HOWLING_OF_CHUL_HO && marked)continue;
++   if(sk.skill_id==PR_MAGNUS && ts && ts->race!=RC_DEMON && ts->def_ele!=ELE_UNDEAD)continue;
++   if(skill_get_inf(sk.skill_id)&INF_SELF_SKILL) {
++    const int radius=std::max(1,skill_get_splash(sk.skill_id,sk.skill_lv));
++    if(!check_distance_bl(sd,target_bl,radius))continue;
++   }
++   const int ele=skill_get_ele(sk.skill_id,sk.skill_lv);
++   if(ts && ele>=0 && ele<ELE_MAX && battle_attr_fix(nullptr,nullptr,100,ele,ts->def_ele,ts->ele_lv)<=0)continue;
++  }
++  if (skill_isNotOk(sk.skill_id, *sd)) {
+ 			continue;
+ 		}
+ 		// Strict gate: status_check_skilluse covers silenced/sleeping/sitting/etc.
+@@ -955,7 +971,17 @@
+ 		if (plv > 0 && plv < sk.skill_lv) {
+ 			continue;
+ 		}
+-		const int sp_cost = skill_get_sp(sk.skill_id, sk.skill_lv);
++		const auto requirement=route_ambient ? skill_get_requirement(sd,sk.skill_id,sk.skill_lv) : s_skill_condition{};
++  if(route_ambient) {
++   bool stocked=true;
++   for(int i=0;i<MAX_SKILL_ITEM_REQUIRE;++i) {
++    if(!requirement.itemid[i] || requirement.amount[i]<=0)continue;
++    const int slot=pc_search_inventory(sd,requirement.itemid[i]);
++    if(slot<0 || sd->inventory.u.items_inventory[slot].amount<requirement.amount[i]) {stocked=false;break;}
++   }
++   if(!stocked)continue; // Try another learned attack instead of repeatedly failing an empty reagent stack.
++  }
++  const int sp_cost = route_ambient ? requirement.sp : skill_get_sp(sk.skill_id, sk.skill_lv);
+ 		if (sp_cost > sd->battle_status.sp) {
+ 			continue;
+ 		}
+@@ -1048,8 +1074,8 @@
+ 	// SP-reserve floor (same rationale as in the attack picker — buffs shouldn't strand
+ 	// the shell with no SP for offensive skills).
+ 	const int min_sp_pct = battle_config.population_engine_shell_skill_min_sp_pct;
+-	const uint32 sp_floor = (min_sp_pct > 0 && sd->status.max_sp > 0)
+-		? static_cast<uint32>(sd->status.max_sp) * static_cast<uint32>(min_sp_pct) / 100u
++	const uint32 sp_floor = (min_sp_pct > 0 && sd->battle_status.max_sp > 0)
++		? static_cast<uint32>(sd->battle_status.max_sp) * static_cast<uint32>(min_sp_pct) / 100u
+ 		: 0u;
+ 	const bool strict_gate = battle_config.population_engine_shell_skill_strict_gate != 0;
+ 
+@@ -1207,7 +1233,18 @@
+ 		if (sd->pop.route_balanced && plv == 0) continue;
+ 		if (plv > 0 && plv < sk.skill_lv)
+ 			continue;
+-		const int sp_cost = skill_get_sp(sk.skill_id, sk.skill_lv);
++		const bool route_ambient=sd->pop.route_balanced && !sd->pop.companion_owner_account && !sd->pop.arena_team;
++  const auto requirement=route_ambient ? skill_get_requirement(sd,sk.skill_id,sk.skill_lv) : s_skill_condition{};
++  if(route_ambient) {
++   bool stocked=true;
++   for(int i=0;i<MAX_SKILL_ITEM_REQUIRE;++i) {
++    if(!requirement.itemid[i] || requirement.amount[i]<=0)continue;
++    const int slot=pc_search_inventory(sd,requirement.itemid[i]);
++    if(slot<0 || sd->inventory.u.items_inventory[slot].amount<requirement.amount[i]) {stocked=false;break;}
++   }
++   if(!stocked)continue; // Try another learned attack instead of repeatedly failing an empty reagent stack.
++  }
++  const int sp_cost = route_ambient ? requirement.sp : skill_get_sp(sk.skill_id, sk.skill_lv);
+ 		if (sp_cost > sd->battle_status.sp)
+ 			continue;
+ 
+@@ -1277,7 +1314,8 @@
+ 
+ 	const bool flag_attack_only = (sd->pop.flags & PSF::AttackOnly) != 0
+ 		|| sd->sc.getSCE(SC_BERSERK) != nullptr; // Frenzy: auto-attack only, no skills
+-	const bool flag_skill_only  = (sd->pop.flags & PSF::SkillOnly)  != 0;
++	const bool flag_skill_only  = (sd->pop.flags & PSF::SkillOnly) != 0
++  || (sd->pop.route_balanced && sd->pop.route_caster && !sd->pop.companion_owner_account && !sd->pop.arena_team);
+ 	const PopulationRoleType shell_role = static_cast<PopulationRoleType>(sd->pop.role);
+ 	const int32 pai = battle_config.population_engine_ai;
+ 
+@@ -1288,19 +1326,25 @@
+ 		population_shell_try_party_resurrection(sd, current_tick))
+ 		return;
+ 
+-	// Siroma pilot: finite inventory, native healing/status restrictions, no stat bonus.
+-	if (pe.route_balanced && !strcmp(map_mapid2mapname(sd->m), "ice_dun01") && current_tick >= pe.route_potion_next) {
+-		const bool need_hp = uint64(sd->battle_status.hp)*100 < uint64(sd->battle_status.max_hp)*60;
+-		const bool need_sp = uint64(sd->battle_status.sp)*100 < uint64(sd->battle_status.max_sp)*25;
+-		const t_itemid potion = need_hp ? 547 : need_sp ? 505 : 0;
+-		if(potion) {
+-			pe.route_potion_next=current_tick+1500;
+-			for(int i=0;i<MAX_INVENTORY;++i) {
+-				const auto& item=sd->inventory.u.items_inventory[i];
+-				if(item.nameid==potion && item.amount>0) {pc_useitem(sd,i);break;}
+-			}
+-		}
+-	}
++ // Native finite consumables. Try SP even if the HP stock is exhausted.
++ if(pe.route_balanced && !pe.companion_owner_account && !pe.arena_team && current_tick>=pe.route_potion_next) {
++  const bool hp=uint64(sd->battle_status.hp)*100<uint64(sd->battle_status.max_hp)*55;
++  const bool sp=uint64(sd->battle_status.sp)*100<uint64(sd->battle_status.max_sp)*25;
++  const t_itemid options[2]={sd->status.base_level>=160 ? t_itemid(608) : hp ? t_itemid(547):t_itemid(0),sd->status.base_level>=160 ? t_itemid(0) : sp ? t_itemid(505):t_itemid(0)};
++  if(hp || sp) {
++   bool used=false;
++   for(auto id:options) {
++    if(!id || used)continue;
++    for(int i=0;i<MAX_INVENTORY;++i) {
++     const auto& item=sd->inventory.u.items_inventory[i];
++     if(item.nameid==id && item.amount>0) {used=pc_useitem(sd,i)!=0;break;}
++    }
++   }
++   pe.route_potion_next=current_tick+(used ? 4000:1500);
++  }
++ }
++ if(pe.route_balanced && !pe.companion_owner_account && !pe.arena_team &&
++    (sd->ud.skilltimer!=INVALID_TIMER || current_tick<sd->ud.canact_tick))return;
+ 
+ 	// --- PANIC INTERRUPT: emergency hide dodge ---
+ 	// If a nearby unit is RIGHT NOW casting on this shell (direct target or ground AoE
+@@ -1341,7 +1385,7 @@
+ 						if (ud) {
+ 							if (ud->skilltimer != INVALID_TIMER)
+ 								unit_skillcastcancel(sd, 0);
+-							ud->canact_tick = current_tick; // emergency: clear post-cast act delay
++							if(!pe.route_balanced) ud->canact_tick = current_tick; // route bots retain native delay
+ 						}
+ 						const uint16_t plv = pc_checkskill(sd, hide_bs->skill_id);
+ 						const uint16_t use_lv = (plv > 0) ? std::min(hide_bs->skill_lv, plv) : hide_bs->skill_lv;
+@@ -1513,7 +1557,11 @@
+ 	if (!flag_attack_only && do_skills && current_tick >= sd->pop.reactive_buff_cd && !sd->pop.buff_skills.empty()) {
+ 		if (population_shell_cast_expired_self_buffs(sd, current_tick)) {
+ 			sd->pop.reactive_buff_cd = current_tick + std::max(1, battle_config.population_engine_shell_skill_interval_ms);
+-			// No return: fall through to ally-skill and offensive-skill evaluation.
++			if(pe.route_balanced && !pe.companion_owner_account && !pe.arena_team) {
++    sd->pop.reactive_buff_cd=current_tick+2200;
++    pe.skill_cd=current_tick+750;
++    return;
++   }
+ 		}
+ 	}
+ 
+@@ -1810,7 +1858,15 @@
+ 		const PopulationEngine *pop_cfg = population_engine_resolve_equipment(sd->status.class_);
+ 		bool preserve_order = false;
+ 
+-		// Priority 0: population_skill_db.yml per-job overrides (highest priority; replaces job defaults).
++		const bool route_ambient=sd->pop.route_balanced && !sd->pop.companion_owner_account && !sd->pop.arena_team;
++  if(route_ambient) {
++   for(uint16 id:sd->pop.route_offense) {
++    const uint16 lv=pc_checkskill(sd,id);if(!lv)continue;
++    population_shell_push_attack_skill_candidate(sd,id,lv,false,cand,seen);
++   }
++   preserve_order=true;
++  }
++  // Priority 0: population_skill_db.yml per-job overrides (highest priority; replaces job defaults).
+ 		{
+ 			const std::vector<s_pop_skill_entry> *db_skills = population_skill_db().find(sd->status.class_);
+ 			if (!db_skills || db_skills->empty())
+@@ -1820,7 +1876,7 @@
+ 					if (e.state == 2)
+ 						continue;
+ 				const size_t before = cand.size();
+-					if (e.target == 1)
++					if (e.target == 1 || (route_ambient && e.target != 2))
+ 						continue;
+ 					population_shell_push_attack_skill_candidate(sd, e.skill_id, e.skill_lv, false, cand, seen);
+ 				if (cand.size() > before) {
+@@ -2042,7 +2098,7 @@
+ 	if (pc_isdead(sd))
+ 		return 0;
+ 	// Recover any seated state before selecting targets or casting defensive skills.
+-	if (pc_issit(sd) && pc_setstand(sd, false)) clif_standing(*sd);
++	if (!sd->pop.route_resting && pc_issit(sd) && pc_setstand(sd, false)) clif_standing(*sd);
+ 	s_population &pe = sd->pop;
+ 	const bool hired_companion = sd->status.party_id > 0 && sd->status.party_id < 0x70000000
+ 		&& sd->pop.companion_owner_account != 0;
+@@ -2090,7 +2146,8 @@
+ 
+ 		const bool flag_attack_only = (sd->pop.flags & PSF::AttackOnly) != 0
+ 		|| sd->sc.getSCE(SC_BERSERK) != nullptr; // Frenzy: auto-attack only, no skills
+-		const bool flag_skill_only  = (sd->pop.flags & PSF::SkillOnly)  != 0;
++		const bool flag_skill_only  = (sd->pop.flags & PSF::SkillOnly) != 0
++  || (sd->pop.route_balanced && sd->pop.route_caster && !sd->pop.companion_owner_account && !sd->pop.arena_team);
+ 
+ 		// 1. Maintenance buffs — reactive_buff_cd is independent so buffs don't block attacks.
+ 		if (!flag_attack_only && do_skills && current_tick >= sd->pop.reactive_buff_cd
+--- before/population_engine/runtime/population_shell_runtime.cpp
++++ after/population_engine/runtime/population_shell_runtime.cpp
+@@ -998,8 +998,9 @@
+ 			pe.attack_fail_count++;
+ 			return false;
+ 		}
+-		int sp_cost = skill_get_sp(skill_id, skill_lv);
+-		if (sp_cost > sd->status.sp) {
++		int sp_cost = pe.route_balanced && !pe.companion_owner_account && !pe.arena_team
++   ? skill_get_requirement(sd,skill_id,skill_lv).sp : skill_get_sp(skill_id, skill_lv);
++		if (sp_cost > sd->battle_status.sp) {
+ 			pe.attack_fail_count++;
+ 			return false;
+ 		}
+@@ -1081,7 +1082,9 @@
+ 				pe.skill_cd = last_tick + min_delay + cast_time;
+ 			else
+ 				pe.skill_cd = last_tick + skill_delay + cast_time;
+-			pe.last_attack = last_tick;
++			if(pe.route_balanced && !pe.companion_owner_account && !pe.arena_team)
++    pe.skill_cd=now+1100+(sd->id%7)*100; // Respect native cast, aftercast and cooldown gates.
++   pe.last_attack = last_tick;
+ 			pe.attack_fail_count = 0;
+ 			sd->pop.last_cast_skill_id = skill_id; // AfterSkill condition tracking
+ 		} else {
+@@ -1249,8 +1252,9 @@
+ 			pe.attack_fail_count++;
+ 			return false;
+ 		}
+-		int sp_cost = skill_get_sp(skill_id, skill_lv);
+-		if (sp_cost > sd->status.sp) {
++		int sp_cost = pe.route_balanced && !pe.companion_owner_account && !pe.arena_team
++   ? skill_get_requirement(sd,skill_id,skill_lv).sp : skill_get_sp(skill_id, skill_lv);
++		if (sp_cost > sd->battle_status.sp) {
+ 			pe.attack_fail_count++;
+ 			return false;
+ 		}
+--- before/skill.cpp
++++ after/skill.cpp
+@@ -9618,7 +9618,11 @@
+ 				require.spiritball = 0;
+ 				[[fallthrough]];
+ 			default:
+-				if(sd->state.autocast)
++				// Runtime shells historically carry autocast=1. Their deliberate route
++				// casts must still consume SP; genuine triggered autocasts stay free.
++				if(sd->state.autocast && !(population_engine_is_population_pc(sd->id) &&
++				   sd->pop.route_balanced && !sd->pop.route_offense.empty() &&
++				   !sd->pop.companion_owner_account && !sd->pop.arena_team && sd->ud.skill_id==skill_id))
+ 					require.sp = 0;
+ 				// Need to remove remembered Encore skill to prevent permanent halving of SP cost
+ 				if (sd->skill_id_old == BD_ENCORE && skill_id == sd->skill_id_dance)
+@@ -9841,8 +9845,10 @@
+ 	req.spiritball = skill->require.spiritball[skill_lv-1];
+ 	req.state = skill->require.state;
+ 
+-	// Runtime population PCs have no client; relax weapon/ammo/item requirements (see pc_isequip for equip).
+-	if (population_engine_is_population_pc(sd->id))
++	// Ambient leveling bots use their actual equipment and finite reagents.
++	// Preserve the existing virtual requirements for town actors, hired companions and arenas.
++	if (population_engine_is_population_pc(sd->id) &&
++	    (!sd->pop.route_balanced || sd->pop.route_offense.empty() || sd->pop.companion_owner_account || sd->pop.arena_team))
+ 		return req;
+ 
+ 	req.mhp = skill->require.mhp[skill_lv-1];
