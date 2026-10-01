@@ -1,0 +1,11 @@
+{
+  "name": "siroma-no-orc",
+  "version": "1.0.0",
+  "author": "Daniel / community contribution",
+  "description": "Optional removal of Reverse Orcish from Siroma and Swift Siroma while retaining their other skill rows.",
+  "default": "off",
+  "requires": {
+    "app": ">=1.0.6",
+    "era": "renewal"
+  }
+}

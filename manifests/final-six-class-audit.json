@@ -1,0 +1,73 @@
+{
+  "name": "final-six-class-audit",
+  "description": "Resource repairs from the final six-class audit.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_wind.wav",
+      "sha256": "40f22d08206d31049f9e6d68d611bc8a008cbc2595711e5862820070b8ef6b6f",
+      "bytes": 49164,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_wind.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_fire.wav",
+      "sha256": "c344226c196536bd8478c76388d652f3f42e89b4ffc7556c526c6d01a1e284e2",
+      "bytes": 41568,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_fire.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_water.wav",
+      "sha256": "2043e133b32ae9088af9da5dbcb3a11631c910bd360ae57fb7523867249857a1",
+      "bytes": 39390,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_water.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_earth.wav",
+      "sha256": "15cb0c964fd4005e7fbccaf97a707c7b6a9443b3797ffa64e9f8ecda177441d2",
+      "bytes": 19112,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_earth.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_reset.wav",
+      "sha256": "21a12259c671c07824e3da646083822becfbeaafe4ff9e7d5c44293d1796e493",
+      "bytes": 32988,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_reset.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_saint.wav",
+      "sha256": "84bda5a9b73187e79ee710c8f10aa94131922c3b1277a33e755fa0c957242946",
+      "bytes": 42732,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_saint.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_grenade_fragment_darkness.wav",
+      "sha256": "b8e083108df0bedba159341f051843aee25c14ba3db07f93ce45971c9d357b9f",
+      "bytes": 37218,
+      "source": "data/wav/effect/night_watch/nw_grenade_fragment_darkness.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_overcoming_crisis.wav",
+      "sha256": "ab201d1a5903762ee3f8add17ae8d5dba0c00a3d9f2087aa0a32604f416d9dfb",
+      "bytes": 70090,
+      "source": "data/wav/effect/hyper_novice/hn_overcoming_crisis.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_fuumashouaku.wav",
+      "sha256": "387552108e54176e47b608830cf7ecb6c29ca96fa5c11596461f615f95f94aca",
+      "bytes": 35242,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_fuumashouaku.wav",
+      "status": "verified original path"
+    }
+  ]
+}

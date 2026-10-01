@@ -1,0 +1,9 @@
+{
+  "source_format": "GRF 3.0 inside an uncompressed TAR",
+  "verify_only": true,
+  "game_files_written": 0,
+  "recipes_checked": 20,
+  "verified_entries": 4195,
+  "unresolved_entries": 1893,
+  "synthetic_regression_tests": 4
+}

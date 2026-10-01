@@ -1,0 +1,612 @@
+{
+  "name": "expanded-fourth-icons",
+  "description": "Missing expanded fourth-job skill icon resources.",
+  "requires": {
+    "app": ">=1.3.1",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_MIDNIGHT_FALLEN.bmp",
+      "sha256": "8ce56152059f1c15b36e56d50fa18e28ce0dc7635d82e0f065b2786b05584f4a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_SKY_MOON.bmp",
+      "sha256": "746a5b985f50c85a8cf5bb7759086c13e31bc5f15752186cf3ab5cc05d51c97b",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_WILD_FIRE.bmp",
+      "sha256": "f50718196093fda38117295b6c0e0b3036f6bb418bf3342aadec8028bdce28ea",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_NAPALM_VULCAN_STRIKE.bmp",
+      "sha256": "5891acbaf0d69ee8ec153fedccbd37de9885b9d19976e8bd14e45a935449c2ef",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_TWINKLING_GALAXY.bmp",
+      "sha256": "430bcc0e4235819f027cdee52c67807bd968a38798b996d4d0059032d34bd86c",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_BREAKINGLIMIT.bmp",
+      "sha256": "23be3d4dc4462a93d54742e7fb5a2b40176eb7dad5e793fdf7aa287a2c4826f4",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_BASIC_GRENADE.bmp",
+      "sha256": "186cad421724803bc58a2a798c73b2948cf59e14ce69ff01c39184e724b62576",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_SOUL_STEALING.bmp",
+      "sha256": "c97284f74a77c38298dfd878bc3af413d5de67175f9346e5435568b52fbcf7c8",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_ANKOKURYUUAKUMU.bmp",
+      "sha256": "6fb030477f39b60985806a95b077738a8e1713c2e371411c04ace4a2025af817",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_FIVE_ELEMENTS.bmp",
+      "sha256": "3c2b39b531328fefc8a21cbc1fe053d32adc4facce2c68669785a031fae5f07a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_SOUL_GATHERING.bmp",
+      "sha256": "47e6522e4de2dbcea487173e8d0e7fbad6addf30bf13fc3ec6f0ecf37c39c846",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_JACK_FROST_NOVA.bmp",
+      "sha256": "cee9bcd3072242420cbd7e5e6025fe0aefb0f2b0c08c8b55903d1cee070024b3",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_STAR_CANNON.bmp",
+      "sha256": "3904b88bd2f360c6778e6cec589ad31d4cf0b215f0dc03de4323eb3b3e2e3050",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_DAWN_BREAK.bmp",
+      "sha256": "70ed16f66d0c2a88c1a535bab0731ba2bb1f495c44131bd4e200d49f65ba332f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KUNAIKAITEN.bmp",
+      "sha256": "dcf61587e59cb26c22f52458f5c9c5ae7a00c5d37622d250ecbe404f9ea2ad77",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_P_F_I.bmp",
+      "sha256": "15360a2fe59deb7db387060f8cfd69b84336189062931c589754f896121d4953",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_SKY_MASTERY.bmp",
+      "sha256": "3bfbb99d7d79f56973deebe563ef4dbeb5fae4bc85fa6f13c9806400f85244a9",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_SELFSTUDY_TATICS.bmp",
+      "sha256": "235de580907d86c95e9b9fee2b58c9dcf6a3b6afcbfb6fb1b40d7cb71253f189",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_HIDDEN_CARD.bmp",
+      "sha256": "cffe2e11f83aa138e2b15af102d6938ba91740424139de74180fef7de1d01676",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_SEKIENHOU.bmp",
+      "sha256": "fb1203abc2805c890dc4ddbcfa113693dedc5ac71b8e2f618ff03dc38c3afdfe",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_FOUR_BEARING_GOD.bmp",
+      "sha256": "ce4ee1667c6c8839cbe0cd5f1c7eb29684f5fdbeb02f1e401f1f48cb4868c0b6",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_OVERCOMING_CRISIS.bmp",
+      "sha256": "92b9b6f5218e253a640a73a714aa6adda2b0b5bbf010db3293d2c55fbb10edfe",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_MAGICIAN.bmp",
+      "sha256": "7479bf785a98e51ac025a26accd47adb141bc7a909349d7a2496765007cca66c",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_RISING_MOON.bmp",
+      "sha256": "d2afdca893f7b186a82076dd076bee8fccc05b7d58dbf45b523805a9106df254",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_SOUL_MASTERY.bmp",
+      "sha256": "40975cf32e6cbe8865e92d7eae54829bbdbe99a87deedaa87f87e6fe3a38f647",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_HELLS_DRIVE.bmp",
+      "sha256": "f4043af50caa57ce6316c772751b571a21537615eef7a8c22f6b79b10b830313",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_ANTENPOU.bmp",
+      "sha256": "5ba42c6e8716e04b75a366c71f87f413a7f4f3b097eb2e6f1e50b241ee21a28a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_FUUMAKOUCHIKU.bmp",
+      "sha256": "c6d5ce4afde444e8df7128c36336f9787e2810bb5a990f1e9b34e4ef5cc9df2c",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_JUPITEL_THUNDER_STORM.bmp",
+      "sha256": "90917e34ac117162eab855aabe95440987823011d32ed1967092cc868a5fcf09",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_EXORCISM_OF_MALICIOUS_SOUL.bmp",
+      "sha256": "6373149fde6dc99e18e0fba7e488857b31189b602ff96f47a18a11641f5f2ea6",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TOTEM_OF_TUTELARY.bmp",
+      "sha256": "9761b2488d8fc7899464d321210aca5b1a89291faa37d70264990c774f9a1c57",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_SHIELD_CHAIN_RUSH.bmp",
+      "sha256": "4f1c769b84027b046729aee86e64d1e5f6f33bae3aa2613e4bcd62daf820a27f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_RED_PHOENIX.bmp",
+      "sha256": "6909d2ad8a40db190a6b73b3931d5ec13ab5f6319d2e8a14c6fe9881990f29ad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_WILD_SHOT.bmp",
+      "sha256": "33e89cf29ed39fd52a230f6a821e53b072eeb9d73b96b578c4c01a23b9efbd4a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_GRENADES_DROPPING.bmp",
+      "sha256": "615584c12a6194a0cee12862cd2ed7d01d020d09ae7184d3be645a5f3ff2480f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_MIDNIGHT_KICK.bmp",
+      "sha256": "2cf4f25065b1a38ae5e0ae2d39bb65dfbf6c8aae9c37c87b5aabdb8e5abfc96f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_MAGAZINE_FOR_ONE.bmp",
+      "sha256": "d3d3fa5430d31d4d6fcdf08ecef8afcc9e915445b91ed32fb435f9696de9e320",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_SHIMIRU.bmp",
+      "sha256": "ca04a8f8ef75364760e430ca6c3f3f7b3a313e8a89e3862aaf8f4155153c640d",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_RULEBREAK.bmp",
+      "sha256": "62f31de148d19c619bf6e9390dec384e13c3d3ee12e95d50a77a17d26bd78d51",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_ONLY_ONE_BULLET.bmp",
+      "sha256": "b7be2705fa3a37cec730f504eb25e504ed33d4c8c7f64886a162d6a12d14b56d",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KAGEGARI.bmp",
+      "sha256": "1e70998b7ee9d5ba3ea3f3b2ee30a3b1995c921463a77afca46fa142dde77830",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KUNAIKUSSETSU.bmp",
+      "sha256": "c3886280b8aa5b2ddd0c68c11a33990a4b1fbcba90c95b1b8a51361cba3059cd",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_GROUND_GRAVITATION.bmp",
+      "sha256": "ccad81065d31ea629cb4bd9a6dc86cf2c9ee1ecfd1a943450c944b35fa6b9d3b",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_ENCHANTING_SKY.bmp",
+      "sha256": "2fb4f5b60058b952908b9bb774ce0c10c7ce019531d213500b796257aa4f72aa",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_SKY_SUN.bmp",
+      "sha256": "9855a9397c579d0cefc9933fe979798e39b27587ebe653681fcb70898053cb8d",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_WARRIOR.bmp",
+      "sha256": "498f79c823af3b68df3706ff5abeaa0b203933d04da73239d06f243b9e3446bc",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_AUTO_FIRING_LAUNCHER.bmp",
+      "sha256": "24c6417d6ac0fd066d2c4976788fb542d4047e36fbd7ac86771df938e335eb7f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_STAR_LIGHT_KICK.bmp",
+      "sha256": "c7c4a97c4bf7bcf1e17b4c51319c78de530561aefe81e19abec6151d66eb48b7",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_THE_VIGILANTE_AT_NIGHT.bmp",
+      "sha256": "03a0b120f135a297d07b37c1122a7a83f426fe0fd1e4d5696919ac004442d7e6",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_MISSION_BOMBARD.bmp",
+      "sha256": "b6a2821f4c3add281f8d5970ded50c3da16949035618643e31970d34dfe587e2",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_AKUMUKESU.bmp",
+      "sha256": "c4f7af2fab72085237093620cbafd1954039d0a8a3ce4a5afbf0697d9fe8541b",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_GRENADE_MASTERY.bmp",
+      "sha256": "ddb4df6fe4532b52249d015a1e56787d8bb7bb5c316eab50344bbf7d502cad35",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_ALL_IN_THE_SKY.bmp",
+      "sha256": "141ad28bf39de796af6ca446ba8e269a2c8e24a013960bf7b8eaa0a5274705fd",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_GRENADE_FRAGMENT.bmp",
+      "sha256": "389f76cae9a4599b0857773175ddeaf97ee85e4713f4630332bfeb7b355e25df",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_NOON_BLAST.bmp",
+      "sha256": "bd894ae7d1ebb50d6349b6b02b67c84db1bc2b984b62984c871a52b52bef60a2",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_DOUBLEBOWLINGBASH.bmp",
+      "sha256": "bfa3425d85f89f95635ba3e266ec5a11482f6cd260b25b84e46e6fcf95acb09a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KAGEAKUMU.bmp",
+      "sha256": "b0fd6d853f17888d3be54d057072be7828beedf387fdbd05f1cdf231b2c0206a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_RAIDENPOU.bmp",
+      "sha256": "44ce015860c91b71723d11985164e50a92f11a42291735d27f7c27c7b92af8b8",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_BLUE_DRAGON.bmp",
+      "sha256": "630490e842eaacf1b67170631db5de7a0681d124a2aef4ba28473664e0bcc14e",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_SPIRAL_SHOOTING.bmp",
+      "sha256": "a4039e67a3226a4c62bbb49da67e6783c3a896f1549e84f13f860740d97dfc5f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_HASTY_FIRE_IN_THE_HOLE.bmp",
+      "sha256": "7f3a7464cca3b6a6d3f86babaaf74199a8837555094ef53bac2f167067650a77",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_WAR_BOOK_MASTERY.bmp",
+      "sha256": "8e1d4252092f4e9262db1a1c8abebf3dc1c21ad2a4e02f82aa56e0106bedbb73",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KINRYUUHOU.bmp",
+      "sha256": "a0c85897e338ba6ec946ef64e5f36ffadfe8136c836d22b7f927f5d9ea749767",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_FOUR_CHARM.bmp",
+      "sha256": "a15d7b0a4f65e7c180028bf427520bc39d7648b5d09edd2b61ff04864b696d06",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_STAR_BURST.bmp",
+      "sha256": "8b8c4609e09f150f1496bb7a3b91e1fae493406904e4283365e6de0b50852b2b",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_SUNSET_BLAST.bmp",
+      "sha256": "8adda63d3d40f5bbda71fed61940ea0560bba858e2818d0c0545fcbf4a1f250d",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_TOKEDASU.bmp",
+      "sha256": "3026983e4c7b2f9dd053fc20634b70e1f6c9cb597172dbf07522639c0ec1a2a4",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_MEGA_SONIC_BLOW.bmp",
+      "sha256": "5dc045279409fb6a310378e2c578c2dd693cae40c32d7ccd9b79ef4793634745",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SKE_RISING_SUN.bmp",
+      "sha256": "b7c0eb24d2e598a27c91dfd6f0823f50c1eb75fd70f2970683e113cde33bfc88",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_SHINKIROU.bmp",
+      "sha256": "60b56e8792cb983391f100290f403abe4b200bd3cfbabc8c02c3e7b2dc5a6ad1",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_SPIRAL_PIERCE_MAX.bmp",
+      "sha256": "8f287db1935047d24e14832ec7559ea9d91f73a3d708b2ccbb934b3617da8626",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KAGEGISSEN.bmp",
+      "sha256": "16c8911bea38bb5feaaa9742babd5ca7a9fc85543dafff52c301f81dba5da4cc",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_SELFSTUDY_SOCERY.bmp",
+      "sha256": "601051c12b6c09238c1427d91e5f2f212534d0a5e8c82dd2081b31ef7e8fc0fb",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_REIKETSUHOU.bmp",
+      "sha256": "74dafc78db0de62ada5a26b9061b706baaca0c423c642ea81c3541bc3c3fe2f5",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_FUUMASHOUAKU.bmp",
+      "sha256": "0d0d64106900fdc3e98687782aa265beb31a3c7b8a181226941c0ef05db18566",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_SOUL_OF_HEAVEN_AND_EARTH.bmp",
+      "sha256": "f4312a1f2c0f3bcb1a6323eca73d90a8068dadd92a40b3598271a82a0f585faa",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_HITOUAKUMU.bmp",
+      "sha256": "87632a6b33fe2ee0c575c77cb359a34e8e73737ba53bc5ef34bcecabda2a8ec5",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/NW_INTENSIVE_AIM.bmp",
+      "sha256": "bf3b6200af44df33f0921ff526b6f8dbace4d8b8ebd6ae578ed4aae6cd6e2499",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_WHITE_TIGER.bmp",
+      "sha256": "3d0f81bcd64dede890b21d04df9f52ce250113d705207e0bdc61901b7337f9ad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_PROTECTION.bmp",
+      "sha256": "b0a0f7c0201c191cbe59bdba696ef95ea27176082901fe1af3ea610080b06c17",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_CIRCLE_OF_DIRECTIONS_AND_ELEMENTALS.bmp",
+      "sha256": "6ff08d0eb3d2c1ae1038a85659a811b82135b28465efefbabc4e576eb3e20f10",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_MASTERY.bmp",
+      "sha256": "4737acad0eb7baf752f4a3cd74ddb0ad2c7ca9dddf7fa94f39acb295e78899f2",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KUNAIWAIKYOKU.bmp",
+      "sha256": "6b44d6c29d6d60e400d6c968a434306b1b1887fe009f8279250d8760feec74bd",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/HN_METEOR_STORM_BUSTER.bmp",
+      "sha256": "ad5c251383b17023035bbb7d3fc3141915e01966a34049386508db888bb7852a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SOA_TALISMAN_OF_BLACK_TORTOISE.bmp",
+      "sha256": "6f3d56401e0775a8b1d2b3fec48a54d99f12a7fec4316781f40115615d922738",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/SS_KAGENOMAI.bmp",
+      "sha256": "65cd3d884923a9ef1c2f7781d0b3d9b9aa53b92cc6c7d07c0e6a1383f9ba1f19",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    }
+  ]
+}

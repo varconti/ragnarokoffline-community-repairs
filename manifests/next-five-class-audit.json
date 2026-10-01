@@ -1,0 +1,17 @@
+{
+  "name": "next-five-class-audit",
+  "description": "Resource restoration from the next class-audit batch.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/wav/effect/tr_metalic_fury.wav",
+      "sha256": "d4f2291e2fd4122705c19943b0e4fa0c985fb00ff3e1ca382dc85b37683b01de",
+      "bytes": 27558,
+      "source": "data/wav/effect/tr_metalic_fury.wav",
+      "status": "verified original path"
+    }
+  ]
+}

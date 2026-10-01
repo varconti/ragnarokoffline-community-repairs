@@ -1,0 +1,340 @@
+[
+  {
+    "name": "bot-balance-pilot",
+    "version": "2.5.0",
+    "description": "Route population preset; requires the custom combat policy and class profiles. Not a standalone fix for the stock engine.",
+    "kind": "code or configuration",
+    "resource_files": 0,
+    "code_files": 2,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "inventory only; integration or full English UI port required"
+  },
+  {
+    "name": "builder",
+    "version": "3.7.0",
+    "description": "Optional PvM progression and endgame equipment scripts. Custom economy and progression; full English UI port is not published.",
+    "kind": "resource repair",
+    "resource_files": 96,
+    "code_files": 9,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "builder-item-visuals",
+    "version": "1.2.1",
+    "description": "Persistent item-name, icon, illustration and weapon-view overrides. Source resources stay user supplied.",
+    "kind": "resource repair",
+    "resource_files": 1097,
+    "code_files": 5,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "client-compatibility",
+    "version": "1.0.0",
+    "description": "Repair enum mismatches in pet, random-option and footprint metadata. Binary game tables are not distributed.",
+    "kind": "resource repair",
+    "resource_files": 3,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "common-npcs",
+    "version": "1.0.0",
+    "description": "Stock common NPC pack with local job/companion fixes; distinguish local changes from the original authors work.",
+    "kind": "code or configuration",
+    "resource_files": 0,
+    "code_files": 6,
+    "requires": {
+      "app": ">=1.0.6",
+      "era": "any"
+    },
+    "publication": "inventory only; integration or full English UI port required"
+  },
+  {
+    "name": "crowded-world",
+    "version": "1.1.0",
+    "description": "Optional population-density preset with the stock 13 class profiles.",
+    "kind": "code or configuration",
+    "resource_files": 0,
+    "code_files": 3,
+    "requires": {
+      "app": ">=1.3.0",
+      "era": "renewal"
+    },
+    "publication": "English source mod"
+  },
+  {
+    "name": "effects-deep-completion",
+    "version": "1.0.0",
+    "description": "Additional effect phases, direction and area cleanup resources; some original phase rules remain uncertain.",
+    "kind": "resource repair",
+    "resource_files": 411,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "effects-finalization",
+    "version": "1.0.0",
+    "description": "Dedicated Sonic Blow audio and additional projectile/status resources.",
+    "kind": "resource repair",
+    "resource_files": 129,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "effects-resource-fixes",
+    "version": "1.0.0",
+    "description": "Original effect/sound resource restoration and path compatibility repairs.",
+    "kind": "resource repair",
+    "resource_files": 206,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "expanded-fourth-icons",
+    "version": "1.0.0",
+    "description": "Missing expanded fourth-job skill icon resources.",
+    "kind": "resource repair",
+    "resource_files": 86,
+    "code_files": 3,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "final-six-class-audit",
+    "version": "1.0.0",
+    "description": "Resource repairs from the final six-class audit.",
+    "kind": "resource repair",
+    "resource_files": 9,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "five-class-audit",
+    "version": "1.0.0",
+    "description": "Dragon Knight skill icon restoration.",
+    "kind": "resource repair",
+    "resource_files": 2,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "four-class-audit",
+    "version": "1.0.0",
+    "description": "Skill icon and effect resources from the four-class audit.",
+    "kind": "resource repair",
+    "resource_files": 36,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "item-resource-fixes",
+    "version": "1.0.0",
+    "description": "Shadow combination scroll icon and collection artwork restoration.",
+    "kind": "resource repair",
+    "resource_files": 2,
+    "code_files": 3,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "kro-original-effects",
+    "version": "1.0.0",
+    "description": "Original kRO effect files, dependent textures and sound resources.",
+    "kind": "resource repair",
+    "resource_files": 2418,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "kro-phase-lifecycle",
+    "version": "1.0.0",
+    "description": "Original status/counter and ground-unit phase resources.",
+    "kind": "resource repair",
+    "resource_files": 1137,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "level-guide",
+    "version": "1.2.0",
+    "description": "Optional leveling, unified quest and zeny-farming guide. Full English NPC-script port is not published.",
+    "kind": "code or configuration",
+    "resource_files": 0,
+    "code_files": 5,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "inventory only; integration or full English UI port required"
+  },
+  {
+    "name": "next-five-class-audit",
+    "version": "1.0.0",
+    "description": "Resource restoration from the next class-audit batch.",
+    "kind": "resource repair",
+    "resource_files": 1,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "prontera-utilities",
+    "version": "1.2.0",
+    "description": "Optional NPC utilities and local compatibility fixes; custom shops/economy are not imported upstream.",
+    "kind": "code or configuration",
+    "resource_files": 0,
+    "code_files": 17,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "inventory only; integration or full English UI port required"
+  },
+  {
+    "name": "siroma-no-orc",
+    "version": "1.0.0",
+    "description": "Optional removal of Reverse Orcish from Siroma and Swift Siroma while retaining their other skill rows.",
+    "kind": "code or configuration",
+    "resource_files": 0,
+    "code_files": 2,
+    "requires": {
+      "app": ">=1.0.6",
+      "era": "renewal"
+    },
+    "publication": "English source mod"
+  },
+  {
+    "name": "skill-closeout-original-assets",
+    "version": "1.0.0",
+    "description": "Final original visual-resource replacement pass.",
+    "kind": "resource repair",
+    "resource_files": 201,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "skill-closeout-pneuma-audio",
+    "version": "1.0.0",
+    "description": "Original Pneuma audio-resource restoration.",
+    "kind": "resource repair",
+    "resource_files": 1,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "spirit-handler-body",
+    "version": "1.0.0",
+    "description": "Missing original Spirit Handler body and weapon sprite resources.",
+    "kind": "resource repair",
+    "resource_files": 24,
+    "code_files": 3,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "spirit-handler-icons",
+    "version": "1.0.0",
+    "description": "Missing Spirit Handler skill icons.",
+    "kind": "resource repair",
+    "resource_files": 18,
+    "code_files": 2,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "sprite-palette-fix",
+    "version": "1.0.1",
+    "description": "Compatible default-palette fallback for unavailable dye resources.",
+    "kind": "resource repair",
+    "resource_files": 34,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.1",
+      "era": "any"
+    },
+    "publication": "English recovery recipes"
+  },
+  {
+    "name": "upstream-effects-merge",
+    "version": "1.0.0",
+    "description": "Supplementary resources used while merging upstream effects with local event/lifecycle repairs.",
+    "kind": "resource repair",
+    "resource_files": 177,
+    "code_files": 1,
+    "requires": {
+      "app": ">=1.3.5",
+      "era": "renewal"
+    },
+    "publication": "English recovery recipes"
+  }
+]

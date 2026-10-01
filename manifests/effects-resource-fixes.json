@@ -1,0 +1,1452 @@
+{
+  "name": "effects-resource-fixes",
+  "description": "Original effect/sound resource restoration and path compatibility repairs.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/wav/she_bop.wav",
+      "sha256": "5dee608f997137bc3a511ad445226442c001490578bc507e0f9ddc04f010a8c1",
+      "bytes": 269122,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/betelgeuse_attack2.wav",
+      "sha256": "649240742c02c6b1d98c93b0ee8cc25d9561a15cb1914f2ca0b27d9b49ae7c71",
+      "bytes": 15346,
+      "source": "data/wav/betelgeuse_attack2.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/betelgeuse_attack1.wav",
+      "sha256": "aed246a092ce8838a0c05acaa03085025a1a8e4357ca2df28f2fb1e1aed038c3",
+      "bytes": 13594,
+      "source": "data/wav/betelgeuse_attack1.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/betelgeuse_damage.wav",
+      "sha256": "5f02baebd0796e1143b71f95aa7ab41206c678eb912296f8b99ea754a22a606a",
+      "bytes": 9232,
+      "source": "data/wav/betelgeuse_damage.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/worm_tail_damage.wav",
+      "sha256": "d7fa9f22891ec6c9740ee705b5c5737be5dd788ae10c044aaa952a0ab00af5b9",
+      "bytes": 1322,
+      "source": null,
+      "status": "source encrypted or unsupported"
+    },
+    {
+      "path": "data/wav/charge.wav",
+      "sha256": "b70f6a0f03779d9dbd70ca25d4e6afa2e9082fc70bf4372fe17fe7cdda81fdde",
+      "bytes": 456766,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/glass.wav",
+      "sha256": "fb943a64245115f08acf77651ea6e9264b9bbba307b7b10c4d400c6bf66e48da",
+      "bytes": 367458,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/betelgeuse_move.wav",
+      "sha256": "1a9947a1556280ce0874942121ce0f76a4073efa009588f986bcabb6fbc51415",
+      "bytes": 18152,
+      "source": "data/wav/betelgeuse_move.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/welcome.wav",
+      "sha256": "818878d6c47720fd70e97b91b51dd52f903b67d7d645eb89217c69f514e2717f",
+      "bytes": 200048,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/horn.wav",
+      "sha256": "d7dcc685ee64f0277bd464eb2027a59dac8f5446dfe2b27eab452613a7e09231",
+      "bytes": 129342,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/se_frog02.wav",
+      "sha256": "f466db501523ed8f27b577dad3345aa1b3f6d4a84c4a9de93be54dbd5d08ecc3",
+      "bytes": 89134,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/betelgeuse_die.wav",
+      "sha256": "21d08272c391c07514a8e7e2627301dcc3e15671650aeaf43e16486421f37cb1",
+      "bytes": 60004,
+      "source": "data/wav/betelgeuse_die.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_bomb_02.bmp.restored.tga",
+      "sha256": "7f90000f90a03be02bc055c5eafddf1bd30f60cada718ba88c26b6407e897f76",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/ui_success_g.tga.restored.tga",
+      "sha256": "0cc0b3af70c84a05864016eb5b16e4c3de39cf9e62633c0341cf2d3b0fc0cfac",
+      "bytes": 227244,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_bomb_03.bmp.restored.tga",
+      "sha256": "d53dc6f5cf3a7f374ad948ec69dcd8a378c2ae1a96810b5f0cc3903d49e9766f",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/ui_reset_g.tga.restored.tga",
+      "sha256": "5aa33adb5253b66329f2ea7bbce3f117367f9879ec24f09092c2cec7af396c5d",
+      "bytes": 148524,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/ui_reset_success.str",
+      "sha256": "7cf9bb5227371801e4da56703fc26958aa860d8c359c0018fe9231d99ab9d0eb",
+      "bytes": 16480,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_flare_00.bmp.restored.tga",
+      "sha256": "36803389af6876a7e51eb869600329d57f72aa2faf8e175c11e04b8c6b2f91c6",
+      "bytes": 1048620,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_bomb_00.bmp.restored.tga",
+      "sha256": "27125539705b45445985887d1318eacb78e741a25e68afddc8897ce5efb763db",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_bomb_04.bmp.restored.tga",
+      "sha256": "15c459c942940ba987d5ab570d1c5486923f8d82e28355aa3fea84c90816239e",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_bomb_01.bmp.restored.tga",
+      "sha256": "2f4d167c42d6379debdb5cf24fb6790be92944c8867c4ce59ac1076069a50e09",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/suc_bomb_05.bmp.restored.tga",
+      "sha256": "ae350ac3a1d7769eb26e8b5d2d66c50c0a13f615b6ac040e07d7cf1d54a1a3f8",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_reset_r.tga.restored.tga",
+      "sha256": "03e28a07594d04c78b38c6e3e6b1ed684c3d992b26f7e4cc20a36ddea5804992",
+      "bytes": 148524,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_reset_fail.str",
+      "sha256": "8b1332a904417270fe78693a8a920cb893c7cc2f06f17d041195f477290e73ce",
+      "bytes": 11336,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/suc_smoke_00.tga.restored.tga",
+      "sha256": "1bda15aae2903baf5198898baf4ab5f47fa911f3d495d4a00bda3087ca8faf21",
+      "bytes": 7644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_levelup_r.tga.restored.tga",
+      "sha256": "ab2eae679e41dd538fc6d40d4f5504afc67fee8ba4455a56c02760959febadcf",
+      "bytes": 218156,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_enchant_r.tga.restored.tga",
+      "sha256": "66498e058dbd1933525b40ffafcd09b32a7324b7fd190f9ed990bc7e6ff85f68",
+      "bytes": 218156,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_levelup_fail.str",
+      "sha256": "5991d3f9bb6761cd1249f4a01970bc561351282396ee3bf1bd21cffecc9636dc",
+      "bytes": 11336,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_fail.tga.restored.tga",
+      "sha256": "029df2e8c218fe342084fa09d59322f3642cd72c5bb804302f91808f46ef98e6",
+      "bytes": 102444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_enchant_fail.str",
+      "sha256": "24944e1be2c77bce8aee0464c93868a0a2f26ca5ab02bd18e40081e2b684a21a",
+      "bytes": 11336,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_08.bmp.restored.tga",
+      "sha256": "3d76bc0112749f8b394a6589b2ece6bc2b6bbb17667a1c28dc37435f76f9a52e",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_17.bmp.restored.tga",
+      "sha256": "c6f45fa301c817a04bdc9e3a4b41e6a48bf92b7661a41dbf805950ebc00f2d87",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_03.bmp.restored.tga",
+      "sha256": "138a505a2008575b0382cefa0e8de786fff451ccaec5b6d828bdc63df1df2466",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_00.bmp.restored.tga",
+      "sha256": "ba85c199f4d355bd66151ad654f4d150abc692c2fd6455c74d1f835e8cfac562",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_18.bmp.restored.tga",
+      "sha256": "e124e154b4fe473be3594921e213f91b03ffe025fdd90405890053b187b040ad",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_07.bmp.restored.tga",
+      "sha256": "a76708c9eb0441d89b25433fd3c1315433b4bfe7f868ffd9e39b6b4c777b6930",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_04.bmp.restored.tga",
+      "sha256": "4625effc9e295bb063d8fb7b4b590b7e0f0c751a633fc3f1835b747e175509b4",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_13.bmp.restored.tga",
+      "sha256": "2ad192a167ff25e874531bfec4aedbfa8b60ef0e484283fa7e8b58488a233da5",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_16.bmp.restored.tga",
+      "sha256": "15aaaada3d1bfc112a71b1cc6933b7768e2bd3451314e1b5e34746808bf6dcc7",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_09.bmp.restored.tga",
+      "sha256": "dfcd81f170ee0bf4f053c254332c68bae61fb692c0d0538894dbd5daa6a788e5",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_01.bmp.restored.tga",
+      "sha256": "1feb62e3713a8d9152e31411c7ccb4ccadccbd13792b52899b99bb15718be38a",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_02.bmp.restored.tga",
+      "sha256": "cfb536342b2b5232791bbd422bdae0dfeb0999362207bb44756c6277583f0677",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_05.bmp.restored.tga",
+      "sha256": "25698d73fa5e89ab0cb0edab4634bb79900bf549fb219601f852610996808c57",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_06.bmp.restored.tga",
+      "sha256": "cf758815f865dd8dfccba17b7259b0e68f598b0a616521b7d589ec514030d9bb",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_19.bmp.restored.tga",
+      "sha256": "1b7b97220ac8b2c7b1e386c33dd83a46d288ebce494b222108a4920a3eb4aadf",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_12.bmp.restored.tga",
+      "sha256": "22684a28fc39794616b9fe1df7110607a69be10080f11f0f699493ad395199c1",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_02.bmp.restored.tga",
+      "sha256": "23fa735c14b4872f1c69874d2fbcb3a7886fcfe879d3082612b351ba7e738bee",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_01.bmp.restored.tga",
+      "sha256": "f03a821b153fb80c519740cb322a2059d7d43cf5c02073d21216e4c2f06b964a",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_15.bmp.restored.tga",
+      "sha256": "21c9c07593c3fc0081a4e203c3b6fa9d9d518953a10cd83d46b09ee049193643",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_11.bmp.restored.tga",
+      "sha256": "b6eaf9b97d484b43d050a1ef25a67486b9c891648e02341d0352d825c4f0db21",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_06.bmp.restored.tga",
+      "sha256": "674db49a8cc1d1119b56cbeeb578fcd7a173432e6ed7e2ddc7a65b6a1ce5e9f1",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_05.bmp.restored.tga",
+      "sha256": "879d74142d9ee3e98426c948224520389b845611c033a68f64e13832c0dd6530",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_00.bmp.restored.tga",
+      "sha256": "3e9a3996f77f5cf033e76695ad764fc4c53be083517ae21b46e12e2b283a138a",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_03.bmp.restored.tga",
+      "sha256": "2b622bde143481e321742f7b4dd65dd7f1df714a04a823a17ef1fafe510720a5",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_08.bmp.restored.tga",
+      "sha256": "f965e91515495bc128b494b44d66b0833a2d5c21d8863352b0ba7c710fdcdac8",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_14.bmp.restored.tga",
+      "sha256": "bd564c7f4de6d9362f7ec8db053850efb9bcc11c6c7e9fc2775e0f835d23db6a",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_10.bmp.restored.tga",
+      "sha256": "7f88ed68cadb040990c1fca0b788897251b8c0a461498aa05183ab02d7d163bb",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/ui_intro_yellow.str",
+      "sha256": "a1d97f13c37338ef0e94132648ef8b259883427ab511d2497f7695489d06c5ae",
+      "bytes": 6792,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_04.bmp.restored.tga",
+      "sha256": "2ea7534f60938faac7fccfb483cebb73dec9e7e2743b8ea22290439372c1c6d4",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_07.bmp.restored.tga",
+      "sha256": "023ee7a80afcaae900945418d50d9e2d0582bf34594ff49a21b4492a4067c2ca",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_bomb_02.bmp.restored.tga",
+      "sha256": "c6236ac173a843133b0e5656cce5249e89fc98761d844fa12def183a50a38c5d",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/ui_success_b.tga.restored.tga",
+      "sha256": "62381a5d25c8d8b94ef8f5ecdf7ff0516d5ca0f50e96f0aeef64d26ffe4cb3d4",
+      "bytes": 227244,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/ui_levelup_b.tga.restored.tga",
+      "sha256": "792e19ef4cf0edf6ddcb08351a51b03f11f429245cdeecd881df1f281ac290e9",
+      "bytes": 218156,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_bomb_03.bmp.restored.tga",
+      "sha256": "72f04b0162357779d5ac9569dc1dafe93043ec15daa7f17d3cc9e884e5be69b7",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_bomb_00.bmp.restored.tga",
+      "sha256": "7f427062d066d6a41e6b3923ec977ea4d6eeb05c38473a44ee1fd5c5c3b4449b",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/ui_levelup_success.str",
+      "sha256": "9aac0b6e0fc7a55332b20b1ea5ddd856e6bb4520bd76668d05a0501d9a71a9df",
+      "bytes": 16480,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_bomb_04.bmp.restored.tga",
+      "sha256": "d4e8b4ec4d5e8a5fa665679a01490ec25ac0019875fae2bb3b033a8242e08d24",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_bomb_01.bmp.restored.tga",
+      "sha256": "eddae1b9ba7a22fdf133f42841d0f9d0dc1c28ff80fba5725887dd02772ba81f",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_flare_01.bmp.restored.tga",
+      "sha256": "53f817b1db2034217f2ebe2b53636758e4f885a7b39a186820e2eae589beab56",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/suc_bomb_05.bmp.restored.tga",
+      "sha256": "66c5fcc890b4c2ab0f300aca97582ae12f00553de01cea2701e60e205cb60ce3",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_08.bmp.restored.tga",
+      "sha256": "3e028da3646c250dc8bbb3b2f67f9e8a16c9c7fcd181c627188047a5f347fd2a",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_17.bmp.restored.tga",
+      "sha256": "53ec257fe51552ff85d8d9936bee6eadb68e3e69ab260c9c7d4d306450d3e6c3",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_03.bmp.restored.tga",
+      "sha256": "a37c8faaac4dbc7bb7b735b1042814fabe88979fc5dccbedcd302555bf4685a9",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_00.bmp.restored.tga",
+      "sha256": "7f3f2857a9b6e429bbbd11e21731cdc8df258cb1bd4eae6a62d1d442438d9e70",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_18.bmp.restored.tga",
+      "sha256": "604f351ecc03003d73f1233a27568ee116c4786981efc0e7457a437d1513d822",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_07.bmp.restored.tga",
+      "sha256": "0e251487b7311b227993eb4e31544a0fc350b19e258a426e0db1db2afbbe50b1",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_04.bmp.restored.tga",
+      "sha256": "e4b0b5600a4cca5155deef5fd4688f566e71d493962450759ac277449bdd5924",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_13.bmp.restored.tga",
+      "sha256": "fa3ec28ef34e13d266de0c073dae80ecb3155052df26cf26753dbb62ea6b939c",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_16.bmp.restored.tga",
+      "sha256": "ef49355d58950d48b10a0d23dd056c66aeb3f6efcac51ff7796f41a12bba4c1f",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_09.bmp.restored.tga",
+      "sha256": "0a974a631bef2ac369a21aaf5b858aa75b0afbade1e5a418832fbb098c8e0737",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_01.bmp.restored.tga",
+      "sha256": "163cd37732caa2c6324b2f4e370bf1aed494f46ebc7cd5d196f4a6fc7876c3e9",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_02.bmp.restored.tga",
+      "sha256": "1c41b776924b95b5e885560a20c411b61e064a3d3d2498d640b459ce3c546c9d",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_05.bmp.restored.tga",
+      "sha256": "9e81af303051926ef01a1c2f5d2e289722eae1af467808ec6453cc3289c172aa",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_06.bmp.restored.tga",
+      "sha256": "73fe760c976947c0547d06369553ef70f236614ee8a5949928e45133cb7737e5",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_19.bmp.restored.tga",
+      "sha256": "520c33881a5aeafd0660dec43c054638801c0bfa77609a66d2f1d0c058f225a7",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_12.bmp.restored.tga",
+      "sha256": "2104512e99fed63f6b7965465568e7074c59adea81e3ccde260eb6c1d01f1788",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_02.bmp.restored.tga",
+      "sha256": "e7339b47e00cb8bf71afcaaf93287e418b3dee91ea4230576a4e4c63b1bef15b",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_01.bmp.restored.tga",
+      "sha256": "65d2a5053b296862f0819c5567bdd549d01727ac7bf21db72d0d581b2df508b2",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_15.bmp.restored.tga",
+      "sha256": "21c3a40d96d972970fc7a6daca9faa5564c477c499d57f1cff5dacfb2e8534d3",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_11.bmp.restored.tga",
+      "sha256": "7eec22664bc3bf3d2099e9440f549d8de75c151ef809566c276c63618428d169",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_06.bmp.restored.tga",
+      "sha256": "500f92906938c2eba4711e22e9020fe6ffa809930f0f69776eb73f05d63750d7",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_05.bmp.restored.tga",
+      "sha256": "f25209d26effdaba6271b0763ed4029d6b63ddae4cf8237a85203a93c224f253",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_00.bmp.restored.tga",
+      "sha256": "dd2a418773e0e458f945f07a652b0777c9d382113d97fcb4df48a7e236abb2e1",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_03.bmp.restored.tga",
+      "sha256": "8333221376cb31d362d31ef2e56f5997330e3902658a1e474bcd642719508939",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_08.bmp.restored.tga",
+      "sha256": "d6e8f6d8b821be1e574f92fdc26d6b3fd8281388f55eb0bf860924ea77263efa",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_14.bmp.restored.tga",
+      "sha256": "f8c3bec62e2058f3676411f2fed41325c636f57a5f87a3dcac8e5f4d823d5dd1",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_10.bmp.restored.tga",
+      "sha256": "5636803658ec9e290c5fe56222c023abed5bd862cff39b7a948c6dfdf9381873",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_04.bmp.restored.tga",
+      "sha256": "0630f62dbfaedccf27403533b53727de7f852ea6e22f24ea65aaefa929d75b4e",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/ui_intro_blue.str",
+      "sha256": "a1d97f13c37338ef0e94132648ef8b259883427ab511d2497f7695489d06c5ae",
+      "bytes": 6792,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_07.bmp.restored.tga",
+      "sha256": "b211ad653ad9fcb63c2bd82ca26a2cf88dc0c87838e5f956338c6361653eb0e9",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/ui_enchant_success.str",
+      "sha256": "895b944e521b912c34df5bfbb9300bf8d37bd3bcad8b55ad2a8ae2fc5388e45f",
+      "bytes": 16480,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/ui_success_y.tga.restored.tga",
+      "sha256": "ff8df4b5e793e099a0ba236fff9bca3633e3a5b0ba49176428d697e1ced04f65",
+      "bytes": 227244,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_bomb_02.bmp.restored.tga",
+      "sha256": "e1ef99d3e91e9f73c3ae93e508f7725acb021eea6cebe8c932aac62b7bf9403c",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_bomb_03.bmp.restored.tga",
+      "sha256": "097e184179eeaa2d4d4cddf078857f9e900282afa77d602dffbd7fe9c7f806e0",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/ui_enchant_y.tga.restored.tga",
+      "sha256": "9503841d9f5159e8cf4fddb5d54a753a8435c4095d2abd411e2ae7c061bf1e27",
+      "bytes": 218156,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_flare_00.bmp.restored.tga",
+      "sha256": "af5837866150cc0b6b74f0f2654ea7f2c6f2b0bd80dfb55d8e30354adf73b018",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_bomb_00.bmp.restored.tga",
+      "sha256": "7382bf58226d278a42bc546a557db73b3a9beebbd20ae2d37df44591dba6e0e2",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_bomb_04.bmp.restored.tga",
+      "sha256": "9479a20f75ad52b3df4fb5e1e898622b0702c13aca03aa43ec73f403cca4c0f8",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_bomb_01.bmp.restored.tga",
+      "sha256": "91e9b436e39b348b504d583923cba1f7558c53d186ff66949dac9487e17dd13b",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/suc_bomb_05.bmp.restored.tga",
+      "sha256": "704e56739ae488aca0055f91bd4ec949769dc1ea0c5bb6d6d59a73ea2bf9f1cc",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_08.bmp.restored.tga",
+      "sha256": "fa63f3fac1a4ca23ab47b9b7e4dc2ab9d7bc030f47e91e15664a951e39fc15cf",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_17.bmp.restored.tga",
+      "sha256": "e2c638a3cbb8fe7f4fefd72da776fd84263cb92ce0329b20d9c60eb7e5d2f875",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_03.bmp.restored.tga",
+      "sha256": "b2a7a6948f53e92be874a0a814d2c356bbce4a276053317e7603ab31cae9c2f0",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_00.bmp.restored.tga",
+      "sha256": "d13af9d38f7f98538e2606480ac4ab8793a2839e64bdae5130b7e66f810142f1",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/ui_intro_green.str",
+      "sha256": "a1d97f13c37338ef0e94132648ef8b259883427ab511d2497f7695489d06c5ae",
+      "bytes": 6792,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_18.bmp.restored.tga",
+      "sha256": "f16eeb57ad18b22c7ba3d0ca144726802c14b661e7c66928224698c5654e9381",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_07.bmp.restored.tga",
+      "sha256": "d59e8f014ed45a2df630a0ce006a6190c8ae44f3141ad6f484c0483a0d9ced34",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_04.bmp.restored.tga",
+      "sha256": "1d80fadb4368fb0448a9a04d6f5c01f34777df745b5898c3c439416a7c03fa78",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_13.bmp.restored.tga",
+      "sha256": "7776613af7f87daf5f8b6ed83269afb9051005d9d12af322fa32283667fa40e7",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_16.bmp.restored.tga",
+      "sha256": "fa22b364b54a53db6d2d351b92fbb8d3ebbad23f2dbfaeec1225745bcbda8a8f",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_09.bmp.restored.tga",
+      "sha256": "2578c14d60026a0a0595e70830abc07c468583bbcf12bbb00e0bb8bc11c9ba86",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_01.bmp.restored.tga",
+      "sha256": "c37a88acaf9131d736919540591085e52cd592bde14ec21405fdca806f646f32",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_02.bmp.restored.tga",
+      "sha256": "0d1766fbcd8435df81b3fe93790f102be47fdcefb88a6a619ef1cbc7f97dbdbb",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_05.bmp.restored.tga",
+      "sha256": "e28fef8dd6e99d4895e99e805053302f7646249141bf77a363342acaa6e837ec",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_06.bmp.restored.tga",
+      "sha256": "21f7c7c440575176a460ee814b21c552ef52bbad536d90c6040811e2b674aa90",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_19.bmp.restored.tga",
+      "sha256": "7be3cc16446c4dc212e71ff2d04de13bd274e4294d0bebf4c63dbdf18657157b",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_12.bmp.restored.tga",
+      "sha256": "58508d89c47af5532bc5f80280f0857325228f863813e1fe7883a5afbb11c8f0",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_02.bmp.restored.tga",
+      "sha256": "355ca3fae35decddfd17ab1ef7e95fa77d3e7bcd283e1741476a5f4bec1e50f7",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_01.bmp.restored.tga",
+      "sha256": "564dca227cfa4f0acfe0c8077784573de5f4029d443c1050205a7ca64ea0218e",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_15.bmp.restored.tga",
+      "sha256": "9ca2728ed3cffccd738897ca237cf0300999f3d64ccd48d4edff446034b7f2a8",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_11.bmp.restored.tga",
+      "sha256": "1757962e6781f2abd98f6c50fe04fa4cd30f337dcb64036360e3ea69670fa318",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_06.bmp.restored.tga",
+      "sha256": "499075ab816622389d18b2da9d7100b047e3b98f2122a7ced71ac4cdd6a1d9a1",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_05.bmp.restored.tga",
+      "sha256": "672473632ed00214da3790049592c50e577fca9127642ef823c47efb9c66769d",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_00.bmp.restored.tga",
+      "sha256": "918edf59a325c66a424f34a79f9ddfae6ada4cc785c895da6e0798ceb74ad872",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_03.bmp.restored.tga",
+      "sha256": "9d6726fcf0bd874532191c5a733bb805161972032bf2ed0b364f75b83220b1f1",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_08.bmp.restored.tga",
+      "sha256": "181e98a158e2355cd25823192e0cd6424d3a49c0157a1c3370d848fda9c21ba5",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_14.bmp.restored.tga",
+      "sha256": "4b0a1da77ca8812c5c2e83a1df8428265060379eb0884021762763ba7fda11e1",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_10.bmp.restored.tga",
+      "sha256": "ef0fceef0f5cdac34a73119432a5c5fa958c99003f4906f3edf32617d9a9567f",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_04.bmp.restored.tga",
+      "sha256": "c7c3dbed74420cf6493db3424c39ddf95b2e054a5ef70b9e418c783580202cd1",
+      "bytes": 368684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_07.bmp.restored.tga",
+      "sha256": "ca129ca37c5653fcc07b49d9019f1d476a9f68fb3bbaaa628767a5b3619d26cc",
+      "bytes": 147500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/sprite/\u00b8\u00f3\u00bd\u00ba\u00e5\u00ed/elemetal_master_s3.act",
+      "sha256": "9791a543bc44bbcacedc35fcae83efbb3b5e5f61b462a7e5db149fc89a6753fa",
+      "bytes": 33180,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/npc/4_baphomet.act",
+      "sha256": "c1309ecc0081cb08f9ad9e056d0f56d6f3d0ac497bf27a51310c8f1f9db5291e",
+      "bytes": 5956,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_star_burst.wav",
+      "sha256": "1457d8f228e2c84984803a76c4c5952f8270ab89a4be7a1de864b129a07c0d58",
+      "bytes": 26544,
+      "source": "data/wav/effect/sky_emperor/ske_star_burst.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_sunset_blast.wav",
+      "sha256": "20d38f91defdc8e90184f6b6e5d0f3c637c831a94bc4c999dc90d66e8836b360",
+      "bytes": 51604,
+      "source": "data/wav/effect/sky_emperor/ske_sunset_blast.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_all_in_the_sky.wav",
+      "sha256": "6f5e2bd6445c277b24c27e23fe9d0425b3bbbfa7cd2328c260f5c47fce209e7e",
+      "bytes": 101388,
+      "source": "data/wav/effect/sky_emperor/ske_all_in_the_sky.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_noon_blast.wav",
+      "sha256": "3cec6dc72114ae13859f2047529398ec6ec812b19b7414801df3db2b1cb71b78",
+      "bytes": 53016,
+      "source": "data/wav/effect/sky_emperor/ske_noon_blast.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_enchanting_sky.wav",
+      "sha256": "396dbdac33c71ab6bd11d42ca48f11743ef6fb3d195833de7ec3f0ad5b0fb0af",
+      "bytes": 53966,
+      "source": "data/wav/effect/sky_emperor/ske_enchanting_sky.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_midnight_kick.wav",
+      "sha256": "f6c73a416ad30399800e780af7061cafe95b7d1c337eb637df93526125f6c5a3",
+      "bytes": 27880,
+      "source": "data/wav/effect/sky_emperor/ske_midnight_kick.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_dawn_break.wav",
+      "sha256": "0e61d6c1c6cdfa2d5b1777d831e99bd49e6e737c1f400380fa64b9acfd7fb45a",
+      "bytes": 35180,
+      "source": "data/wav/effect/sky_emperor/ske_dawn_break.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_star_cannon.wav",
+      "sha256": "1457d8f228e2c84984803a76c4c5952f8270ab89a4be7a1de864b129a07c0d58",
+      "bytes": 26544,
+      "source": "data/wav/effect/sky_emperor/ske_star_cannon.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_hyun_roks_breeze.wav",
+      "sha256": "998b1ea6ebf42ef4293686157cfa185eda01d8a468a29f200997d9d0d453727e",
+      "bytes": 42932,
+      "source": "data/wav/effect/spirit_handler/sh_hyun_roks_breeze.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_sandy_festival_of_ki_sul.wav",
+      "sha256": "7609b7522fa38e1418f0df2688c2140a7965de4cbe5b9eec888b30d19bb7fd7c",
+      "bytes": 58458,
+      "source": "data/wav/effect/spirit_handler/sh_sandy_festival_of_ki_sul.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_ki_sul_water_spraying.wav",
+      "sha256": "4e47353241ce0f9da45c010f94977f47775c4fd182248a9c572f3a060e2f1227",
+      "bytes": 86314,
+      "source": "data/wav/effect/spirit_handler/sh_ki_sul_water_spraying.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_chul_ho_sonic_claw.wav",
+      "sha256": "a8ffffdbe0384c7d272d48e3f5adb6bedcd6a30937cc4b93942e7045c7c77274",
+      "bytes": 31002,
+      "source": "data/wav/effect/spirit_handler/sh_chul_ho_sonic_claw.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_blessing_of_mystical_creatures.wav",
+      "sha256": "3cecc757e0d80c8cf034a71413c31dd6cb6688160b68c988edfebf6fc2bc4ba5",
+      "bytes": 52708,
+      "source": "data/wav/effect/spirit_handler/sh_blessing_of_mystical_creatures.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_colors_of_hyun_rok.wav",
+      "sha256": "5938dd67c2d82251864440ba8aef144950e4e8e93e2e977c526503aeb3e61a6c",
+      "bytes": 6856,
+      "source": "data/wav/effect/spirit_handler/sh_colors_of_hyun_rok.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_ki_sul_rampage.wav",
+      "sha256": "cd9bc967812ec635d1a075cf61adc39e0717b00cb6aa20a33c05bf7461d27561",
+      "bytes": 61160,
+      "source": "data/wav/effect/spirit_handler/sh_ki_sul_rampage.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_marine_festival_of_ki_sul.wav",
+      "sha256": "9ecf8a1341e120227658a14573fb23969d53bfb5bacb0450af34b9ddcd6ae102",
+      "bytes": 76122,
+      "source": "data/wav/effect/spirit_handler/sh_marine_festival_of_ki_sul.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_hyun_rok_cannon.wav",
+      "sha256": "e27ef29c70df9e21d3cc199eefe80aa8b52804bd06061a1e02f62771ff2168c6",
+      "bytes": 34914,
+      "source": "data/wav/effect/spirit_handler/sh_hyun_rok_cannon.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_hogogong_strike.wav",
+      "sha256": "707ca8599b2de98394bc701ba55f15684ea736f87d069eddf56840bc4e6ec7d6",
+      "bytes": 30828,
+      "source": "data/wav/effect/spirit_handler/sh_hogogong_strike.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_howling_of_chul_ho.wav",
+      "sha256": "34b5a5c2d8a031ba9b19d40227e1f0a4d49bb0f81c93d1848513575c2a8645cb",
+      "bytes": 42956,
+      "source": "data/wav/effect/spirit_handler/sh_howling_of_chul_ho.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_temporary_communion.wav",
+      "sha256": "d5c6e6e794b63153e2b51f70dbdd7f4dbdcdb1a89c36e637b8ab80ec24135ea3",
+      "bytes": 62660,
+      "source": "data/wav/effect/spirit_handler/sh_temporary_communion.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_white_tiger.wav",
+      "sha256": "ff37b95ad5b696295804e40f6751f85229bcbe2f4367fd228b1c963b8606bd13",
+      "bytes": 51492,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_white_tiger.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_protection.wav",
+      "sha256": "c9a62e668e64c141dadd7b26984eabc5e97f6ce67974f050142effa43b21609d",
+      "bytes": 96224,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_protection.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_black_tortoise.wav",
+      "sha256": "cf286f6a06e55679d8f74b041c8eebe550594c2f35c4ff0c2842d2ea015c4c0e",
+      "bytes": 79432,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_black_tortoise.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_soul_of_heaven_and_earth.wav",
+      "sha256": "98c5f827f53d143979fe436ca7fd7787ce7247df65e244129a123c64e64ed26a",
+      "bytes": 76086,
+      "source": "data/wav/effect/soul_ascetic/soa_soul_of_heaven_and_earth.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_blue_dragon.wav",
+      "sha256": "ae39db37d90b8a0dac5cc9a8afc76a5535014bdc3a1a4dc4ea2011d9afd1d026",
+      "bytes": 61636,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_blue_dragon.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_warrior.wav",
+      "sha256": "d36ff41c504587abcf60d3f554cf5885bd6087eeda2ed926a1c0a79a9a67d577",
+      "bytes": 69064,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_warrior.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_red_phoenix.wav",
+      "sha256": "b95a310f97fadedad515e30e3e7acf39e005e0d65414e645a2b4d16e114982d5",
+      "bytes": 69568,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_red_phoenix.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_four_bearing_god.wav",
+      "sha256": "df9a7595329a5792eae72174d4eeadbd24fce9a225a0f4efda0fb4c3f4549b19",
+      "bytes": 47284,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_four_bearing_god.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_talisman_of_soul_stealing.wav",
+      "sha256": "814b68e4db82bd5ab3ed2d8d7ac9825eb4eb17c22c7a5f67b2357b26dc63089e",
+      "bytes": 86310,
+      "source": "data/wav/effect/soul_ascetic/soa_talisman_of_soul_stealing.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/soul_ascetic/soa_soul_gathering.wav",
+      "sha256": "e0050f2de6e1f92c4bd419b06671e8db1fbec0d4ba82a3b73aadfd59ebd81c9e",
+      "bytes": 33428,
+      "source": "data/wav/effect/soul_ascetic/soa_soul_gathering.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_intensive_aim.wav",
+      "sha256": "a92efd65f9245af3aade17e90e3b1731e273a04dd7d56943fb6d898025794fe0",
+      "bytes": 21116,
+      "source": "data/wav/effect/night_watch/nw_intensive_aim.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_spiral_shooting.wav",
+      "sha256": "4baa2750cd71066a12c6b27d3ac50ef38f20b82570efce7312935212639f14e2",
+      "bytes": 33644,
+      "source": "data/wav/effect/night_watch/nw_spiral_shooting.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_mission_bombard.wav",
+      "sha256": "830766f1a0017ac6db90683adbb08d8f941bf66e56f86898d026c33676895a82",
+      "bytes": 38716,
+      "source": "data/wav/effect/night_watch/nw_mission_bombard.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_auto_firing_launcher.wav",
+      "sha256": "c7f396cd9603230c80d967a1479c1fee7236fe99e72e8bd667b9e84571bae0eb",
+      "bytes": 36796,
+      "source": "data/wav/effect/night_watch/nw_auto_firing_launcher.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_only_one_bullet.wav",
+      "sha256": "34e79cf710781b4c9b138afe122d7ac0803e29dd190b6e94ac9f3a67e79e575d",
+      "bytes": 15910,
+      "source": "data/wav/effect/night_watch/nw_only_one_bullet.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_magazine_for_one.wav",
+      "sha256": "1c1f1aa51d78ce3f524cbfc4353086126c93681e989be843a7532d7ac5224b75",
+      "bytes": 46794,
+      "source": "data/wav/effect/night_watch/nw_magazine_for_one.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_hidden_card.wav",
+      "sha256": "1ab6108c1e0f03132a0569aa122739a47802531f6a845b7667c7bef0b8ab3db9",
+      "bytes": 65026,
+      "source": "data/wav/effect/night_watch/nw_hidden_card.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_basic_grenade.wav",
+      "sha256": "8da972314abd0369ed47d27fbcd418a13e2110c49e4bc4a649efcadca40f2bcc",
+      "bytes": 41758,
+      "source": "data/wav/effect/night_watch/nw_basic_grenade.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_wild_fire.wav",
+      "sha256": "ae1f417bfd53876c4a6d4e6b1c8ec4647e050b6c956b468315dabca02600b1ce",
+      "bytes": 46310,
+      "source": "data/wav/effect/night_watch/nw_wild_fire.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_meteor_storm_buster.wav",
+      "sha256": "48b9e3391392dde8a24264ad0903f9e9cd4297c51496eca8fd80b0d3adb0aaa7",
+      "bytes": 77714,
+      "source": "data/wav/effect/hyper_novice/hn_meteor_storm_buster.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_spiral_pierce_max.wav",
+      "sha256": "7d1b447f19197c0c4cecc7ba18f7b71d1f4d411a41f918496644b092987718be",
+      "bytes": 29072,
+      "source": "data/wav/effect/hyper_novice/hn_spiral_pierce_max.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_mega_sonic_blow.wav",
+      "sha256": "ee887ac4be5619c3742f7ad6eae0cb670a699e917af997b4797e155b17f3f5f3",
+      "bytes": 21996,
+      "source": "data/wav/effect/hyper_novice/hn_mega_sonic_blow.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_ground_gravitation.wav",
+      "sha256": "35c5f715773f4892eb7c72bed8129b86a3ca7a6d243a4f1130636b3f09915a74",
+      "bytes": 68780,
+      "source": "data/wav/effect/hyper_novice/hn_ground_gravitation.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_rulebreak.wav",
+      "sha256": "dd694361b5128c16bd6d685f2ff072e3c098318d0e6ba19c4f2107ae8fa05cc2",
+      "bytes": 93062,
+      "source": "data/wav/effect/hyper_novice/hn_rulebreak.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_shield_chain_rush.wav",
+      "sha256": "b405f7544b004b5bff99a8546a788629261d8cc52b09f899b0c67a96c7cabb3b",
+      "bytes": 60878,
+      "source": "data/wav/effect/hyper_novice/hn_shield_chain_rush.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_jack_frost_nova.wav",
+      "sha256": "2176e0fc496b8a0baf686f3852c878aa6ba11ae2cde2f2a8d65639ef7c470258",
+      "bytes": 25088,
+      "source": "data/wav/effect/hyper_novice/hn_jack_frost_nova.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_breakinglimit.wav",
+      "sha256": "617ddd09af5a25bcab956aa9fac28c53a8169a480805b1a7a9bea8f8e0c5de62",
+      "bytes": 78276,
+      "source": "data/wav/effect/hyper_novice/hn_breakinglimit.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/hyper_novice/hn_napalm_vulcan_strike.wav",
+      "sha256": "50deb68a00c9c014964b48fd6fcbd0352defc5ebb9605e3474ad9f26140c6748",
+      "bytes": 48492,
+      "source": "data/wav/effect/hyper_novice/hn_napalm_vulcan_strike.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_kunaiwaikyoku.wav",
+      "sha256": "987c4e2c91aebbcfba2797cb7f6f61b3d3be3666ee3f81b6d46d018459c2db10",
+      "bytes": 11576,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_kunaiwaikyoku.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_fuumashouaku.wav",
+      "sha256": "7a6b15a697e4cdf344ec8e4e0ac7e082a9712f1d96591419862afbf54d536bad",
+      "bytes": 28200,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_hitouakumu.wav",
+      "sha256": "cfe6bd85edf8c1bfa385131200f6e7a980bb8c9611a952ede4122075c06da74c",
+      "bytes": 37252,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_hitouakumu.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_kagegissen.wav",
+      "sha256": "0973567d039adc405bb5616b15beec91edd668725900263980e3e8e780f3029d",
+      "bytes": 32568,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_kagegissen.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_reiketsuhou.wav",
+      "sha256": "9dcdf9c4f8a1113bfa650b3b02b2bea3c355f8cba79e70786f031f2b94c1976e",
+      "bytes": 27924,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_reiketsuhou.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_tokedasu.wav",
+      "sha256": "08ba80f2ed6f1131d26b6dc999f7b377d420b7f01bd30f1445ba848a84a2f520",
+      "bytes": 19262,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_tokedasu.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_kinryuuhou.wav",
+      "sha256": "cb11395c9039b993457d2f5ae1eb0afd86a61a371062a7837e76b84c94da04be",
+      "bytes": 49376,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_kinryuuhou.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_akumukesu.wav",
+      "sha256": "1652687015bec25c189a3e3624b39443a69cbd6bed70a2181f7c78016cc4c87c",
+      "bytes": 25926,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_akumukesu.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_raidenpou.wav",
+      "sha256": "4299765b3a94f451ba7c056e99bf9953dd32c3ad5a4e0080cb1bd0b8804cf425",
+      "bytes": 82616,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_raidenpou.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_kunaikussetsu.wav",
+      "sha256": "7260f1f51948f31392092d9a4430f3f2efff94227fcbb69384ecdbc34b6c5bd1",
+      "bytes": 39646,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_kunaikussetsu.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_kagegari.wav",
+      "sha256": "b0d30edb090ea04d030edb04f68aa0dc57004749f24d6d0cc608ab91efaf0380",
+      "bytes": 30690,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_kagegari.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_shimiru.wav",
+      "sha256": "f4e3ebe1a0276d6865fd932c5a70406cd4627ffcbaf0fcaeca9e387546755ef1",
+      "bytes": 39904,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_shimiru.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_fuumakouchiku.wav",
+      "sha256": "e7c63159389fe3c438491de759890b20ade3b96ceac31d644137aa68857b70a0",
+      "bytes": 38166,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_fuumakouchiku.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_antenpou.wav",
+      "sha256": "4c56a4d6ecd6665a2265035513017755e871f178e0c6ba4d73bbbc91283506c5",
+      "bytes": 108314,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_antenpou.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_sekienhou.wav",
+      "sha256": "4761d1efe1de0bed5b43fd525116a22c6edd5782a317e454fe1e5bf4946c827f",
+      "bytes": 67848,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_sekienhou.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shinkiro_shiranui/ss_ankokuryuuakumu.wav",
+      "sha256": "8dab6419da7df7ea0e467344eda5b6d2c24c3127ed8a2cb2b13d772f099f468f",
+      "bytes": 87124,
+      "source": "data/wav/effect/shinkiro_shiranui/ss_ankokuryuuakumu.wav",
+      "status": "verified original path"
+    }
+  ]
+}

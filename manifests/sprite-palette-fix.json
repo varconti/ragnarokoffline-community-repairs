@@ -1,0 +1,248 @@
+{
+  "name": "sprite-palette-fix",
+  "description": "Compatible default-palette fallback for unavailable dye resources.",
+  "requires": {
+    "app": ">=1.3.1",
+    "era": "any"
+  },
+  "files": [
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_4.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_4.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_5.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_5.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_7.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_7.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_6.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_6.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00b8\u00c1\u00b6\u00b9\u00d9\u00b5\u00e5_\u00b3\u00b2_3.pal",
+      "sha256": "b7c380ad1d8314db49bb25c2bc5e515c178d1bb84f5db041237dac3d3e40b55d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_2.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_2.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_3.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_3.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00b8\u00c1\u00b6\u00b9\u00d9\u00b5\u00e5_\u00b3\u00b2_2.pal",
+      "sha256": "b7c380ad1d8314db49bb25c2bc5e515c178d1bb84f5db041237dac3d3e40b55d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00bf\u00a9_1.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b8\u00ae\u00ba\u00a7\u00b8\u00ae\u00bf\u00c2_\u00b3\u00b2_1.pal",
+      "sha256": "c2318089dcd9971e6b05bfe28e7e3b92da8885afec65399bc10dd96642f7a67d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00b8\u00c1\u00b6\u00b9\u00d9\u00b5\u00e5_\u00b3\u00b2_1.pal",
+      "sha256": "b7c380ad1d8314db49bb25c2bc5e515c178d1bb84f5db041237dac3d3e40b55d",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b9\u00d9\u00b5\u00e5_\u00b3\u00b2_1.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b9\u00d9\u00b5\u00e5_\u00b3\u00b2_3.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00b9\u00d9\u00b5\u00e5_\u00b3\u00b2_2.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_1.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_1.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_3.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_3.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_2.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_2.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_6.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_6.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_7.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_7.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_5.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_5.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00b3\u00b2_4.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/palette/\u00b8\u00f6/\u00c5\u00c2\u00b1\u00c7\u00bc\u00d2\u00b3\u00e2_\u00bf\u00a9_4.pal",
+      "sha256": "f4a547b8b5afb71b7055fdcc9dfabbc3ab37aa58fa93981e109adfd2741c09d1",
+      "bytes": 1024,
+      "source": null,
+      "status": "source differs"
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+{
+  "name": "builder",
+  "description": "Optional PvM progression and endgame equipment scripts. Custom economy and progression; full English UI port is not published.",
+  "requires": {
+    "app": ">=1.3.1",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400239.bmp",
+      "sha256": "2f6b9969dc1f2f7bec8bcd20da705bda0aabfb9bb4f8a5e2fa82db112d597690",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_24872.bmp",
+      "sha256": "d6c9c620f43684bead504e1162b0f244ddd7e954891d2181742bf9c0cdf61e26",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_450385.bmp",
+      "sha256": "244e26de8ccb97953feefd7ada8dff1c19e190bdbbe0eec1ad9fc39ab7446dd4",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400217.bmp",
+      "sha256": "39ec834ad8a7848cb1d9e3a5d5ea74f3113d531db7cba5de7017c93b7a837b5a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_24873.bmp",
+      "sha256": "4c2441727fdd4e4148c5be7551fa3b9c57b219f92d7721b6b4159b0fa89685dd",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400189.bmp",
+      "sha256": "8c348345dbe1309914e1fdb301cb1a587db914a7f5f4ab73bd3aae8a63b33d66",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_490137.bmp",
+      "sha256": "c8debfb88276533288998b5e5b7d057d605e6851013f45c0f682019a3b8e740b",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Narcis_Bow_LT.bmp",
+      "sha256": "3e988b035304e616fa4db68704a1afe69d5f7483cd2c10d693794e893356b255",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400662.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Poenitentia_Ungula.bmp",
+      "sha256": "9c02ead54d21f0849cd4fda4da1ab48357c67dafb3255955b4a1f7f9ae8f8a81",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Adulter_F_Wand.bmp",
+      "sha256": "d17c00e0fa47fb7dec87a0d0fd9d237e71cdd9370f7df5bdef511bfa989bd261",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400663.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/FCH_B_Huuma.bmp",
+      "sha256": "4eb60bb261c45d0bbbfb4a6eae9a04eb21f970de9b92415b3dfd54f4efba6598",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400675.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_450174.bmp",
+      "sha256": "412e3b5473c8ad4bd00503d17616d96888fe40620a47ebf09fdfb52675aab02c",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_560061.bmp",
+      "sha256": "e6222689d8ca888d29b2768ed21351a7282a3de3a7df908d65cefa268715a612",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Adulter_F_Dagger.bmp",
+      "sha256": "2c00960f45b0c080c7bd2479d853f8e080594c0ebdb6688f8933d8e8eac061d3",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_530054.bmp",
+      "sha256": "5a52e5e33acca4264e358cef975b0d9f5494ad5ca22e0b84cc1f2805cbcbf732",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_490471.bmp",
+      "sha256": "8393acaaf6853bc918d729ff9a9d02a480beb6fd2911203232959b9bdd325a4c",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_490316.bmp",
+      "sha256": "e9395ce1407b74876aa3c11a460448084276744278bfa556a5882343601434eb",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_480338.bmp",
+      "sha256": "5eb5ba74b3141a7139930926c8d2ab967f676237ab834cc2b396ef0c0a6a147d",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400694.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Sins_Huuma.bmp",
+      "sha256": "90622b1c77a861308a137afe82ea931f6dab1b896774dfcfd9248dc1e82982e9",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Poenetentia_Dilacero.bmp",
+      "sha256": "1f02610a8c8c5a8dd145d8da09adf1470befcac5a4502cee25db3e60c9c1c390",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_640049.bmp",
+      "sha256": "3bb855dd2cca67bd30e50db285a030691c057a1c66fb5a06c72481efb10315fc",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400695.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400244.bmp",
+      "sha256": "cff2bcf42b19edea054bb355fccf52dbd890fa3095f16ddf537f9249eb94ef90",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400453.bmp",
+      "sha256": "9b78a71c2826ff37298a6c135d1a97420105b6fbd658f6bc7ec42ad1d8954a6e",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400650.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400243.bmp",
+      "sha256": "cff2bcf42b19edea054bb355fccf52dbd890fa3095f16ddf537f9249eb94ef90",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Vivatus_F_Wand.bmp",
+      "sha256": "6101db64955790f9fc947c196be28cdd7b49d7f102daa62f568d59bfa3ae09c6",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Poenetentia_Vatia.bmp",
+      "sha256": "7a8dfe3065c7de1539a0d1318ff17f26722feb057e8d896d04c6eb068374cf65",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400191.bmp",
+      "sha256": "878d76e6239c8acfc71426d9f0195cd1fb2900495b539c922c299370dc970d98",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400608.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_470270.bmp",
+      "sha256": "d2c5dfa988266c3461d3d63c4705aad07b3e249bfdcb69e82a1cf96a1de801d0",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_550135.bmp",
+      "sha256": "6b8a569d5acb582d841a3da7ba4626c7890a99b3d8c3f8d932978c73219cc171",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400219.bmp",
+      "sha256": "43cd23f56a51b9d252fea89ee017abf0067fdf8b85f440861253edf4abedb866",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_550134.bmp",
+      "sha256": "7e78f3eab76824b06b300599b1e2d7aa4892cfcf06e78736abda756de9264d23",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400609.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_24883.bmp",
+      "sha256": "d6c9c620f43684bead504e1162b0f244ddd7e954891d2181742bf9c0cdf61e26",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/OneSkyOneSun_LT.bmp",
+      "sha256": "f7e772e9fcf1201f0981f520d801d4ab2a192e1b379261546fda066b9794ded1",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_24884.bmp",
+      "sha256": "4c2441727fdd4e4148c5be7551fa3b9c57b219f92d7721b6b4159b0fa89685dd",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400237.bmp",
+      "sha256": "65ec85845a680eff3a356a4b3c8356f1baae9e1aebf137919fc89b476cdd1706",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400235.bmp",
+      "sha256": "7125aade4a62d96db97c35a847fadb8cd8311c9f098b77941e1046897c67792d",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_550131.bmp",
+      "sha256": "3a605ed7bae3c7ceb055c166e926cc9b2760d11a086686c5d6e953636de096ea",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_pvm_400630.bmp",
+      "sha256": "8f2af7ecaaabe14a4edd0a82156d5a6c01ce2aabb5acc44ffab845838280d12a",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/Fate_Dagger.bmp",
+      "sha256": "a526b8c08e0871b7a1010f5542bef908c8bef6a39781cc6bdb4dd6dceaa15ddb",
+      "bytes": 22854,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/collection/builder_unified_540083.bmp",
+      "sha256": "a8e659c99fb7ac0e88162d1d5715cc55e7f642fdc38b7dac5a90502ad1d71293",
+      "bytes": 22854,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400239.bmp",
+      "sha256": "a5f0df1dfba934f755afdfb1fa34ea69821661ba2d52b9fd842285fe238654d4",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_24872.bmp",
+      "sha256": "a1bb6d4c05dfb12af26729518fbd6050a5ba95c85f8245acf2d77e8020d930a5",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_450385.bmp",
+      "sha256": "5d4f2b997b1a5e6788c8df3e8ed365822854278727df636132d72990b72e6e2f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400217.bmp",
+      "sha256": "500b663cefd026e55e1f4b6bb34666075218901e00b26063a3469dd924085a9f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_24873.bmp",
+      "sha256": "8f0c56cb26b97bfac0d464b8efb60cdfcfc48240c06c0077a695a83a238897e3",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400189.bmp",
+      "sha256": "533014f75787e2ec4c1a60eaedd0034da1da748b9c9f79e7b4d7873181d534ff",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_490137.bmp",
+      "sha256": "c0e683b5fe9fbbc3cb21877b2885b42e852353ce822797c08360efac476b1064",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Narcis_Bow_LT.bmp",
+      "sha256": "7f861860a5886cf0421a2b6bb9ee98779f81c6ab3adb279bd84ab0a854f61b5a",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400662.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Poenitentia_Ungula.bmp",
+      "sha256": "90d4d8fce08c29bd9bad58d5fbf944a932fb578c97bfc454ed0c9e8d5935e315",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Adulter_F_Wand.bmp",
+      "sha256": "89bf083875fb258809c006c4b4c7142029c7737a8292a9700d6c6989371fd971",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400663.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/FCH_B_Huuma.bmp",
+      "sha256": "f35f90e7d939012a0ba2dfd7a5251b0393068c71cdef2a5a817ea9f05ac76b43",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400675.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_450174.bmp",
+      "sha256": "add2bf7b5a209901690cb500d81387784ba85db063be024c9fdb937e1f24b031",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_560061.bmp",
+      "sha256": "98fe4c877b02391d90e9c0e7fe8ab393070a2c42d6303977c5155545211d0a9c",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Adulter_F_Dagger.bmp",
+      "sha256": "9f250ff59bd620b40d808bca51147fb5f9fcbbb21b40cf91233d964160be64d2",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_530054.bmp",
+      "sha256": "32199aa3e6839c516b12420fa06be9b9a282e0678d76a89b24cd2bf24f013c5e",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_490471.bmp",
+      "sha256": "b55fc2757da690affd74b6194620bd9930858717aa9d4fc5262ec91eb7b8b866",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_490316.bmp",
+      "sha256": "3f9b3c7a19d65c7a96a25a19f784dc20056f3c11c60f3b284cf43f3494c16b33",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_480338.bmp",
+      "sha256": "3431fc0a6bc5d4665975895cd8f646b62664585c46fb7fb54de25ae708b0b2b5",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400694.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Sins_Huuma.bmp",
+      "sha256": "17b99696116feabb45c9251963d56b79315e6cf976c7155be8ab331f241baf31",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Poenetentia_Dilacero.bmp",
+      "sha256": "794aa578b5530f873ebd687bc71bedfc822f088393a6279c794d0670448ff774",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_640049.bmp",
+      "sha256": "fe70b85abc5fe1e7f28836965c14957f4d3fd53aee6867b72735f1bd64423bbe",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400695.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400244.bmp",
+      "sha256": "9f79180a52485c7da09510e21295131bc47bceea5f1940ed787dd77a00c061ac",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400453.bmp",
+      "sha256": "20b87f7a77dd440f5e985cfd44ec92ec3401c4a78ed7387c910bd33db9c6e4f3",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400650.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400243.bmp",
+      "sha256": "9f79180a52485c7da09510e21295131bc47bceea5f1940ed787dd77a00c061ac",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Vivatus_F_Wand.bmp",
+      "sha256": "7c8f0f50ef02ebff020bd13a698136f13ddcb15d917aaad049353bea4bb5e3bc",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Poenetentia_Vatia.bmp",
+      "sha256": "d604094572afc946d9c7b4e236156b6b1ecbc3af055cd041423ac9a1df847ebd",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400191.bmp",
+      "sha256": "b3963ef146b3c6aed5d1d451f129b77ac076fd949a97b19c6a5c673757303c1d",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400608.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_470270.bmp",
+      "sha256": "3029ff2846c8c6abbbe82ce98b0414257c7c71ba914170694baa098055751a88",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_550135.bmp",
+      "sha256": "549167c80bdbdd5b2d8bdf2b6d347fedb55cb45c431af4c1173270335b6789a6",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400219.bmp",
+      "sha256": "2a6b311cab8184d8672562ec76365f6379a91e1b674ddc454bfc897a63b6f23f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_550134.bmp",
+      "sha256": "14bfb62447ff3469b01f9a1ce94820f75723ccfee3ab971e7d501683c7224ffe",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400609.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_24883.bmp",
+      "sha256": "a1bb6d4c05dfb12af26729518fbd6050a5ba95c85f8245acf2d77e8020d930a5",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/OneSkyOneSun_LT.bmp",
+      "sha256": "d71fd83f9aa9520975355cdb5bcf937082a04c6eb07e34c19d8965f645941b1c",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_24884.bmp",
+      "sha256": "8f0c56cb26b97bfac0d464b8efb60cdfcfc48240c06c0077a695a83a238897e3",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400237.bmp",
+      "sha256": "79b7bb5e8847b27a6a53c7d51ca3d4c5f007744a545fafa3d9a7b3de36977fa4",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400235.bmp",
+      "sha256": "dd87c033e2bb787f4c11baa2e6a85ab65c0aa9748349895225a67a8cdfda13c8",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_550131.bmp",
+      "sha256": "ca8ef78da137baf9485b0eac445e0c985015e5a64740f52695be6044350c9471",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_pvm_400630.bmp",
+      "sha256": "40ebee900e5a0cf38dfaece5993cccbe5de1790d13c3d3c55c2573e75e2d7cad",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/Fate_Dagger.bmp",
+      "sha256": "47ace919737e06106599685a318dcb7e186ce8cb675a80318051094619855d9f",
+      "bytes": 1782,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/builder_unified_540083.bmp",
+      "sha256": "ab16e68af5d3dff3e0761456af4cb5c88d8b878d343bf73d5efd32286470a758",
+      "bytes": 1782,
+      "source": null,
+      "status": "source not found"
+    }
+  ]
+}

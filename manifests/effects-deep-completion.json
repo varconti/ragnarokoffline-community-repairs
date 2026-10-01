@@ -1,0 +1,2887 @@
+{
+  "name": "effects-deep-completion",
+  "description": "Additional effect phases, direction and area cleanup resources; some original phase rules remain uncertain.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_07.tga",
+      "sha256": "e780aa17cd75a4ab9f3fbea6052652ac2dfda21d1cd85a341ad80ca9e547ef4e",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_06.tga",
+      "sha256": "6a834403e4b93304a3f76ce9e198e2ff7eb7fc556d516a43713579768d2f9d05",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_04.tga",
+      "sha256": "a820aeefb0353e8717eecc80a10f00313d525841500321e234f2a437e93bf8f3",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_10.tga",
+      "sha256": "0659bd6c1e4c7efcdfde22e21397ba11c53f4a9f1c1cc47a012f678fbe9906a7",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_11.tga",
+      "sha256": "078ba8b45bb1505841ce298642fae9c343b198196da19a268682433db1998f7c",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_05.tga",
+      "sha256": "1217a2a0354a77bab7dc36d13015376aada1be6819df50678b772fa9dd8d5811",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_01.tga",
+      "sha256": "ff074ee79f89ee7b76879cb4d040b4aaeb8e797fa2105617813c4ce9bfb611d6",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_00.tga",
+      "sha256": "179abe49237aaec8007af14d73c0150e850ab737bd34aff60fd3b973963c32c8",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_02.tga",
+      "sha256": "dfe51af5d150384e40f96189e08684060f2c1dc50592784efbb485e1c9f13073",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_03.tga",
+      "sha256": "4a816ebf08144c2ff1f87acfc579bea480f968919841f988484d511b5da46b3f",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/min_kunaikussetsu.str",
+      "sha256": "f6345633ff4b75da39270a7b83b3434b7f1d89a54ca1d454196b67f51404bb76",
+      "bytes": 3876,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kunaikussetsu.str",
+      "sha256": "cd9b43a45b5b5eb7cd87abdf3bb7954edac8d84579571b0de0643fc38412fbdc",
+      "bytes": 3876,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/min_kunaikussetsu_end.str",
+      "sha256": "3f4874336c5218d09480739546138b642e7748b754f61c32e4241096a25fa54b",
+      "bytes": 3876,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kunaikussetsu_end.str",
+      "sha256": "228a073b480fa1f60fe97a3ff0183a65614ca100c2869c7a1fbb60e6a918ab48",
+      "bytes": 3876,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_08.tga",
+      "sha256": "f4182d4b2c700915cf6277bd5400becb735bee6e0319b6a709abbca80a00f7f3",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu/kun_tornado_09.tga",
+      "sha256": "8a1b43ca0085521336ed6f382d79b817830fc3472f14dd554f19fbb708a36514",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kunaikussetsu_bottom_end.str",
+      "sha256": "6b610b39e7d380c8fbdd72f953b69ef747747a2a96ce5cb15c9a4e21323a8d95",
+      "bytes": 2852,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_smoke_a_04.tga",
+      "sha256": "54fef997aaf5d7690d4aa5b603ad696b95282e027a0537f7e65bea094319e7ab",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_smoke_a_05.tga",
+      "sha256": "5b013e3845bfb3605cd203ffb94daae08126a67c173adc891ab03b3c8da6267c",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_08.tga",
+      "sha256": "958de3563d4e7c69965b3ae295d7db041379f86427f20b1fd8a8b7aac45fbad4",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_09.tga",
+      "sha256": "21709a4c21e022dc6f530d5ceedfa9864ff88914b98cb459f0afdca3724b7177",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_smoke_a_02.tga",
+      "sha256": "ad89cd38c5934c1b3d9ef96e38e5420ca300029b3621e9940a5b729f32d46df1",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_smoke_a_03.tga",
+      "sha256": "a420458938fd7784ea588722b44be07e0d27e461bf5637fa875d43dc936c3905",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_smoke_a_01.tga",
+      "sha256": "3e5282a725736ac8b103904c2cb956a19bef7b2685a2c09eb052528929df2344",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_smoke_a_00.tga",
+      "sha256": "2b660374e6cde629dc4f9aa2b60938febfc8d0d08762b1e3e427b0ecdb520446",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_02.tga",
+      "sha256": "5bb8a2856348bbf54c237d42858cc5c076dd0fead77846a9071ee9372d1577d8",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_03.tga",
+      "sha256": "ff45ac179a4d09dc1473b1276d4582906f41898511ddfa9133a4c4f5b2d3abc3",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_01.tga",
+      "sha256": "1b8d21b610c61137da351e701024f74e7e2c65cde6e88ad48e708d60183804c5",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_00.tga",
+      "sha256": "ac4e6a9b3fee50319e39eed985337a7b13cc30fb1683316274d3380d0240c42a",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_04.tga",
+      "sha256": "89b08f8b4692386e6d32b777084ce68b567aafac91ed668096be55ef4c53d210",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_05.tga",
+      "sha256": "b0df53eb04e15825cff36c7221d0cbc5ec54cc6f4a82f379bdf5b032420d5c60",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_07.tga",
+      "sha256": "14370ef3d0895049d33fe45880b1bac39d993bb48ecef629878a468966ae0154",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kun_shockwave_06.tga",
+      "sha256": "cc96af2e6a13cb490ef9e4d7d247036e78e7c88f3429e4e724e23656aa26ad40",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_kunaikussetsu/kunaikussetsu_bottom/kunaikussetsu_bottom.str",
+      "sha256": "dbcce7504429d8f5459dd9c3a239e1037015b4fbf44a53f0af556be19a506895",
+      "bytes": 2852,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_06.tga",
+      "sha256": "a23bb57933fa9d6b290466454cc83b37fbb343537c66139fa395f6a87e2069e8",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_07.tga",
+      "sha256": "5467fba46e9b63456523db5f9229cf4358bad90ebcd61917a5cdc8c7a9e74f40",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_05.tga",
+      "sha256": "843094a8474d447e8df0b1bcb6153327353b87ab9b16035f54e38d34e53e0a99",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_04.tga",
+      "sha256": "752ff9773391e6732015777d1e559c08415e4f3180d8c87d4b1bd96e365f395c",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_00.tga",
+      "sha256": "eded502a7f9199e2705f8738a4f5a76329cc97bf258315da5ae711e527294a87",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/min_tokedasu_shadow.str",
+      "sha256": "b41e7cabd509d96891491fe8dded317877cce2884485d060915f0d106f350912",
+      "bytes": 9188,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_01.tga",
+      "sha256": "4723434d9ad604e0788715a1f18f4d574a2973b2f088b8e5b59c5dc098db9547",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_03.tga",
+      "sha256": "78710510700cdea08e42cbf46232d673d71e0889abb938f092cc1f8df98716a8",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_02.tga",
+      "sha256": "16959fef881c2205ec3397677ca82a338dff12cd1cfd2476452370397d7e7e44",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_09.tga",
+      "sha256": "3f859be91ca2c8755462cc8316ee226c1c7ff33f8011ef993f6ebeade924c705",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_cast_08.tga",
+      "sha256": "b6f295872e0946b84b8648232e2ebafc18be4d775eea19b7ccd854323e981b5f",
+      "bytes": 39356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tokedasu_shadow.str",
+      "sha256": "2a21451fe200c48d439869e341c35f318674500b1c40c340afb2937c4996107d",
+      "bytes": 16028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_tokedasu/tokedasu_shadow/tok_smoke_1.tga",
+      "sha256": "bbbe237ac574e4526f527e3ff7f4dc70b08350493ecaf6c6cbddcdbc2fb5af33",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_smoke_a_05.tga",
+      "sha256": "5b013e3845bfb3605cd203ffb94daae08126a67c173adc891ab03b3c8da6267c",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_smoke_a_04.tga",
+      "sha256": "54fef997aaf5d7690d4aa5b603ad696b95282e027a0537f7e65bea094319e7ab",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_smoke_a_00.tga",
+      "sha256": "2b660374e6cde629dc4f9aa2b60938febfc8d0d08762b1e3e427b0ecdb520446",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_smoke_a_01.tga",
+      "sha256": "3e5282a725736ac8b103904c2cb956a19bef7b2685a2c09eb052528929df2344",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuumashouaku_00.str",
+      "sha256": "ee6618b542ec83d9195203fc2cbe7922f8b9b38ab1f483cfa64daebd89b888a0",
+      "bytes": 14304,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_shuriken_a.tga",
+      "sha256": "1fd2620ecd3c2af9a9617df95b371d879177c170b88a8d8252de2008eed72dd5",
+      "bytes": 6444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_smoke_a_03.tga",
+      "sha256": "a420458938fd7784ea588722b44be07e0d27e461bf5637fa875d43dc936c3905",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_smoke_a_02.tga",
+      "sha256": "ad89cd38c5934c1b3d9ef96e38e5420ca300029b3621e9940a5b729f32d46df1",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_slash.bmp",
+      "sha256": "da628f688840182a688cb9c380e6769c49ffed45305e3d6ec0268159796e2794",
+      "bytes": 43256,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/min_fuumashouaku_00.str",
+      "sha256": "40ed6952171194b53a2b94c8cbde9aa75e5c2a764301980f9b99d30dc5c4b9dc",
+      "bytes": 7108,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_trail_a_00.tga",
+      "sha256": "b8d81bca0b649d5650f841c8ab30d1c7ba1082dbf56d61c46f20eab12e62fd34",
+      "bytes": 28844,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku_00/fuu_shuriken.tga",
+      "sha256": "67dd99cb685e678809804a3f9a838a014b2d903e8735aab132a6877badd4dc59",
+      "bytes": 57644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_06.bmp",
+      "sha256": "d75a48d8b46b8ba47bc948288806fc260de901549c64c8f9299ccb6abf3284ec",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_05.bmp",
+      "sha256": "1b57c0675ef5839fdbbe53a8c4136758c304cebbf1552acfe5f19ed05a653f8f",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_04.bmp",
+      "sha256": "47aab0334cb47de454e3e9a49a45cad88e8d7653a26ba4550dedc30b1ca04fef",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_00.bmp",
+      "sha256": "28f5ec2e68aff77172cdb5fddc8c8cc5e1e70e09278eaa3034969445200fd499",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_01.bmp",
+      "sha256": "b0ea4ef1dae23767c8de3c9583802790fa42a4a4d263727898d500dee39ad179",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_03.bmp",
+      "sha256": "b15cbd200abe9794995aabb4bc4b1e6dcc2933ecfb219cc30945df6e0d5d2381",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_elecbomb_02.bmp",
+      "sha256": "533fb96206276a015eed5a08b2d050e06b7ff82f8f9868e90f27473697fe6a80",
+      "bytes": 34616,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/rai_glow.TGA",
+      "sha256": "0f850e62e8f48c1a26af5974dbbaf073190c8b80c669dd666ee8d2f31fdc9920",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou_bottom/new_raidenpou_bottom.str",
+      "sha256": "21feee549d0aed94b0d582f0b3efd41ad0cc3797d09a2c4c16bd62c82b73ef58",
+      "bytes": 19724,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_03.bmp",
+      "sha256": "e53c183383f4444ca694b1953bbc2766c020b46018e9b5797cd9606d1fe21aec",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/new_raidenpou.str",
+      "sha256": "a40ea1c1237f33ed535cd5b2da5ba6d4de815868e4982ee803c7f8a923f56057",
+      "bytes": 85144,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_02.bmp",
+      "sha256": "a14cf14130a19349a68fa0e61451803ecbe9744715e298219e7170e9d26313a6",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_00.bmp",
+      "sha256": "9c83f486e338412529f6ea715e6923c0a961f4c79e2e9128b9849ddbdb6ab3aa",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_01.bmp",
+      "sha256": "89d3303ce84e144ab38294e063db273b49c62e7bdf3344704fe0ea77c5ed0793",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_05.bmp",
+      "sha256": "4fb350fa63d886cdd218a13a345933860b64b8f6dec6cc1187db12b19dcdf649",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_prticle_00.bmp",
+      "sha256": "b59605d49db1bd1dd2c709ea186cf86aca445cac118f15fdc95b778082dc63a4",
+      "bytes": 8248,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_prticle_01.bmp",
+      "sha256": "ccb535a0e60d2e3b587cd8a0290a21c708996ae27d4cfabb786f13bb61776b38",
+      "bytes": 8248,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_04.bmp",
+      "sha256": "f7f0a223d93af9231c39bba80c36b71e8f012b3310f2fe0103f3820b06981e6f",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning1_06.bmp",
+      "sha256": "631131eb53b7d883d835d06417e3fd17a36d248b2f9fb04cc2b33b0db76e119b",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_prticle_03.bmp",
+      "sha256": "c6103ec6f56a4e1f6750371860785e26a926d78936a345df601b6cf9b18705eb",
+      "bytes": 8248,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_prticle_02.bmp",
+      "sha256": "b4d0e4d114a90174e1d159a4c8c730029309fbfd097af792de683b4cb658b6cf",
+      "bytes": 8248,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_energy.bmp",
+      "sha256": "e26de9347ca372f0289e12e3fe5ed9cd2424afb7ac96159a98608d9d74940265",
+      "bytes": 21656,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_hit_01.tga",
+      "sha256": "87e563d56688d3f2e7f1bfad0d0b4d99b82d42f92767f9b55819711db3a9986f",
+      "bytes": 30764,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_04.bmp",
+      "sha256": "ff176376f91458a344aec7ed37f584a416eec0272b9a52d78c795e3693e1be69",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_05.bmp",
+      "sha256": "4b814fc3aef63ea3120f568251d4284edbdb663c82ac1dc9b47f609d9d5b1d9f",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_hit_00.tga",
+      "sha256": "bd64fcb83eead43d71cf14c99e217691ef3c571fb46c9b7631b5b1c6f11311df",
+      "bytes": 30764,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_hit_02.tga",
+      "sha256": "2766b280c5de14427ed46b80df2429387656bd0dc72447e20681d5c96f024eaf",
+      "bytes": 30764,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_06.bmp",
+      "sha256": "6e63df99eb8ef824e2ecf275c547edea1b4cf7ad3bbc2898d82906c556ed3a78",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_hit_03.tga",
+      "sha256": "71987cadc33a94e8a6dad9a9e22f02c474c240627d8eeecc19ca5c6c1334cd49",
+      "bytes": 30764,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_02.bmp",
+      "sha256": "aed9f07f0192f5819e022a5758365f0f155fa99ee24d60703f546f535ed05971",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_03.bmp",
+      "sha256": "df3ae302113511b2eb764c8ba37df52f06c4087e5ed14b3f47c9a40ea856015e",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_01.bmp",
+      "sha256": "38aefcf0069888ef7647380e8cf7029ff7ed5cf3574203d25974c3c658f953ae",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/rai_lightning2_00.bmp",
+      "sha256": "8478d99e5fbb41d721084d5a5038442ec280185b9d7ccce287cff5d61211f814",
+      "bytes": 34028,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_raidenpou/new_raidenpou/min_new_raidenpou.str",
+      "sha256": "5f986aae7a020b12e99a309e2c78887381ba173adf0dd8b74c4db7be34924882",
+      "bytes": 69268,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_08.tga",
+      "sha256": "958de3563d4e7c69965b3ae295d7db041379f86427f20b1fd8a8b7aac45fbad4",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_09.tga",
+      "sha256": "21709a4c21e022dc6f530d5ceedfa9864ff88914b98cb459f0afdca3724b7177",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hitouakumu.str",
+      "sha256": "81e30dc0abf75aa530b4dc18405679a6b54e0927d1443d12516b25334be93ca9",
+      "bytes": 1952,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/min_hitouakumu.str",
+      "sha256": "8e9666dbf251d0084beadd9bf511830530070aa12d09475959336cca62df0c81",
+      "bytes": 44,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_01.tga",
+      "sha256": "1b8d21b610c61137da351e701024f74e7e2c65cde6e88ad48e708d60183804c5",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_00.tga",
+      "sha256": "ac4e6a9b3fee50319e39eed985337a7b13cc30fb1683316274d3380d0240c42a",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_02.tga",
+      "sha256": "5bb8a2856348bbf54c237d42858cc5c076dd0fead77846a9071ee9372d1577d8",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_03.tga",
+      "sha256": "ff45ac179a4d09dc1473b1276d4582906f41898511ddfa9133a4c4f5b2d3abc3",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_07.tga",
+      "sha256": "14370ef3d0895049d33fe45880b1bac39d993bb48ecef629878a468966ae0154",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_06.tga",
+      "sha256": "cc96af2e6a13cb490ef9e4d7d247036e78e7c88f3429e4e724e23656aa26ad40",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_04.tga",
+      "sha256": "89b08f8b4692386e6d32b777084ce68b567aafac91ed668096be55ef4c53d210",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_hitouakumu/hitouakumu/hit_shockwave_05.tga",
+      "sha256": "b0df53eb04e15825cff36c7221d0cbc5ec54cc6f4a82f379bdf5b032420d5c60",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_09.tga",
+      "sha256": "a4c79129deb574aa9c2d35c4f2c86732659d40fa4ebf83cce2c2689503e16ee8",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_08.tga",
+      "sha256": "3ecc263fb75749b2a6408a379f096e34ab989df2b9409d58539190dd8fe47b1e",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_09.tga",
+      "sha256": "a7878fa2e635c48dcab669689e8830ed87a0d216e042fa19631ba698a768ec64",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_08.tga",
+      "sha256": "6d30d49f4e9d8326c977fa070316b80d8d638595df95889a2b860e8f576a8f0b",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_wave.tga",
+      "sha256": "cc15693999ebed2f69eaa8da7b94196b61de05c208edfa0e4a11967f78b7bc13",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_12.tga",
+      "sha256": "edcee288821c104ff33fd029498592670a08c2f9bdd324ec1d7194c63a5f6bf5",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_06.tga",
+      "sha256": "1c947adc2e60eb47ea00701445d8f870cea80afe5e8e61f8b4aef393d074dc30",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ankokuryuuakumu_00.str",
+      "sha256": "b34f6f9d02d40330a6a362a4d496d2575d8ac8568cf6ef5cd2a4a1008a578efe",
+      "bytes": 13348,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_05.tga",
+      "sha256": "7eadaccd4f643fb933fe3eb664ae921ce19e7d2589db95c1017d376d1a4c20ee",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_04.tga",
+      "sha256": "989b128d676bbc983cbd29d47685b1b8ba3aba904bfa81e60f24f15f3208dff7",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_07.tga",
+      "sha256": "a275237adfb1a8677001fb94e3db5f28deb4f7f8d818831a550f0310c5acf1e2",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/min_ankokuryuuakumu_00.str",
+      "sha256": "b9896b7bdd1c0eaa9c02da931586f4a3f72f377497a29e633187dd2d9abf0142",
+      "bytes": 7172,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_05.tga",
+      "sha256": "7e9cfe6a91fd86520c131e8ee4bf73aefffcc935985b8bee19e19f2cfeb6c2e6",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_11.tga",
+      "sha256": "6378bf9da6529acfbcfe8bbfd64ad3a822e0d97da594ac793fdebd7d7e1e8f4c",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_06.tga",
+      "sha256": "658da5c32d4db240c14ff68b63ce8449e4e50e9809865b5da606d9171170b958",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_07.tga",
+      "sha256": "718b0ea01c9536859972a2cf1a325995fe8fc4ab4afe825c09a828e662ac05e6",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_10.tga",
+      "sha256": "17508b1b160442fd0b5ba8da558c91a350bbf103dad16fe21226a53a9c8fc7bc",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_04.tga",
+      "sha256": "0f33d9914224bea14774328405fd5f8c2f3dae01c166e511221ab876d7320024",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_00.tga",
+      "sha256": "5c9503575c1329174dd31cecc0db107c2fefea3c548b22b65ece6b398c3548d7",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_03.tga",
+      "sha256": "eaa6199b8d9662cc409ea7d9d3f44080bc34a2d9de93370858ddf09493de8ae1",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_02.tga",
+      "sha256": "07057e49d41df9a3b87a90c7543d29e01726b51a54c3f63ac5d95132aa15ab94",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_01.tga",
+      "sha256": "0dc86e0df642791d76d3a8687954b3c8eabde06246c64fe90e41c18e1ae364b8",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_03.tga",
+      "sha256": "dae6c8e57ea7210a64f5716d79557961a5c5e05732e4f8f8200d26cf3448830f",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_00.tga",
+      "sha256": "daef6074748f2af2fb4a974713c13825fa4992b674fb79c2aa400f0edca864de",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_line_01.tga",
+      "sha256": "7258f35d11717891743f815f735061295db31ce192c6815c75e94cbd4118961b",
+      "bytes": 25644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_dragon_a_02.tga",
+      "sha256": "68f362701af63c6da79dc0cd6e56a1e7dd5a63fd8445b86cfeb7291f63bbac85",
+      "bytes": 129644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_ink_a_00.tga",
+      "sha256": "7425473a216407249962f186bf180860ba0e72751a97c858086c419ee829c6f0",
+      "bytes": 16428,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_06.tga",
+      "sha256": "b6187dffd91d0f2c6ccaa1687d20af84e5a997be64d72d5e0f30573613919ddc",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_07.tga",
+      "sha256": "b7b99b8750fdd435e33f7ebb1d3ec18b1def5b23399e9f52aa8d3f3a4142599e",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_11.tga",
+      "sha256": "f0dd7e878999ddc5b39b503ddeecfd10b361bfe6763c620886e2951a89fcba76",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_05.tga",
+      "sha256": "9fdc1045556dc32a93e5d166820a9aa4215902829840324f1fd421dd2614402e",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_04.tga",
+      "sha256": "9a56cda53b2bf2f80a75613f994b454938ff9245da44354425b94fd2aae8e5ca",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_10.tga",
+      "sha256": "03c70c0d951debef6f9d1045f722f6262d4f52c8917a74a3b8de1f5794117fc1",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_00.tga",
+      "sha256": "e8f82fdd3b623cf0f072df9ec756f315d6542d58f5fd0a9060b8378fb599e2c6",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_ink_c_03.tga",
+      "sha256": "1afc3a518b220113e6d53225c6c62328a375fbb4c57eeb60d3248bf18cb1553f",
+      "bytes": 3500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_ink_c_02.tga",
+      "sha256": "4af81dff03b3b500729dd3ca3f689b51ca2c108764d02db78bbdb5656bf0b604",
+      "bytes": 3500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_01.tga",
+      "sha256": "d637df2d2aa48983a5377fe3aa01c7d594750da74fb993a90ab3c51caed841bd",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_03.tga",
+      "sha256": "4fdee157df63016717d4f7c589953f04f124d69c31d347fea522a8b690ee57a8",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_ink_c_00.tga",
+      "sha256": "b2cf452e54de0de6c329ddeae63094b44999e7e9f89749219cc13818cc83df7f",
+      "bytes": 3500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_ink_c_01.tga",
+      "sha256": "36cd31f67c8302ef6b2e00c49f88b884bd3d18b7b0fe93cee5e920143bc0c918",
+      "bytes": 3500,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/shinkiro_shiranui/ss_ankokuryuuakumu/ankokuryuuakumu_00/ank_smoke_02.tga",
+      "sha256": "af8956aedd8c203f8b13f84acabb9f0542cf63511710af8e2381ef3feaeaf732",
+      "bytes": 14444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/sto_circle_04.bmp",
+      "sha256": "cfdffbcb239a809e24e653cbce7ec0c1c3cc2511c037d631b856010ddc8ca50c",
+      "bytes": 42296,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/sto_circle_05.bmp",
+      "sha256": "80b59b21b1274469599b99ddbfcb2745670f2d3d58539336d8a8969223355ed5",
+      "bytes": 42296,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/sto_circle_02.bmp",
+      "sha256": "1a3e66e300a6107114658f6b1f484a01a0f85b4e4a22cf4ccb42806f49d60eaa",
+      "bytes": 42296,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/sto_circle_03.bmp",
+      "sha256": "a385298e7ad082cdbe27687eb80b1d1b5c9aeb0578f70d1f5dae66a12af294a4",
+      "bytes": 42296,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/sto_circle_01.bmp",
+      "sha256": "f8217d608e77dd6112a62c100ab795503c1b5e5cda759095e22d2c54ed4ed4f6",
+      "bytes": 42296,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/sto_circle_00.bmp",
+      "sha256": "2b587b8bad5699b0b4a63a858dd97dc69890dad663d5be7f9e0a0d393160d1d6",
+      "bytes": 42296,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/stormcannon/cast_circle/cast_circle.str",
+      "sha256": "7f769941475f556a6378c5272530448c3b086c4396fafdf99f0bf709fa64a7d0",
+      "bytes": 1192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_hit_1.bmp",
+      "sha256": "9cf38d2e22a18eff46d34c96ec7311fa0de9e05b6f0ba58bebb752407de23579",
+      "bytes": 13724,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_hit_04.bmp",
+      "sha256": "ef6d858385c4002d6d3efba63bebc74b6da113879759c372275c7f540959f6e1",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_rock_p.tga",
+      "sha256": "7f3ea901af43673749e956dd4094cb12d7fa907b0247f8ed7986e378a647e2f0",
+      "bytes": 1644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/violentquake_hit.str",
+      "sha256": "9b78de3f59678bd7bc7e23f3a32f908ddad7669b0efeb614294e036d90fae15a",
+      "bytes": 4620,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_hit_02.bmp",
+      "sha256": "836054d1c9a0efb4f296ae38cc400b7c723e8971914bc322655e934a6444f25c",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_hit_03.bmp",
+      "sha256": "87940b92e43421d7878ffedd229d5327727e4732909ca575f3a12bc287e917b6",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_hit_01.bmp",
+      "sha256": "9f242ed2c5f51fa4ffbf56bf529da6cdc0377ff2e522f33bb10882932e7dcb5e",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/violentquake/violentquake_hit/vlo_hit_00.bmp",
+      "sha256": "7ea168c4f455f6d1a682b87adb655143911541746644b77f4f7a9a3c13ea10c1",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_smoke_side.tga",
+      "sha256": "dea704cb8a228361ed37b5c3524fb8c8e97bece5beeaffd914538dd179373f09",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_dust.tga",
+      "sha256": "2db660827956d57c99542261c06514fc62d6363685f9048d809d7d77a30767ed",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_rock01.tga",
+      "sha256": "a8631457c5592edf5d9f5ee9f92f270ff452bcc1c1fccf588212037f552678ae",
+      "bytes": 44588,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_shockwave_03.tga",
+      "sha256": "e888eb4570aa1329ef0b7494182a294e3451d34a68c98ce38accf6442eb77d9b",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_shockwave_02.tga",
+      "sha256": "66ef86dc73c92b2c43aba5f3c60761d034d92a9b090350bf25ea59bc9ed917f8",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_rock00.tga",
+      "sha256": "53ed966748d407724dd8ef33063bdd0a6baa50c9068e4da9fa998c09a313fda3",
+      "bytes": 52268,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_rock02.tga",
+      "sha256": "e14042d5ee3602f44a99831a172520190b8c6179ff14b1bfc949c082625423f8",
+      "bytes": 39980,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_shockwave_00.tga",
+      "sha256": "ea6bcd0bddfe262338307210912623ff0065d5bd09ae3fca0266c005da5e50ed",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_shockwave_01.tga",
+      "sha256": "1da9ed0c979a81a12217b1a81b50a00eb3d5d815ce26d981ce2b477c0e573288",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_shockwave_05.tga",
+      "sha256": "faf3dda416b6f76abc524bf12a54530ff2a9ed87d24e46731a9f053d070d571d",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_shockwave_04.tga",
+      "sha256": "0b8cb2c5ce23d34d51aad1265f3df9ac56e0aaa81d6e1fb11382b86a484b2350",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hel_smoke01.tga",
+      "sha256": "9a550160f530a3195d60d29c1909ec2eda3c75e58f37088cc63bc0b994a19b94",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hells_drive_00.str",
+      "sha256": "2f2b4c7b08f845ed32320f166b922f1a7dd3da577e3e1c28f7819206de8d3de7",
+      "bytes": 7868,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hells_drive_01.str",
+      "sha256": "b5aee036d57f4375e96ef970707832460b7ac66d4676f402f89383adbcae3134",
+      "bytes": 7868,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_hells_drive/hells_drive_02.str",
+      "sha256": "bc32993577a6def5214a28b7d32103c3b3a5fc341ad808eeeca925387d5e9fbb",
+      "bytes": 7868,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_10.bmp",
+      "sha256": "ff3233fbaa3c004a7fe9896bccc5623e24330830ed16b179be0c477ab7aab10f",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_04.bmp",
+      "sha256": "f7f0a223d93af9231c39bba80c36b71e8f012b3310f2fe0103f3820b06981e6f",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_05.bmp",
+      "sha256": "4fb350fa63d886cdd218a13a345933860b64b8f6dec6cc1187db12b19dcdf649",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_11.bmp",
+      "sha256": "a1739bd192d472eb370e90405cd6fe2557c89e3be94a01c990468b4bd12a2f53",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_shockwave_04.tga",
+      "sha256": "53e888d877d43eb52844acbda9ddebb5da55c5c1c990055f4d3f3a925236b86b",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_07.bmp",
+      "sha256": "2c0f22ada5d4808f9bd3a7d43d9b74f7b70eef5cf568b2aefd6641f3aa7a85a1",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_12.bmp",
+      "sha256": "f59cf1100153116834663089980ac773b1dd9aee2d18ee2460e0823cddd42e87",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_06.bmp",
+      "sha256": "631131eb53b7d883d835d06417e3fd17a36d248b2f9fb04cc2b33b0db76e119b",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_shockwave_05.tga",
+      "sha256": "7dd7ac34a66082f3a2b27711da9e5283bf520d3a0d384ffb6351a209db7c4996",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_shockwave_01.tga",
+      "sha256": "8c2d4a5ad76761dff0eeb2e54cf6fb36319a34ef2f9d61b5fb5abe871a20ea0d",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jupitel_thunder_storm_00.str",
+      "sha256": "51c86f73cb34a5d2d633e2f52f7139b747bec6eed70d9726740a720f70e20f06",
+      "bytes": 18580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_02.bmp",
+      "sha256": "a14cf14130a19349a68fa0e61451803ecbe9744715e298219e7170e9d26313a6",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_03.bmp",
+      "sha256": "e53c183383f4444ca694b1953bbc2766c020b46018e9b5797cd9606d1fe21aec",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jupitel_thunder_storm_01.str",
+      "sha256": "f1b2f9d5e9354f3515ded4adfa34e5ceab13216ad47aa0ef75ceead121a5d537",
+      "bytes": 29308,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_shockwave_00.tga",
+      "sha256": "6bae48b1e4da9ffa08ba66d22219b885a64906b1d0b8aeec6d573f1d1535f4df",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_shockwave_02.tga",
+      "sha256": "a1c0576ce9c31ed1688f09f55bf6be5d2dc8bf44900f1792cb5190bd33534622",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_01.bmp",
+      "sha256": "89d3303ce84e144ab38294e063db273b49c62e7bdf3344704fe0ea77c5ed0793",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_00.bmp",
+      "sha256": "9c83f486e338412529f6ea715e6923c0a961f4c79e2e9128b9849ddbdb6ab3aa",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jupitel_thunder_storm_02.str",
+      "sha256": "d90d90d592de738458a34fd1d244c8d37f4550f116e48447c4cd8e60ce1a53c2",
+      "bytes": 32780,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_shockwave_03.tga",
+      "sha256": "ef9e4373fc04283a191c2b162ae7d4ee0eb4cbad96e6329330712d2143ed39a2",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightglow.bmp",
+      "sha256": "58d37c6e35fa17d914594c6452b308597f907f0518c681f3d9b62a1177bd8e23",
+      "bytes": 12344,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightparts05.bmp",
+      "sha256": "18971058a5fac6361a867d3b431c31715d1e0c1a56bafb914857b55ab9277b19",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_08.bmp",
+      "sha256": "f66ae395768408abf2524e6c06e960efb90d643d13c5164594a403db1b1abc38",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm/jup_lightning_09.bmp",
+      "sha256": "2a9f333b63163e2cfd4ef67be560dc669d6c9b8eaa36dea0a0df4bfe8a246734",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/has_crack_01.tga",
+      "sha256": "1b3ae90dde7549bf3cfc9c08424c9b9d78827e4d99ccc18584fbf49a7b774979",
+      "bytes": 262188,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/hasty_fire_in_the_hole_5x5.str",
+      "sha256": "9abba1aff00ddce05e53374aa862312a121592ddf4bd7cd610c66f51b361fee4",
+      "bytes": 3564,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/hasty_fire_in_the_hole_7x7.str",
+      "sha256": "f22d068145bb4e115cadb8b9fb4890d67519a37b903471065d6bafe406d64ff3",
+      "bytes": 3564,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/hasty_fire_in_the_hole_9x9.str",
+      "sha256": "35212ab5623407f5fe6dbf43fe4f9b9a39a81a644e226c42c942a628667de910",
+      "bytes": 3564,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/min_hasty_fire_in_the_hole_9x9.str",
+      "sha256": "dafd808f2f2a2c7b99a0d504ca077098559c87c6050f4a476b5c465e4ffaf4b5",
+      "bytes": 2052,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/min_hasty_fire_in_the_hole_7x7.str",
+      "sha256": "c99e8fd8ba65abb857a78a1f54069c90045f782bdbb575ba39859d8cdf43d942",
+      "bytes": 2052,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/min_hasty_fire_in_the_hole_5x5.str",
+      "sha256": "c09f51db8987714ae4e1c8a8614ce03286f361516cdd373d915f738e5f81d427",
+      "bytes": 2052,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/has_bottom_01.tga",
+      "sha256": "3bd21cd69ddf67a8f003a1cc7a35fa76025c8a9d376f6fe1556376d402401079",
+      "bytes": 160044,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/has_bottom_02.tga",
+      "sha256": "fed0092f6a9294fe2f37ce841d08b108d8d85e074a350b420ea9175131efdd01",
+      "bytes": 65580,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole_bottom/has_light_01.bmp",
+      "sha256": "5c7f78567d436d49b359e2daf172ea0ead71dd8c2cf5b88539f0e308e3f6181d",
+      "bytes": 12344,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/hasty_fire_in_the_hole_5x5.str",
+      "sha256": "da8339a872f1bb76275a3571afe84be1af9d8c6b274c487717ab45346b0cc7fd",
+      "bytes": 13468,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/hasty_fire_in_the_hole_7x7.str",
+      "sha256": "5f31f6b7e13c36a9f577e5fd73cabe1b99861aa1cbf7185659f7c8db44837243",
+      "bytes": 13716,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/hasty_fire_in_the_hole_9x9.str",
+      "sha256": "68c91db3cd71e99c0cda9de02bed4d716a20e681af0c888fd9fd75cdca7a12f3",
+      "bytes": 13716,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_slash_00.bmp",
+      "sha256": "af8fe39c90c449cf17e9cebe66b3a745335a95d5d430cee6d188d2510a13fea3",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_slash_01.bmp",
+      "sha256": "d2b8c17a030506b2a8503737cdc92f96423b5702916191d5ff3ca066e5e23cbc",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_slash_03.bmp",
+      "sha256": "54a21d9cd7eeac9642cd56c598d9c3aa1ef249cdcb92df5a99f49eec4615a826",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/min_hasty_fire_in_the_hole_9x9.str",
+      "sha256": "e53f2aa9b0278b36fe14d25c376cd77030380b8a1c95386ee33c3fc7670aebbe",
+      "bytes": 7136,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/min_hasty_fire_in_the_hole_7x7.str",
+      "sha256": "33a5d2c8f85ba835684989ef55777005039dc17e8590be1bf363d994dd6a6c6b",
+      "bytes": 7136,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_slash_02.bmp",
+      "sha256": "f4ee8f90302bfc622be762180702695e79b19c010c878b677017baa6647c2d5b",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/min_hasty_fire_in_the_hole_5x5.str",
+      "sha256": "777df36a3ea8ce35932d3d003107924280cffe4e827db77cdfebf87e4c2cdc7b",
+      "bytes": 6888,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_hit_02.bmp",
+      "sha256": "29e272f406d1918b0cba6250cbd445b9a8010bafa8d68e19618170f5512b625c",
+      "bytes": 48056,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_01.bmp",
+      "sha256": "3af7ad0f9d27ac3c24565ec78cafb1462894e609e4835abbdea8c19e889feba2",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_00.bmp",
+      "sha256": "d4e8b3e1918cc43e45351df4ebf340cedbd69fba33ce0a651c4f077a5a1400f4",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_hit_03.bmp",
+      "sha256": "7758edf52113f1a09b6c9dc6ed2218ef78d79a79208d571e8d6497bf7693ab08",
+      "bytes": 48056,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_hit_01.bmp",
+      "sha256": "00545b61941f1fbfdfd1dc2e049b471845769df6824e6d4508a933c475ebff27",
+      "bytes": 48056,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_02.bmp",
+      "sha256": "7f54c2105c6ff9be2eb4714357badd67f25251fe78a7598d48c2454a297f557f",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_03.bmp",
+      "sha256": "0101a15bbf74a5b472a29787782e1264e2382f352979a1fc0fed43ecde69be29",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_hit_00.bmp",
+      "sha256": "3b9167086063b9ee9a7cc55549ac7fdc846df1004eba960813b86c53df5a05b7",
+      "bytes": 48056,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_13.bmp",
+      "sha256": "b33e18d3c191697d689942a21ebd0aea73ef4cc79ed16b39a5fc65efca60fbcb",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_07.bmp",
+      "sha256": "1f60c616ec2a853247d5f808701e9cd5a79cef1752ef28cd6575f9276aaea036",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_06.bmp",
+      "sha256": "7c21ad613e67926aca4be5b333f34aa002c321dd0e5082a8764c3058de57b28a",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_12.bmp",
+      "sha256": "71489f4f2728b947ec4aef77a20e28912b5f728b99c7240d5ff47230e098d866",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_04.bmp",
+      "sha256": "70a99d278d7ce5c5c219dc7497ed6d13826f461f406bdb6aeb3725f53c8a7340",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_10.bmp",
+      "sha256": "982808d0fdcf3da08e2e8daf940a85fe97cb645ddaa9972bac0965736450db6c",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_11.bmp",
+      "sha256": "c3f9b02136c3746c57e051f44b2c831f395f0b216da36cb5908dd0c5c68e154b",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_05.bmp",
+      "sha256": "73baebd2d03e40ea9a0b51b7ed96c0116f4c25426b3f6ef0e9175f1724347607",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_particle.bmp",
+      "sha256": "f04297f3e40504a059425c5c2139a36be9ae384b83365b0b05f434eac49be61d",
+      "bytes": 12344,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_08.bmp",
+      "sha256": "cec9a849f6e990654c2faf1f7befb8c4c4cc155e7de7e8f53395b0531d41a615",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_fire_09.bmp",
+      "sha256": "605a4e1c6ec1333b4cd3bac20bfaf1afab57e3202bcc889214718c55716f24df",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_circle_01.bmp",
+      "sha256": "b32849a02a0376f0b31d57140974082f88f4046b29133dfd8db475f72e598c99",
+      "bytes": 34232,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/night_watch/nw_hasty_fire_in_the_hole/hasty_fire_in_the_hole/has_smoke_01.bmp",
+      "sha256": "2df93615e2165ddacffbab51f30d75d49b236b8f900e0751042b94e42946a8af",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_glow.tga",
+      "sha256": "db0fdd8fb95652b74870e6035e7bac0490d8377e255b27881e3ecf212cca71ba",
+      "bytes": 7644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_wind_00.bmp",
+      "sha256": "bcd320bce2baa0147b4ba37fec1ed359180eadb153462bfbf58c19f5c5aa81e7",
+      "bytes": 31016,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_wind_01.bmp",
+      "sha256": "579d460ad14ac41aed2112f42259ead1b722d03a0fdbd9387fbb0ac8c8d77b5a",
+      "bytes": 24356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_light.bmp",
+      "sha256": "dd9ad53780084c7a4b490ced97ba7bf3299f113568ac704d543f33efe3081d53",
+      "bytes": 51128,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_dragon_01.bmp",
+      "sha256": "6c2b7531c8c2da329d834fd61d72342775ca101eda5495b134f27df33347f209",
+      "bytes": 48420,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dragonic_pierce_horizon.str",
+      "sha256": "ffa4c3c17fd8a1b30c8cfed907cad6fb2cb78d9c3915102435e647809aca34d7",
+      "bytes": 12760,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_particle.bmp",
+      "sha256": "a6c99c8fdad2ae09b2b0f53424b2e626eca0d3cdffaeca189496e552de0365d4",
+      "bytes": 46136,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_02.bmp",
+      "sha256": "1ef76482337bfb254218f5cd4591d28bb5be6f4170b39d89209f790b8a359ba9",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_03.bmp",
+      "sha256": "d76a6ed36b29d840683d3e1aebaef9723599512737669212b72b2018a08a26e7",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_01.bmp",
+      "sha256": "133ffcd5a5607b7a6d2e5a46ca2a19fdc6280d6dea52eeb18f3e9c9c191c4a1f",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/min_dragonic_pierce_horizon.str",
+      "sha256": "915d5ed5936f9807e5486fdabf68a9325b847b6511d646972d82a7254763ece1",
+      "bytes": 7456,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_00.bmp",
+      "sha256": "dce5db5660f5f86494be8705a1eae89c9e765fdd79f4d35369b59b40934f6139",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_04.bmp",
+      "sha256": "dd39bef20755f07077f36f6d7d019681f2b5f956f55d6c1b829ecd91206cd7d7",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_05.bmp",
+      "sha256": "388949c1c16aaac6792f2f9fbb1dcafcafb142c07286dd59eb8a2fbe3e8b7930",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_hit_06.bmp",
+      "sha256": "07a3a63e5a883839b51efd02aa1d83f28b74dd810cef03af66bc7da6778f0675",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_center_00.bmp",
+      "sha256": "6041e5becc21541b8d26bdc0125a5a23527d272ba9755b2ff7c9a0bf166a210c",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_center_01.bmp",
+      "sha256": "15fadcc3d2a3c9163fae8086ea6330a788f2324a46b7d066d7e33558d9ebba8f",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_center_03.bmp",
+      "sha256": "f016728b753f48225656caa957497f6bf5800ab9af836bde26af18407103718e",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_center_02.bmp",
+      "sha256": "f4d1fd66a0defc4419d103bebb5ce3755000ae3724bb2d40d46ea2995718d05a",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_horizon/dra_dragon_00.tga",
+      "sha256": "28dbdb7af29471d370df8fce14b1a5e7f1397c89e92290aaec153b666ac2d9fa",
+      "bytes": 64244,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/min_dragonic_pierce_vertical.str",
+      "sha256": "e2146ab2d2c32e167fd25d014366c44f7ad4f884fe3db89fd6904a363b3edf2e",
+      "bytes": 8844,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_glow.tga",
+      "sha256": "db0fdd8fb95652b74870e6035e7bac0490d8377e255b27881e3ecf212cca71ba",
+      "bytes": 7644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_wind_00.bmp",
+      "sha256": "bcd320bce2baa0147b4ba37fec1ed359180eadb153462bfbf58c19f5c5aa81e7",
+      "bytes": 31016,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_wind_01.bmp",
+      "sha256": "579d460ad14ac41aed2112f42259ead1b722d03a0fdbd9387fbb0ac8c8d77b5a",
+      "bytes": 24356,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_light.bmp",
+      "sha256": "dd9ad53780084c7a4b490ced97ba7bf3299f113568ac704d543f33efe3081d53",
+      "bytes": 51128,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_dragon_03.bmp",
+      "sha256": "0dac6333a8aca5569023f4585f8383fb2b5a9f84dc7ab593ad34eb1ccd3a1be0",
+      "bytes": 66056,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_particle.bmp",
+      "sha256": "a6c99c8fdad2ae09b2b0f53424b2e626eca0d3cdffaeca189496e552de0365d4",
+      "bytes": 46136,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_02.bmp",
+      "sha256": "1ef76482337bfb254218f5cd4591d28bb5be6f4170b39d89209f790b8a359ba9",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_03.bmp",
+      "sha256": "d76a6ed36b29d840683d3e1aebaef9723599512737669212b72b2018a08a26e7",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dragonic_pierce_vertical.str",
+      "sha256": "a08a5c0c1b3a1c041a352fec64ce56c2b36984d1564a6c8a09cdbf6013399b36",
+      "bytes": 13144,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_01.bmp",
+      "sha256": "133ffcd5a5607b7a6d2e5a46ca2a19fdc6280d6dea52eeb18f3e9c9c191c4a1f",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_00.bmp",
+      "sha256": "dce5db5660f5f86494be8705a1eae89c9e765fdd79f4d35369b59b40934f6139",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_04.bmp",
+      "sha256": "dd39bef20755f07077f36f6d7d019681f2b5f956f55d6c1b829ecd91206cd7d7",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_05.bmp",
+      "sha256": "388949c1c16aaac6792f2f9fbb1dcafcafb142c07286dd59eb8a2fbe3e8b7930",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_hit_06.bmp",
+      "sha256": "07a3a63e5a883839b51efd02aa1d83f28b74dd810cef03af66bc7da6778f0675",
+      "bytes": 27880,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_center_00.bmp",
+      "sha256": "6041e5becc21541b8d26bdc0125a5a23527d272ba9755b2ff7c9a0bf166a210c",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_center_01.bmp",
+      "sha256": "15fadcc3d2a3c9163fae8086ea6330a788f2324a46b7d066d7e33558d9ebba8f",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_center_03.bmp",
+      "sha256": "f016728b753f48225656caa957497f6bf5800ab9af836bde26af18407103718e",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_center_02.bmp",
+      "sha256": "f4d1fd66a0defc4419d103bebb5ce3755000ae3724bb2d40d46ea2995718d05a",
+      "bytes": 7736,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/dragon_knight/dk_dragonic_pierce/dragonic_pierce_vertical/dra_dragon_02.tga",
+      "sha256": "2725322fd1214a12d07561b5139fd426ecbf218bb206e67f6032f398bc9c3356",
+      "bytes": 88044,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_5.str",
+      "sha256": "5d8e23f7a156d959f27c250bb71ddee515682dc1d597703cf8f2d76f3ff89fbf",
+      "bytes": 3184,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_00.bmp",
+      "sha256": "dc0b63181fbd534d19c0c66ae4b6fcd4f45bfbbf837a866a79425289f9108f6b",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_01.bmp",
+      "sha256": "78c51493578c091faca7982d33974591369f5c822ad43b6903f08b7503515287",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_05.bmp",
+      "sha256": "72319ffecfcef8c4bcee66380974ad800cd0ba3e0313bf1f1e911926a84c39dc",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_04.bmp",
+      "sha256": "8b9dde90b112ad7cd872ea4270a6139f6fa36e447e9f74a200c8dbdeca0e938d",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_00.bmp",
+      "sha256": "219dcd34fa1f5d60468c9dc4e46a9f7c151b8dd1c07b27c8a8a7d0c53255e897",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_01.bmp",
+      "sha256": "73e154f4d4346322f56478ef9555ccf23241e2a60e7a3debca9cef5563fcbbe3",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_6.str",
+      "sha256": "a913d39c0dfbd6af55c01be9af5e7f74f564442cc106a26bbb3d8fee4bb60f8f",
+      "bytes": 4340,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_03.bmp",
+      "sha256": "228d5f5a35e665534f56c9ad4990f496848644a155d15abd3704653d809fe5b0",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_02.bmp",
+      "sha256": "a0d28dbed548150b644dd96f54fd4b29a9f0b86e5069b6026bdcf915df3c5a66",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_06.bmp",
+      "sha256": "8b32760e73bfce69b5380b1449df28378a193c150d6dfd09bfcff7085c2af0a9",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_07.bmp",
+      "sha256": "d64c6edfdb6b4f972ba0e00a443a8aeb1b1f3528c61eb163796357f152f6dcdd",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_03.bmp",
+      "sha256": "34aabba973b187a4564afd7df5dba3fd949c101db35edab2936975745e03a2d0",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_02.bmp",
+      "sha256": "8152923a0995c9ba340b0d377a72b738a494567afa33642ff4b909e56d148698",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_7.str",
+      "sha256": "dc20e608d1e15950bb77085cde00d9068c302442d34b007625472bebb1400b25",
+      "bytes": 3184,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_3.str",
+      "sha256": "1e8cf3defe90ee32eea64decffc4906e65f91dff7b5717aa72ea2b0dd3953325",
+      "bytes": 5084,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_06.bmp",
+      "sha256": "ee29320f6413be1a6d1fe02d14dc2c80f067fab53332470a22ee4d09341365d1",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_03.bmp",
+      "sha256": "9a89f61a1cada2ea4b6edd52bc0d57cb8056010587f7f91381ded3d2d13eb486",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_07.bmp",
+      "sha256": "78b354fd6463a796f7213fe11f0f5d5f0cd946f1899f55b8ead866eaec2a4619",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_06.bmp",
+      "sha256": "972d97047f6971736b552ccb2ccbb883675da3746dbdbff6d17099e64745671d",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_02.bmp",
+      "sha256": "f13557973128946dcedaf497b4b23dd0f39d7d82e91850ea93ffc8287a9c8854",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_07.bmp",
+      "sha256": "7449194a331332be2564087974f192af2f14b2628b7d821a4cb4349f4e283128",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_05.bmp",
+      "sha256": "0aa2b606da5ad25da25f068070d87d5013d29c25d19535bbbb442e71b278471c",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_00.bmp",
+      "sha256": "33d3d1301d2d16ac1db5cd657f5ab7d78ca23eeed0af3967e6c7ea5a61f18c33",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_04.bmp",
+      "sha256": "acb1f21d36244693b33f816839898a960f6e7309ada82ea234f38addc486cc80",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_12_05.bmp",
+      "sha256": "815fe7539897094a06b05ce96d37e5914a89bb2095efb95c502ba0d8472c621a",
+      "bytes": 27192,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_3_01.bmp",
+      "sha256": "9c1d31c5605e8bd8ba0cf3f7e6e4054c539f0999f1ed13d61f0fd5763a2223d1",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_1_04.bmp",
+      "sha256": "c8fa938022ff2ada8707e41f17990ce749f7c7bbfaa4a2ca1933be9173ce06cf",
+      "bytes": 51896,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_1.str",
+      "sha256": "9237f318c56875c2cc5387c8efa06559be36c20931b683b044331890dc013e56",
+      "bytes": 3184,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_07.bmp",
+      "sha256": "ae6107e9b850e4d14cce3df6a45997cf2dc5cb3a8ff4998a558ab0a7c78762d9",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_6.str",
+      "sha256": "b1b4c7b8fefab74dd9d036edc96c2a565b9114a6353ddf947e961581b5cb6aa3",
+      "bytes": 2548,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_7.str",
+      "sha256": "4498aed6a3ab8c9ff561badfb3633c968494a125036cc322a698fc53459a6d15",
+      "bytes": 2288,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_06.bmp",
+      "sha256": "bc2b3912487cd8a71868665b911d8710da048534c610ac7466f8ad3bdb06df29",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_04.bmp",
+      "sha256": "6a134ddf3a6ec8506a11c820e88f4a764b9c57c3474214d734705701f785f399",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_5.str",
+      "sha256": "dd6ffb2467c1c70abb9a0ccc8c74201137bae19d803c98ec4a4fec2041aad46c",
+      "bytes": 2288,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_05.bmp",
+      "sha256": "4dc8548b031fdb6ffc7f353efa9febd0fa1cc4e811fa5b5ab862ba918f5aad46",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_01.bmp",
+      "sha256": "b5a9a863e8e6da7bf127961dd9ab07ec64e9cde56c5f2a81189ef005c3f91e23",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_1.str",
+      "sha256": "3db9115da9fd26a9f7ee6b7a812366fd61bd2a0d329c7c467b27e46e92a0e64e",
+      "bytes": 2288,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_00.bmp",
+      "sha256": "16b9478f380db21d68a60d9dbbfddc5631b2141afae454c849327a79f4736a27",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_02.bmp",
+      "sha256": "0017a4b6d5d716dbc02ebde4fcf275ed88308161623c0ff8108ff9d76dce65fb",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_3.str",
+      "sha256": "dec31dff0314cc6951ef8739fb81b667ae8c87ef6298ccd7ca3af2a51e3f3e11",
+      "bytes": 3292,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chs_wave_5_03.bmp",
+      "sha256": "4a64d6023b0f22240e9b38bb1d85f15eb391129eee767aef0e1bc7883cc71437",
+      "bytes": 42552,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_9.str",
+      "sha256": "c1bc85f552aab454917e52377ef8b3ac2b64b2802fabb3d1a51b6d5acc42f86d",
+      "bytes": 3292,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_12.str",
+      "sha256": "471e0e275b0200bf33e3b9956310923521280b8531a59bc392e232331f197090",
+      "bytes": 4340,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_11.str",
+      "sha256": "84ebe1165a7e107fd33eafb74cf04d9d6d985ae7dffd715a1789fe52ba845de8",
+      "bytes": 3184,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_12.str",
+      "sha256": "c1415b62f1881e92f3c9d2ef31acf3c1fa8e3f7155eaa649aced4a4f837036de",
+      "bytes": 2548,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/chul_ho_sonic_claw_wave_9.str",
+      "sha256": "6f47b7a220e676ec540446dd5f9fc15377c9e22c18daffd6d614f020396287cc",
+      "bytes": 5084,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_sonic_claw/chul_ho_sonic_claw_wave/min_chul_ho_sonic_claw_wave_11.str",
+      "sha256": "e4cff877752ba6b52826f8119c1f7309dae4e1152f1710a39b808e9464db0c97",
+      "bytes": 2288,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_hit_claw_01.tga",
+      "sha256": "0e2514ab3cd2a2e364f3f86597e4a2e7bdf02194a6aa0507cdc0d6c1025e8896",
+      "bytes": 102444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_hit_claw_00.tga",
+      "sha256": "c5fde40ad35be1eb305afbbe25843b11253f024781fb4da0921da2b9d215136b",
+      "bytes": 102444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_hit_claw_02.tga",
+      "sha256": "97a9ba1359032d7d6d02008af0e4a51c511754ad594b3cabd07cb9a57ab98985",
+      "bytes": 102444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_hit_claw_03.tga",
+      "sha256": "84f9139168fded497c5a116a5d30730925be4028583a7bc4d8a9ea562155ead1",
+      "bytes": 102444,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_glow.bmp",
+      "sha256": "31d610e580c80714edb7d9c167fdc0031397c34474670f4c3fbbc38c8bbae675",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_radial_back.tga",
+      "sha256": "a9a0369f3d670341fa29288c164139af2a3b39889c2c47ff871de58fbd87f481",
+      "bytes": 16428,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/min_chul_ho_battering_hit_left.str",
+      "sha256": "2aa1e0abfec7820c99b461d3b5d8537fdd972b74df4ed85b6a5ed375e33d830d",
+      "bytes": 4084,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chu_spark.bmp",
+      "sha256": "5a3e4c31ffacdc4847ae5c8cf3bfe15062ffd996fc61786f69e0e310919e9ba4",
+      "bytes": 4856,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/min_chul_ho_battering_hit_right.str",
+      "sha256": "b9d988e6b2fe289d65a7e82ed8cdd0bb82482417c62be3f89fcdc688bd81b5a2",
+      "bytes": 4084,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chul_ho_battering_hit_right.str",
+      "sha256": "0724a5ca309048c8ae021d1a0d15af700dc9b1dac349af7ed8daca8d35f4fae7",
+      "bytes": 7492,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/spirit_handler/sh_chul_ho_battering/chul_ho_battering_hit/chul_ho_battering_hit_left.str",
+      "sha256": "5aafe242841d01022b505a8d8a240e7541179d38591b07e9dad5fdc4ee660f34",
+      "bytes": 7492,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind02.bmp",
+      "sha256": "46f840796f499ceb2438c11e3bb574e788edbb8f8d41780e4ea511b4403c4174",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind03.bmp",
+      "sha256": "0c3458e73e4e0bacc72aaef5767c164594bac198be4fb1b65f39fc798df14e90",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind01.bmp",
+      "sha256": "b1b1a2c2a6e4fbd5c920f1757c09678ab6b345b670f3b21e7f1a1adc442415b4",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind00.bmp",
+      "sha256": "476e0ede61c5d645dd4921fdae270f89cb7fb926522bbb6cb0a59e81d03eaf65",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind04.bmp",
+      "sha256": "df81e8d89115b7aafcf6b498a2210826819b146d6d6ce0224f428a99f414c828",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/min_ske_twinkling_galaxy00.str",
+      "sha256": "a8bd2a5d1e3cc4c06c3e048e9dd4524eeaa07815b13750e7a80c85640d0d3f4a",
+      "bytes": 4060,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind05.bmp",
+      "sha256": "b0a58fa655c41f1f1c939a973aa32bc955351553cde8de733e2c54025594be10",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/min_ske_twinkling_galaxy01.str",
+      "sha256": "299c354881057c056d3208acd67086d5d83176c3cd4cc1542e71a44e39744007",
+      "bytes": 4060,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/min_ske_twinkling_galaxy03.str",
+      "sha256": "d5fc005d4b948eb8a2cf612432dc3f35324aab5df8b086478b04972429b99038",
+      "bytes": 4060,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/min_ske_twinkling_galaxy02.str",
+      "sha256": "49812e2a799c02c5e3004c9555764518899714b2cd1f29eaec04d182ca7834f4",
+      "bytes": 4060,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_wind06.bmp",
+      "sha256": "08671df0e15397e6db94315898cfb85c842a513634af9197acc6b4f84dcc6ded",
+      "bytes": 46904,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_light_line01.tga",
+      "sha256": "dea2ff10e7ac7ab69f36bdd5bf63c4f44ba4174761b78eb41ea2f9a4e162dd71",
+      "bytes": 32812,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/ske_twinkling_galaxy00.str",
+      "sha256": "bb85a87bd1f3192feef68c2e296182c977490c1b07faed36f9a1110bc01da018",
+      "bytes": 14952,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_circlealpha.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/ske_twinkling_galaxy01.str",
+      "sha256": "9461ead73612535903f5c10da783b47547b225c387e5c710942172fe7cf50e95",
+      "bytes": 14952,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/ske_twinkling_galaxy03.str",
+      "sha256": "16dc9ccf322788243603de8a1a17ffcb812793b7cd7bf979806c8d6fe9818cb5",
+      "bytes": 14952,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/ske_twinkling_galaxy02.str",
+      "sha256": "f58ad7d063ffb8775f9a9e75f73642a6a1b82d99e7e1a0c491d501cbe06553bc",
+      "bytes": 14952,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_star_trail.tga",
+      "sha256": "fa58e643ab7a2115e5da4ee0a258ef1c07f2cf42074bcc3fc34414dd837afe8a",
+      "bytes": 32812,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_stars.bmp",
+      "sha256": "2ed7979c375baac41f66f46b5a30b9b4717067d935b7c19fb2eac5fe518ac420",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/sky_emperor/ske_twinkling_galaxy/twinkling_galaxy/twi_lightparts05.bmp",
+      "sha256": "18971058a5fac6361a867d3b431c31715d1e0c1a56bafb914857b55ab9277b19",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_spear.tga",
+      "sha256": "7a291c43c94bbf1e8e9f0c2b8587fd1cfd5866d801c385cdd4a3f8b8f493ea7b",
+      "bytes": 225644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_spear_back.tga",
+      "sha256": "8d4f2ebab8bfbbfd6aa32b5cd467e8ebaa3e2600d214dacae0e2362a98da6622",
+      "bytes": 31276,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_02.bmp",
+      "sha256": "7ec54b8927f685c38aa9a38fbfda7d46c367f9711c077f61b6f1bccc7b10a69b",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_03.bmp",
+      "sha256": "a53c31c5c94310032cb810d1c13401b4bcc9d91fa557785a3e2af67a23cfa731",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_01.bmp",
+      "sha256": "09d716f44b212859d748a73b190bb8dac6e1934d4ac20e4a1ccd019f18dda019",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_00.bmp",
+      "sha256": "b21ba9d9676e710fe499ff3d59cdb18fd23310c01490c16c3b24cf67f3999ee8",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_04.bmp",
+      "sha256": "790115c435d755587c362b8793aefd2b583b59fa75065157cfa058c79cd9b726",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_back_glow.tga",
+      "sha256": "f3408104a49d8169f392ef24efbe1c0d0d6f57bb68cbb894d1cd4028664b77ce",
+      "bytes": 16428,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_05.bmp",
+      "sha256": "91bd6ddad127456146e71e7e5f64578c12a74e86fe9a5d90e3d64442d082e618",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/min_radiant_spear_rightdown.str",
+      "sha256": "51b3df52aea8d21f84b5f0b1c17c6b552ea6f3f27c1e2464b70851950a341b9a",
+      "bytes": 4812,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_circle.bmp",
+      "sha256": "ad0a73485dce54e4cb9090186f679fd4aacc0fabf5e0d160dc10cbf8c8a6b121",
+      "bytes": 26936,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_helix_06.bmp",
+      "sha256": "a0dc01560f1d2bfa147435aec5c8b7a43515617bbc072ec1e235563c6842a61d",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_ray_back_02.bmp",
+      "sha256": "76e7b6872197ad1e7a80dabe94030da98b615b76a2f427b8d31aa96d7becf85f",
+      "bytes": 26936,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/radiant_spear_rightdown.str",
+      "sha256": "a233ff980eda6e9697c79b094990b8c8292081a90a1268a36f427d19c8880869",
+      "bytes": 35752,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_shine.bmp",
+      "sha256": "a17fb68e46fed5c17a3533ddc1cef51730c1f078ca39ad758bb620723960c071",
+      "bytes": 23608,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_ray_back_01.bmp",
+      "sha256": "58caf5e62355d08a4c82c74afd25b3ad932e79b64abdbb2ea7dfddc302dc0748",
+      "bytes": 26936,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_cross_01.bmp",
+      "sha256": "c00a19752a3853ab4cbd4128fd1c859e8fda7e0dd45acf63e8900f01fcb54632",
+      "bytes": 145432,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_cross_00.bmp",
+      "sha256": "c6603eaa85600fd9d4d0373354a2b677e2abd7682dcd254db802400f47cc63ac",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown/rad_spear_ring.bmp",
+      "sha256": "13aa57f46190d4fb5a86f7ad90e3967d6a11b714b73bbf9fc896c502bc72801c",
+      "bytes": 22712,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown_bottom/min_radiant_spear_leftdown_bottom.str",
+      "sha256": "c40c2c8ea28d45fd83ccaa3126a3f4ed5385b1af4c07dcc5d61f1ddc42171191",
+      "bytes": 4060,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown_bottom/radiant_spear_leftdown_bottom.str",
+      "sha256": "dc890cf1a43ea5cb6b0f57c49e48b31eab3e0e072bb673870a36dc216b881a94",
+      "bytes": 6068,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown_bottom/rad_back_glow.tga",
+      "sha256": "f3408104a49d8169f392ef24efbe1c0d0d6f57bb68cbb894d1cd4028664b77ce",
+      "bytes": 16428,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown_bottom/rad_shine_out.bmp",
+      "sha256": "75c20d74a16bbc56d36edc0e217bcefa9694a3064c2db5922b5e0c49243ca5aa",
+      "bytes": 37688,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown_bottom/rad_ray_bottom.bmp",
+      "sha256": "dcd64aee700fd5c7e0b083fd8d1492c53f5deedef86261cf87ab960ac4daf9a3",
+      "bytes": 21944,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown_bottom/rad_back_glow.tga",
+      "sha256": "f3408104a49d8169f392ef24efbe1c0d0d6f57bb68cbb894d1cd4028664b77ce",
+      "bytes": 16428,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown_bottom/radiant_spear_rightdown_bottom.str",
+      "sha256": "dc890cf1a43ea5cb6b0f57c49e48b31eab3e0e072bb673870a36dc216b881a94",
+      "bytes": 6068,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown_bottom/rad_shine_out.bmp",
+      "sha256": "75c20d74a16bbc56d36edc0e217bcefa9694a3064c2db5922b5e0c49243ca5aa",
+      "bytes": 37688,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown_bottom/min_radiant_spear_rightdown_bottom.str",
+      "sha256": "c40c2c8ea28d45fd83ccaa3126a3f4ed5385b1af4c07dcc5d61f1ddc42171191",
+      "bytes": 4060,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_rightdown_bottom/rad_ray_bottom.bmp",
+      "sha256": "dcd64aee700fd5c7e0b083fd8d1492c53f5deedef86261cf87ab960ac4daf9a3",
+      "bytes": 21944,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_spear.tga",
+      "sha256": "7a291c43c94bbf1e8e9f0c2b8587fd1cfd5866d801c385cdd4a3f8b8f493ea7b",
+      "bytes": 225644,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_spear_back.tga",
+      "sha256": "8d4f2ebab8bfbbfd6aa32b5cd467e8ebaa3e2600d214dacae0e2362a98da6622",
+      "bytes": 31276,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_02.bmp",
+      "sha256": "7ec54b8927f685c38aa9a38fbfda7d46c367f9711c077f61b6f1bccc7b10a69b",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_03.bmp",
+      "sha256": "a53c31c5c94310032cb810d1c13401b4bcc9d91fa557785a3e2af67a23cfa731",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_01.bmp",
+      "sha256": "09d716f44b212859d748a73b190bb8dac6e1934d4ac20e4a1ccd019f18dda019",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_00.bmp",
+      "sha256": "b21ba9d9676e710fe499ff3d59cdb18fd23310c01490c16c3b24cf67f3999ee8",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_04.bmp",
+      "sha256": "790115c435d755587c362b8793aefd2b583b59fa75065157cfa058c79cd9b726",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_back_glow.tga",
+      "sha256": "f3408104a49d8169f392ef24efbe1c0d0d6f57bb68cbb894d1cd4028664b77ce",
+      "bytes": 16428,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_05.bmp",
+      "sha256": "91bd6ddad127456146e71e7e5f64578c12a74e86fe9a5d90e3d64442d082e618",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_circle.bmp",
+      "sha256": "ad0a73485dce54e4cb9090186f679fd4aacc0fabf5e0d160dc10cbf8c8a6b121",
+      "bytes": 26936,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/min_radiant_spear_leftdown.str",
+      "sha256": "184aa4a00eb084459f110d14c676d44a865c0e2a1a461a23ef3582489b981c72",
+      "bytes": 4812,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_helix_06.bmp",
+      "sha256": "a0dc01560f1d2bfa147435aec5c8b7a43515617bbc072ec1e235563c6842a61d",
+      "bytes": 29240,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_ray_back_02.bmp",
+      "sha256": "76e7b6872197ad1e7a80dabe94030da98b615b76a2f427b8d31aa96d7becf85f",
+      "bytes": 26936,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_shine.bmp",
+      "sha256": "a17fb68e46fed5c17a3533ddc1cef51730c1f078ca39ad758bb620723960c071",
+      "bytes": 23608,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_ray_back_01.bmp",
+      "sha256": "58caf5e62355d08a4c82c74afd25b3ad932e79b64abdbb2ea7dfddc302dc0748",
+      "bytes": 26936,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_cross_01.bmp",
+      "sha256": "c00a19752a3853ab4cbd4128fd1c859e8fda7e0dd45acf63e8900f01fcb54632",
+      "bytes": 145432,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/radiant_spear_leftdown.str",
+      "sha256": "7eb7ae4634b6e374ccd6449e7ca14ece422007dc94c48414be2aad7eb2660082",
+      "bytes": 35752,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_cross_00.bmp",
+      "sha256": "c6603eaa85600fd9d4d0373354a2b677e2abd7682dcd254db802400f47cc63ac",
+      "bytes": 49208,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/texture/effect/fidelity_next/imperial_guard/ig_radiant_spear/radiant_spear_leftdown/rad_spear_ring.bmp",
+      "sha256": "13aa57f46190d4fb5a86f7ad90e3967d6a11b714b73bbf9fc896c502bc72801c",
+      "bytes": 22712,
+      "source": null,
+      "status": "source not found"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_hasty_fire_in_the_hole_2.wav",
+      "sha256": "3175b05ee99977ded776ebfb089300b378cd3fb856df42cde896d29d4463f068",
+      "bytes": 68548,
+      "source": "data/wav/effect/night_watch/nw_hasty_fire_in_the_hole_2.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_hasty_fire_in_the_hole_1.wav",
+      "sha256": "c6d5965c1747354e1340b4f8f40333d3ebf3fc9044dcf2ff703fcc3286342e2a",
+      "bytes": 49752,
+      "source": "data/wav/effect/night_watch/nw_hasty_fire_in_the_hole_1.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/night_watch/nw_hasty_fire_in_the_hole_0.wav",
+      "sha256": "575317c73fa71fd246904c7bcbeecb1202e63720d5276e3d4f3873cd51ea50e5",
+      "bytes": 39404,
+      "source": "data/wav/effect/night_watch/nw_hasty_fire_in_the_hole_0.wav",
+      "status": "verified original path"
+    }
+  ]
+}

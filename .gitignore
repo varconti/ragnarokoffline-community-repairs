@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+recovered/
+*.grf
+*.tar
+*.wav
+*.spr
+*.act
+*.str
+*.pal
+*.lub

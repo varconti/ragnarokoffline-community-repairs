@@ -1,0 +1,1249 @@
+{
+  "name": "upstream-effects-merge",
+  "description": "Supplementary resources used while merging upstream effects with local event/lifecycle repairs.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_01.tga",
+      "sha256": "a3e00866391fa4d3848020fd70340bab24d8c8c0500530220c78766fd831de8e",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_00.tga",
+      "sha256": "bb3fb3fa4f991c2941eec2921b1fc7712ce4817c1cdc12da7d9b9ba1adf024c6",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_glow.bmp",
+      "sha256": "5e64c653ed67f62e4b56949c16683b947e1e71d2b89c0d4de8408dbbe856c4eb",
+      "bytes": 12344,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_glow.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_02.tga",
+      "sha256": "7b709565d4cc1d4dd732f00d6784b9f869eb37277c1e94dd91eaeeb4e236307b",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_03.tga",
+      "sha256": "1044e3848e5577c8cf1804a7bad02a76ade56f21eb218cacd25a267272009522",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_06.tga",
+      "sha256": "8d19213cf85dd621d0a14bbc2650111f72b7db24213ff17319d747903de57f92",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_06.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_04.tga",
+      "sha256": "3e9eb8245325f88ef97c871aecbbf5fe8255cb0c6550c3263aac0bf63a229a84",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_05.tga",
+      "sha256": "a6e6ea409eff191adf4b04ce567ac342a847f8c0d905a8272774155a4e77f4e4",
+      "bytes": 21548,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_smoke_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_BD.tga",
+      "sha256": "d0753205c561e2e9d974704c4d978d50f3c808c2c315b63feac083520446bf6d",
+      "bytes": 40844,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_BD.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_03.tga",
+      "sha256": "bccef8c41a8fb16e43ca592cda0396b8b039d000ad54a7457e9676bb27397141",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_02.tga",
+      "sha256": "22748eb0cfe12516c55908b8dc5d3dc3010488fb1c84b928a94339c4cf8052d6",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_back_scar.tga",
+      "sha256": "3b7cb12ac0da0ac60c358b5c2b6556751e7016f4ba88edfc2cac4e060ac1a8be",
+      "bytes": 40844,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_back_scar.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_00.tga",
+      "sha256": "7754a5f9d86aa2d613d764dcf574b438fc17955e8975cd19b02e036adc084714",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/min_cross_slash.str",
+      "sha256": "17983c1cfe7ce7799e0ee659782d7e732b7cd652716abc0e34363799aedcec4b",
+      "bytes": 24936,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/min_cross_slash.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_01.tga",
+      "sha256": "43cb22e31f29882b981b849b13934979ed6adfb1c5fa9d71fb3f8638d7d29d5f",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_glow.bmp",
+      "sha256": "c5fb60f09d3ae4464f3f81dbcf74dac657b5b01819914993df676a951ab8f2d8",
+      "bytes": 6200,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_glow.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_05.tga",
+      "sha256": "af4ca51fe6400d283a0ffc686417a3f0277a832ae13c3b3cbde610f251a8915d",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_BU.tga",
+      "sha256": "b35c56a03605709e1b3cd733a293c643672bca8475f744fe1e5a06212b8c311b",
+      "bytes": 40844,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_BU.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_04.tga",
+      "sha256": "8064094b911cf5154489642e215471684c56f82904e70c7b23c70661cdf2d6bf",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_06.tga",
+      "sha256": "855f65b5065c9c5885bf1ab54b97e25fbc103e2ea31317c6d1f98586e9d7825a",
+      "bytes": 72044,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_particle_06.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_back.tga",
+      "sha256": "9a5e0c05d63738508361542f1e368665719b1fd3c603971d8d2636e9b04ba508",
+      "bytes": 27244,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_back.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_AU.tga",
+      "sha256": "18f8c10493b15d6913c5a33701a918ff94df157396a3df39f07198955fa83440",
+      "bytes": 40844,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_AU.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cross_slash.str",
+      "sha256": "0eb6ef254e80aa877c6db49e300af46c78286ad06abb9bd386409f9f9a6b5184",
+      "bytes": 44784,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cross_slash.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_AD.tga",
+      "sha256": "63f3b182d23889857fcd30cbd9ffd97834e50688ef6990a03257d60b730e3e86",
+      "bytes": 40844,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_sword_AD.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_glow_red.bmp",
+      "sha256": "9174db5289d7c48ad35c31ee1714d15df8b601e931db1749797452729690de07",
+      "bytes": 12344,
+      "source": "data/texture/effect/shadow_cross/shc_cross_slash/cross_slash/cro_glow_red.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_hells_drive/hel_ground.tga",
+      "sha256": "d61d690c0d2b66facfecc7addfb52974a4b4f564ec025644fb629174139659e2",
+      "bytes": 65580,
+      "source": "data/texture/effect/hyper_novice/hn_hells_drive/hel_ground.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_hells_drive/hells_drive_bottom.str",
+      "sha256": "df881713d4091bdc7a92e24db067f1faa69f16efcff3404c38a6bab9a84d9fff",
+      "bytes": 1556,
+      "source": "data/texture/effect/hyper_novice/hn_hells_drive/hells_drive_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jupitel_thunder_storm_ball.str",
+      "sha256": "d28cd5956972ab811947683070392727dc7d5ad58f221d939d93d36a38397008",
+      "bytes": 7900,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jupitel_thunder_storm_ball.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_04.bmp",
+      "sha256": "fc6c810da7920a90045dfa251b0b257b4062401cdc8cdc670964ed7030d8eb21",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_05.bmp",
+      "sha256": "c4f2879b77ee80d8aadce98c45379919f1f91c21fa68fb482f69b7f2a5f2f227",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_07.bmp",
+      "sha256": "cb582f67cf7b1891db7fd8c7bc84cd364d44964fe351f2bc783d842d5ac909ba",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightglow.bmp",
+      "sha256": "dde2b4c7cdd76c698364870f9e2e07539e10694b50eaa9090aa5d28dd4bd82fd",
+      "bytes": 12344,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightglow.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_06.bmp",
+      "sha256": "5ce92b20f66698d69cdc5debb0d3dca6d0d44f2c792042bff331ae702b08e94f",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_02.bmp",
+      "sha256": "15b2100cb6782e162c8b2e819b7843073753572bd65ef726e9f7329803c9df81",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_03.bmp",
+      "sha256": "d943fe16436eb571816f513e96a1832a9d6a807c9d7b40bbefd430abb0ba2c08",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_01.bmp",
+      "sha256": "826235b4eab8cf9511178616c6f39f0b3d0740d85e83a044ec2dc27c90fd4572",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_00.bmp",
+      "sha256": "e53d5d09e3a5da8005a07db860e27aa3ef9248aaa3c4eee6da7f8be1303bfc90",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightcol.bmp",
+      "sha256": "97ecb20b374bf438caf403e0368612357818aec743c1ef68b8776bf2487aa81b",
+      "bytes": 24632,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightcol.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightparts05.bmp",
+      "sha256": "18971058a5fac6361a867d3b431c31715d1e0c1a56bafb914857b55ab9277b19",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightparts05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_08.bmp",
+      "sha256": "22e57ede7ce8a20e87adc2fecf0db9361acbed97ed587caea6c95983f5bfd03b",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_09.bmp",
+      "sha256": "d26e19ab1a4bd3af726c46643dd0da2c12a03d8c09509ee70640277e8c79ab93",
+      "bytes": 49208,
+      "source": "data/texture/effect/hyper_novice/hn_jupitel_thunder_storm/jupitel_thunder_storm_ball/jup_lightning_circle_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_glow.tga",
+      "sha256": "db0fdd8fb95652b74870e6035e7bac0490d8377e255b27881e3ecf212cca71ba",
+      "bytes": 7644,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_02.tga",
+      "sha256": "4b21a92d356689ac2931ecde31ce6103951be78b785f5def9e2b67bfbf9d6033",
+      "bytes": 28044,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_03.tga",
+      "sha256": "0870798c6148dc534189198822c90967378b3c893a17d8f01b290bbdfdefb087",
+      "bytes": 28044,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_01.tga",
+      "sha256": "0e4f8d5e8b7744d2dbb8c1123cf6a189cfcf1d04f4720c72b9587c5920dc1d10",
+      "bytes": 28044,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_00.tga",
+      "sha256": "02d3ff9b214f72f3de03fb6938149b172a494e6de986882ebe2835c18ff3540d",
+      "bytes": 28044,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/min_dragonic_pierce_bottom.str",
+      "sha256": "eaa71c7e688fad972a212ae195e52498c0eeac32d30d55e265c7931d63d90e18",
+      "bytes": 1308,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/min_dragonic_pierce_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_04.tga",
+      "sha256": "ef52663137c375ebe93f316497b9e4d234d609ec9dd7fe7472988c9c07f001e9",
+      "bytes": 28044,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_05.tga",
+      "sha256": "b90d00cefa48887c484e5b6672f773b2f3de748af1840b1f8d1a7581c08deb94",
+      "bytes": 28044,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_shock_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_flare.bmp",
+      "sha256": "c27a6473c9b817a701c44ec8435f7171ce0a8102cc9e282f017c99248423aa52",
+      "bytes": 21056,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dra_flare.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dragonic_pierce_bottom.str",
+      "sha256": "32a6b79b76165395c94bf445bdfba9b882c123dd4179715acdc3a8d3279f4751",
+      "bytes": 2704,
+      "source": "data/texture/effect/dragon_knight/dk_dragonic_pierce/dragonic_pierce_bottom/dragonic_pierce_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_bottom.tga",
+      "sha256": "f72bf89dc6c3f96898e4e569a23efdfc699ff3977aadca067776c327a61a4cbc",
+      "bytes": 126044,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_bottom.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhythmical_wave_bottom.str",
+      "sha256": "4c7a665db20853e94f86e46d4a3caf11468a5fa759944b66b3ad438df33af093",
+      "bytes": 27340,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhythmical_wave_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_09.bmp",
+      "sha256": "da81a450348e4dbd78ec6f94ae833dac81f35d58b8b9ca219a0e7b7c038df42f",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_08.bmp",
+      "sha256": "e14ebd991ecc28e9c99dda26a02e49b93e6d07dfa0a68b5ec8a5d1a9ecb645e7",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_06.bmp",
+      "sha256": "80565d0dce364d7ea6fde27e38adc0a4348ead1fdfb8451d74140f29dcd9a7f9",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_07.bmp",
+      "sha256": "12caa970e560d1fc7a334b97a10d0a4f3bcdbb637b9be47ef11c9f894f7ac2b1",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_05.bmp",
+      "sha256": "3eae47d2bad06793337a442920714242ec230dfd5f829e3a8ee6f1a288b3f4e3",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_04.bmp",
+      "sha256": "a678ebf0ac6b599aa63a0aaad7c28f544902c5add586fc6c786bd4e5f1655828",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_00.bmp",
+      "sha256": "07f9e7b247eaec73e566e0a50bb449daf8ab65ddff7953464d074bd72c2365d5",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_01.bmp",
+      "sha256": "b295d14ed951db5d9bb2ff2a8d8ff36404f67223f43a72421198e948c213df36",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_light.bmp",
+      "sha256": "6dc948bc124a60c6e9b4c8357e05911f46ea8989287fda44b713bb3057d8211a",
+      "bytes": 29752,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_light.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_03.bmp",
+      "sha256": "03e1bd708cf2ae5fb58b9a95f6527b3f32efdfe0e305ddd8abf91460307795e3",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_02.bmp",
+      "sha256": "70248000f3c3c8a8998d2688b0545f001ebb31a1906e623154378c8fa3e0015b",
+      "bytes": 117656,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_shockwave_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/min_rhythmical_wave_bottom.str",
+      "sha256": "71a91772bd39c8630bc65c56e206c124113e9739a6530d1eab653ce3d9fda415",
+      "bytes": 16220,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/min_rhythmical_wave_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_glow_01.bmp",
+      "sha256": "a544ff3ae85c70217c273fd525ee0b2ba559f508fafb69d74b203952621ef96c",
+      "bytes": 12344,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave_bottom/rhy_glow_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_light_01.bmp",
+      "sha256": "cda0bb4ac8d76b5e885657aa9c2fe8097e2df915f62b5a5ac3a6b203ae23566f",
+      "bytes": 49208,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_light_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_note_01.bmp",
+      "sha256": "13185ace757d14c152e830a66c20229c6d3b9cb779e9f00036f56db2b8bb48af",
+      "bytes": 12344,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_note_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_note_00.bmp",
+      "sha256": "de90b9e6011a45622be629e608f0e93d754e84df257f904e9b2cd6a676db4ac9",
+      "bytes": 12344,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_note_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_note_02.bmp",
+      "sha256": "ecbb235650a8d2d00295d5dad07029529cbf9ab5613ce5ad01696459d45d76b5",
+      "bytes": 12344,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_note_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_03.bmp",
+      "sha256": "c770a600ce872417ffebc439e57962437d9b3e3578ac2a7f4427411663206685",
+      "bytes": 49208,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_par_note.tga",
+      "sha256": "8e43c29f9fb41dce31df6535a7e1d2b78284023c71fd207016ce7b38bbd91d7d",
+      "bytes": 39524,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_par_note.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_02.bmp",
+      "sha256": "82d30d07c28d9c04f95fc5500585c03995250c6f5a44f82680780c5d39e62ee5",
+      "bytes": 49208,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_00.bmp",
+      "sha256": "f77e4ac6c0179020196d6725b0f7bf83309af15a4f1137c90c62c52fb83b98ce",
+      "bytes": 49208,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhythmical_wave.str",
+      "sha256": "3ce7f2ad8e10502dd5c304e47dc0919fa3cb0fb768d3f24f611b215a4a9ff758",
+      "bytes": 18648,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhythmical_wave.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_09.bmp",
+      "sha256": "9587825237d453d4ae600a02001409281812fc54ab0acfb6819b18ce06d86bfc",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_08.bmp",
+      "sha256": "942d3df7fe451e4a1657e2a926b30942f070c96b5e67ddab57f854381e1f1038",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_01.bmp",
+      "sha256": "e4a35b6273826109049362a48a17e647d97e9259177354f9554878f2de42d72c",
+      "bytes": 49208,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_04.bmp",
+      "sha256": "b08a2a8cf68c5e1237221c50af23f6fd3d879cfc9d66fcef971c8ba19510737f",
+      "bytes": 49208,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/min_rhythmical_wave.str",
+      "sha256": "4cf88e1c15bb2a2474dbb7158db1bc6026340794a0b7d580369e2e48fc8ad59b",
+      "bytes": 14348,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/min_rhythmical_wave.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_03.bmp",
+      "sha256": "2d6dff18f11b990b27aa5dd1fc7a246bfa4ecb6ac9e6ff218a70175273b6b8b3",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_02.bmp",
+      "sha256": "496ab82201ec33c0b081f92c0e1cb943252686dd731d48312b1fdd813cfdb6e6",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_00.bmp",
+      "sha256": "6b099fe61e5b5595c7b8844f097f9ca960754b968931f5cd85ccba898482ef28",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_01.bmp",
+      "sha256": "0046f2d1bcef199482f80ee3057bbd66390718ac19960d66dd53119fb0f3a077",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_particle_00.bmp",
+      "sha256": "bc01b54ad375c3ff3da821ffb9d256f4b4ca0e66b7ef2b9ba879edc4dfa537b3",
+      "bytes": 8324,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_particle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_05.bmp",
+      "sha256": "545ebddbc29cff05e8da14b5cf93dc47d0710e78979b03233fdfa3c8a9265ac8",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_11.bmp",
+      "sha256": "2a7745c7a94bbb83f10566304c8c1362decfb38730cde6ef4932351a0476175a",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_11.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_10.bmp",
+      "sha256": "9fc258c962ac42ba04092f336f96e56d2acfe69042991ba74df304a086faa9a4",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_10.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_04.bmp",
+      "sha256": "c71ca241aededaeb245d04d7e74df425ff4c3570c3d3a434b380f2e931540449",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_12.bmp",
+      "sha256": "167102cedcae83ad2d1bc51eab685778e793acf094b6378132c33f048aa0db3f",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_12.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_06.bmp",
+      "sha256": "eccdde730c40e094a1142dd04c183d01a79f5f8894dbaaadc6e90c369414fbf8",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_07.bmp",
+      "sha256": "48a871ccfdc7f7c8e0344964bbde345204496d6b5319583f074de0242d832c8c",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_13.bmp",
+      "sha256": "d09c5a18db7a1df7a6bab267ec1bac6aefab968be78d17b1ab6c13a031f08b4a",
+      "bytes": 193556,
+      "source": "data/texture/effect/troubadour_trouvere/tr_rhythmical_wave/rhythmical_wave/rhy_bomb_note_13.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chul_ho_battering_bottom.str",
+      "sha256": "5d552dbc95845e67fca96901eb9ccb80aa6e4ef2157986751eb6666a584fbb06",
+      "bytes": 6000,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chul_ho_battering_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/min_chul_ho_battering_bottom.str",
+      "sha256": "af67afcde1aec127787dede82af8ecadb2de048627824f1563f741b51a62cf16",
+      "bytes": 6000,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/min_chul_ho_battering_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_02.bmp",
+      "sha256": "6093c71674fb5a522c2276c36e04e1e62b6ecd2f570a3e2ef0fd4063eb7aa735",
+      "bytes": 43952,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_03.bmp",
+      "sha256": "bebb111fde9674e1aba66059c459803cc716c11e2ffa8de1615cf621498e76e5",
+      "bytes": 43952,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_01.bmp",
+      "sha256": "3f49baff8d5f6d644edbef121ffdf235967c324c0179b3ab127c9f4bde220806",
+      "bytes": 43952,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_00.bmp",
+      "sha256": "ba9b295eeceea65bcf65cd4583ef60d2f46b239b0659685ebf40a46caddfdbfe",
+      "bytes": 43952,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_04.bmp",
+      "sha256": "cd1cf044579ecff1f4cb0b71a68fc497d4ec79f1a275c30d743382a1e70f00c6",
+      "bytes": 43952,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_05.bmp",
+      "sha256": "d7cb9b081d04cdaa471775f8c3215505eeb6fd0d85363d990df986aa25778e15",
+      "bytes": 43952,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering_bottom/chu_crack_glow_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_chul_ho_face.bmp",
+      "sha256": "4278b21452fb1c70df0362ab789d5151d2cc869303f337827f603f7246aea68c",
+      "bytes": 49208,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_chul_ho_face.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_chul_ho_hand.bmp",
+      "sha256": "956eef1d1ae9c71f57f50c784b7568a9cc0c15d581a9cf010b73fafd89944696",
+      "bytes": 49208,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_chul_ho_hand.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_00.bmp",
+      "sha256": "a424ce917435879ebc6d402f71967fc97a7883384397129bd519b4fb0cafc234",
+      "bytes": 24632,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_01.bmp",
+      "sha256": "25a0230b13c4720228e2d14c94e1ab6445ba6e3fbf7d5e5c0b1dfd8635ecf4bf",
+      "bytes": 24632,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_03.bmp",
+      "sha256": "8635d8db057974c9fed8129288af648081e7040887d12e75bb7a60107ef8e4b9",
+      "bytes": 24632,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_02.bmp",
+      "sha256": "062f7e4e039bdcc8c644f8aa28be4a0a2e64885829d621e42cb8e8c36e4e67e5",
+      "bytes": 24632,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_fire_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_03.tga",
+      "sha256": "4f33ec4640b8698ee4fade9748262edb8dcd5a9f62378de3415eb540acbf7710",
+      "bytes": 242732,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_02.tga",
+      "sha256": "b78bc059c13e7fa29c19fddad7dd62711ef512c7d8d2cd3a0c052a1e327c45a7",
+      "bytes": 242732,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_00.tga",
+      "sha256": "3e7248326b43b202cd0ec07dd326ebd53fa550778c3722753646831d15c946b8",
+      "bytes": 242732,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_01.tga",
+      "sha256": "7dd7d1e490777370e8f466e9a0191bade90f527e995d6de2d0cb3790fd77e787",
+      "bytes": 242732,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_claw_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_04.bmp",
+      "sha256": "72deae177d0ac94b2fa02c52a4a6ceeb495cc5860e2f9cca108bcd2cfb0eb88f",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chul_ho_battering.str",
+      "sha256": "2c29fd43889655aa65879fdcfa3cf4993d5511463fd9eb67f7f9c29773bad62a",
+      "bytes": 23496,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chul_ho_battering.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_05.bmp",
+      "sha256": "222c277b0eb5f76ff394bb4c8c175c0a79c10f924c9118b1a1005fd40ef3c57c",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_07.bmp",
+      "sha256": "d090d122a74e6ccf85cac2e12a99fad0d674ab8389773b111b3285d63043b6a4",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_06.bmp",
+      "sha256": "979b58e1054fd17978179127827937e745bc53c986982731d1f3b906685977a7",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_02.bmp",
+      "sha256": "19d115438b7d293c6796d37e4c12c88373fd913e843e2e9ae00958c1869a9c98",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_03.bmp",
+      "sha256": "9c7bf15e0d56fe28ab056407d74d4cb581bf8ea0f60d5a9f1fa533565ba29440",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_01.bmp",
+      "sha256": "b90009e33a2988c072055048fb69ea7a3cc2a6a5cb794a0f6d0ac41a9e9936d1",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_00.bmp",
+      "sha256": "d3b847222699c36d9ec47ca78322c3ba23880642e090fe96a6479d60b141ad49",
+      "bytes": 42552,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_5_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_03.bmp",
+      "sha256": "228d5f5a35e665534f56c9ad4990f496848644a155d15abd3704653d809fe5b0",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_02.bmp",
+      "sha256": "8152923a0995c9ba340b0d377a72b738a494567afa33642ff4b909e56d148698",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_00.bmp",
+      "sha256": "dc0b63181fbd534d19c0c66ae4b6fcd4f45bfbbf837a866a79425289f9108f6b",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_01.bmp",
+      "sha256": "73e154f4d4346322f56478ef9555ccf23241e2a60e7a3debca9cef5563fcbbe3",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/min_chul_ho_battering.str",
+      "sha256": "ec349f59bd0912d19331d32901b360f92705545d6ac5de7eec56dddaf5cf1c76",
+      "bytes": 16444,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/min_chul_ho_battering.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_05.bmp",
+      "sha256": "0aa2b606da5ad25da25f068070d87d5013d29c25d19535bbbb442e71b278471c",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_04.bmp",
+      "sha256": "c8fa938022ff2ada8707e41f17990ce749f7c7bbfaa4a2ca1933be9173ce06cf",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_06.bmp",
+      "sha256": "ee29320f6413be1a6d1fe02d14dc2c80f067fab53332470a22ee4d09341365d1",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_07.bmp",
+      "sha256": "7449194a331332be2564087974f192af2f14b2628b7d821a4cb4349f4e283128",
+      "bytes": 51896,
+      "source": "data/texture/effect/spirit_handler/sh_chul_ho_battering/chul_ho_battering/chu_wave_1_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_08.bmp",
+      "sha256": "a00f41b509443b67d2cd84fa221da5900da4df87449ebed17b9b3fce8abb4831",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_08.bmp",
+      "sha256": "df45e64ab58decab4a8252442b56a74872d85ac2cf33bb7bc6c4ef0ad82b68d6",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_09.bmp",
+      "sha256": "205178b85fb2a207554bcef86b543ad6b27b937c6983893590099639a23b0455",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_particle_01.bmp",
+      "sha256": "75c02d1e75633ec5db817c222052e80ea96de77bcad320ead92c2ce18500d363",
+      "bytes": 37256,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_particle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/min_sky_moon.str",
+      "sha256": "fde55c526de9952349cfa040b2c23de8540f8d102aa471c7160c5ed01bfb67e1",
+      "bytes": 10004,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/min_sky_moon.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_particle_00.bmp",
+      "sha256": "d2b79987ecda90d80c2a8c41243de173e81ed1476350ea5de40f5f7b767577f2",
+      "bytes": 49208,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_particle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_05.bmp",
+      "sha256": "7464fa02f9b4d84d383474ff64c36e2c395af08b69daf06f5c3ed1837842cbd0",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_04.bmp",
+      "sha256": "8e235462ae873fb809c688cb1335642ea66c1f8a528dfe2588927ffcb1f01bcd",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_06.bmp",
+      "sha256": "d14b75f9ec5dc00b7f98b411202ca23395728a654e139492e9cc8371da1188b2",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_07.bmp",
+      "sha256": "67f7aead04a507c1c49e959a68efe943366c0133aaa2d5de4cd9184c9b6388cc",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_03.bmp",
+      "sha256": "bc130971ce2531bb6a8a30763729da3e02ef5574f87352d9a053d94a251dc0b1",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_02.bmp",
+      "sha256": "692917bc85da79d26d97ebee6027c60445ec53e9e912f229ac2b64bae56c0350",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_00.bmp",
+      "sha256": "30f9e8dd4b4b8b4194fcc0766322732e95a17dda7670113754e55e7617947762",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_01.bmp",
+      "sha256": "29ec3c9f9e4aad8b01ffd52b68f3a61f3725af9c39d1ac4b6b7ec0e807944eb6",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_08.bmp",
+      "sha256": "1ce1480e96be808915b351ee02d94e63b8e7c9e465611e7b147638bbc8503e6c",
+      "bytes": 85916,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash2_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_02.bmp",
+      "sha256": "db6c0944a98f1a227a9b6a0d3980b8ba8243899baca2c676d6cd4f32e78fed2e",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_07.bmp",
+      "sha256": "322d7026b76c01a1e5f65a1a1578f3b7000893ce69fb54e44cc844ec3fce3f6e",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_06.bmp",
+      "sha256": "8c420e17ac4b6632ca4533a57a53b96955c684ee91fd48d18af5c6f7633d4412",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_03.bmp",
+      "sha256": "46546534ce6df7a068df96c90cd06967bcc6dd5b40cd2442b394321810ae5773",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_10.bmp",
+      "sha256": "2b50918ce3b5453e6370ee6cffa3898e8d20ed03abe58c58b39dbd5574fc864a",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_10.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_01.bmp",
+      "sha256": "9bf7027b88a56120bb34098018d59e1f1c8a0561726a8871677d49c4ea522906",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_04.bmp",
+      "sha256": "651ad5bbf92dfd2b4d7619433130d4f413525ed7aacb5dc5a4936c2094bc90ed",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_05.bmp",
+      "sha256": "2d70735adaa62cbf7f6ecef049efc753f40685ca6b70e2a5f51d4849fd06da1c",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_00.bmp",
+      "sha256": "9eaf800eabbfae50da19e210a364ec89f0a63ce3b856fc53aafb24499b99b0a5",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_04.bmp",
+      "sha256": "bceeed23ef07f65ea1de87841523319259968b19e1e3c5989c380a39ff46de5d",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_01.bmp",
+      "sha256": "b231484e3fe76dba9a2c1aa472f575fb1d77650397491a6de5520160d68004c0",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_00.bmp",
+      "sha256": "7507e2642bb2fbdfc385ff79eae9d0c96ee31382fd5c146d037242cabf7623bd",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_05.bmp",
+      "sha256": "90da1d95f246114147ec7fec91316b2da1e36f96885709a3648ab44ebd79b599",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_07.bmp",
+      "sha256": "6c9dd42d94fac21d6a0d28b6e79da0468bd47b145da6d04c9ad76682b91f98e1",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_02.bmp",
+      "sha256": "fa7b646cc2e4a54f6713f53a95ee8c9c6f9136e3250dc196fb08d6fa698bc00c",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/sky_moon.str",
+      "sha256": "01b5647e41e4f4d4c28a28b9ee406d0af831a8cd55f8f46f9882d0c85a572896",
+      "bytes": 17128,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/sky_moon.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_03.bmp",
+      "sha256": "29f3e6f36b925b925c35b32ec0154c8d2188966e31b164a90d777594f49ffb9a",
+      "bytes": 54296,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/skm_subslash_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_06.bmp",
+      "sha256": "cf2e9484c76842f2121050f2562fd7e36b14ff4c14f3d3877164005be94f5f0f",
+      "bytes": 90776,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon/smk_slash1_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_glow.bmp",
+      "sha256": "a8b2375b0097805f51175f3ee68b44546f090ba6d88d3cbb518aafe993d1f598",
+      "bytes": 12344,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_glow.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_sw_01.bmp",
+      "sha256": "f0d03aadc271381a636e60045ca5a8cc83340af657b4561dc13f8ac6279d941f",
+      "bytes": 117656,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_sw_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_sw_00.bmp",
+      "sha256": "db2263e0e233f18e7999e6daf1474aaed045b7dc335009d545fdc7f8ed198382",
+      "bytes": 117656,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_sw_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_particle_01.bmp",
+      "sha256": "75c02d1e75633ec5db817c222052e80ea96de77bcad320ead92c2ce18500d363",
+      "bytes": 37256,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_particle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_sw_03.bmp",
+      "sha256": "59eda076e84ed9faf6376220dea8a68aca2751f4024cc2e57d7b2634813552ba",
+      "bytes": 117656,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_sw_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_light_01.bmp",
+      "sha256": "1a7e80dbdee5e1d6043685b0823cb910470b337011220b411ab4506652f30f0b",
+      "bytes": 12344,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_light_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/sky_moon_bottom.str",
+      "sha256": "9af56ed6d4cb5dff7befd23c567a6bf958723ba0881b2008ed394a640fdd3963",
+      "bytes": 12200,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/sky_moon_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/min_sky_moon_bottom.str",
+      "sha256": "03a0be84578961cd23d680d6195c3c0fb1acd612114e6bca8670d730c6469df7",
+      "bytes": 8164,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/min_sky_moon_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_moon_02.tga",
+      "sha256": "7003def4dbd3e14d1218055ed0c1f871c7594ee91b8c25961ee5f331d2fd1eca",
+      "bytes": 65580,
+      "source": "data/texture/effect/sky_emperor/ske_sky_moon/sky_moon_bottom/skm_moon_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/shc_cross_slash.wav",
+      "sha256": "a74fbba21b0f2204594efe9c57fdd96403cb832d25daf8670c454862353573a6",
+      "bytes": 29166,
+      "source": "data/wav/effect/shc_cross_slash.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/dk_dragonic_pierce.wav",
+      "sha256": "1530f948943f9fc524db513ecb7f73f6c45fd576a1e97ca68173f85e7980c609",
+      "bytes": 32208,
+      "source": "data/wav/effect/dk_dragonic_pierce.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/sky_emperor/ske_sky_moon.wav",
+      "sha256": "66ae499510c7c6e36c97d3c58e034bea1b5187be3155654f584bed9a98992026",
+      "bytes": 33592,
+      "source": "data/wav/effect/sky_emperor/ske_sky_moon.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/spirit_handler/sh_chul_ho_battering.wav",
+      "sha256": "ce460b6de187c798e983f2fe7cfce61cefd7f77a710a26524a9ac963066fc7b4",
+      "bytes": 26900,
+      "source": "data/wav/effect/spirit_handler/sh_chul_ho_battering.wav",
+      "status": "verified original path"
+    }
+  ]
+}

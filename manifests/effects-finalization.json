@@ -1,0 +1,913 @@
+{
+  "name": "effects-finalization",
+  "description": "Dedicated Sonic Blow audio and additional projectile/status resources.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_09.tga",
+      "sha256": "17f65e15e7ae6d8475518e773f5ef203ed8f5763ea0c1c2a987db7f85df96ee4",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_09.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_08.tga",
+      "sha256": "76a1c93209c990429e409b79a3e30205143208d98d6c2c71d3a53f5f5ad3ed0c",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_08.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/min_kunaikaiten_bottom.str",
+      "sha256": "aae0f03c37a56dc323b49c047b91fd2868959b1f3252665e8341168d2a88a3b6",
+      "bytes": 44,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/min_kunaikaiten_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kunaikaiten_bottom.str",
+      "sha256": "9c85818b30266d517ddc8f8a60c3c26a7563279aea838a811cc8432561ac740d",
+      "bytes": 4388,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kunaikaiten_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_01.tga",
+      "sha256": "07f0538da5b9a5b917b626bb175be7efff7f72d299ed933f7ba0966d439ddf82",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_15.tga",
+      "sha256": "9cf563bb3f72f62e92447b95f535f181b994f68a02529b6cd99c38babe0e5efd",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_15.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_14.tga",
+      "sha256": "45bc6cd5ccc991aaa419e19e54b6e3b6b511f0503ad825a39010dd3b6922a119",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_14.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_00.tga",
+      "sha256": "07f0538da5b9a5b917b626bb175be7efff7f72d299ed933f7ba0966d439ddf82",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_02.tga",
+      "sha256": "6cb0bfd16ece1a6387ee2b5791972a184532b103bdc6865f0bdeae05d66547cc",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_03.tga",
+      "sha256": "6a38aa78afafacf8b0a4ddeb362db07d89cc92ace6fbe41ad3800d81b8014cf5",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_13.tga",
+      "sha256": "da9c5cd30bd027e6d391e64b4856aff5409e75c662131c94cbe8a9c9344dd7ac",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_13.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_07.tga",
+      "sha256": "6a3677448677a580863422c2b59094abf32b2e0068108b445f87d186dce8f286",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_07.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_06.tga",
+      "sha256": "d1c709b9afbb57e716678c785cc309c35a9341b97593733f4996e3c03c8235e9",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_06.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_12.tga",
+      "sha256": "27e2524cea687305788ca5cca98199790fede6b57070a26725d3eaf4c113cd5a",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_12.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_04.tga",
+      "sha256": "05b007a832e80b354ffeacb1d4f7ac2aab69704248c8678c5e5be2405230383c",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_10.tga",
+      "sha256": "0e92e08e558269e50c25ebdf28a3c46b0d20fed4df94f7d49dca8a2d2820d8bb",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_10.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_11.tga",
+      "sha256": "ca8911b1bedbd2221d3f77b4f0d75145419c88d7129db37f1418e3dfb9ee8ea7",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_11.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_05.tga",
+      "sha256": "889a0e9f1821b2e077f4ac82638ea7f4c0352d9158416908f0205cb9ec8041ed",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_08.tga",
+      "sha256": "8a76bf94bf49988d2c11dda1b48cf3eda67c93e338ee8cb2d4d87a705ca882a9",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_08.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_09.tga",
+      "sha256": "db56c3d3747e77d5f0d92e837465a07a0a7b9f33cb3cda9d29791a85900d9f7c",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_c_09.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_03.tga",
+      "sha256": "2fc1fa1c06b1421ab23dfd3d9e1d2b237d307049dcf688573ed12e9bb17f1b11",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_02.tga",
+      "sha256": "6ee8a2d2b8bfaa20f1ad2abfcd6c28632e1305758abed28c531e46049f6216d5",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_00.tga",
+      "sha256": "cafede7ceb2ba67182e08e2a14df43940e0c0852b2b02eb32b7cd6ad91682ebe",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_01.tga",
+      "sha256": "d55c9ff1a0a77ff5d52e32cee6715d514bdd20fad6c893c474ab94fc31aa62cd",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_05.tga",
+      "sha256": "dbecce97bd03930ae0e214f9933d38dcf16f18bba405b3eeb46ecb46c6171322",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_11.tga",
+      "sha256": "1d9269e4805adfbfdbfbbf97939b2836699359c06c4c8863867b1620f681ef9e",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_11.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_10.tga",
+      "sha256": "4ae6b4a8601c133e97ac64086e73c62f571dbb388e0d3e5039781e498f6452ab",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_10.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_04.tga",
+      "sha256": "9be183346307efbed96aeb2241bd362139c6845d59c32dc1040d0ecbd0de2d7b",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_06.tga",
+      "sha256": "02391e373d9c903e7b23753334d126a44d47b7d04d2a80e77b74a3aac1abde0c",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_06.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_07.tga",
+      "sha256": "b4dd3a02571a48cca230de7e13186f17e917408a47f4abb680bdc9ad7f79c859",
+      "bytes": 40044,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_bottom/kun_smoke_b_07.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kun_kunai.tga",
+      "sha256": "b93a55a1e8135978bfd5b3f04f79d05c27414ebe00322cd28364164ba1dff9db",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kun_kunai.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kun_shine_1.bmp",
+      "sha256": "11970c029596508a8748131dffe459c193ded6040db75c7ca68d3862089beb8f",
+      "bytes": 68696,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kun_shine_1.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kunaikaiten_00.str",
+      "sha256": "ecce3a6edf904f373718a4fdc212df35e18a321318b53f38fa5d0616c9c1b704",
+      "bytes": 14220,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kunaikaiten_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/min_kunaikaiten_00.str",
+      "sha256": "721a8e384e3593f3e9f38559b66f332cb566138ad2ce78ab9cb5a9740cd8b59c",
+      "bytes": 8172,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/min_kunaikaiten_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kun_trail_a_00.tga",
+      "sha256": "e2fd9849657af8d33429ba0adcfb65abdf7c298d2f9d3ab82e90d70d3d5f15c8",
+      "bytes": 28844,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_00/kun_trail_a_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/kun_kunai.tga",
+      "sha256": "b93a55a1e8135978bfd5b3f04f79d05c27414ebe00322cd28364164ba1dff9db",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/kun_kunai.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/kun_shine_1.bmp",
+      "sha256": "11970c029596508a8748131dffe459c193ded6040db75c7ca68d3862089beb8f",
+      "bytes": 68696,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/kun_shine_1.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/kunaikaiten_01.str",
+      "sha256": "3e2e49fc1653f81d93bb4dd6f68e3b89faaba5d5517fbdb264b84dd7de5c566c",
+      "bytes": 6140,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/kunaikaiten_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/min_kunaikaiten_01.str",
+      "sha256": "dc033c184c9d51a2135cfd50bc29606f25ba77d4cc1f797785fd23014c5c1e29",
+      "bytes": 6140,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_kunaikaiten/kunaikaiten_01/min_kunaikaiten_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_02.tga",
+      "sha256": "d61753db49bbb29335bf178a4c6fa63388bc77213bcf0d1670631e6aa235a3e5",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_03.tga",
+      "sha256": "8b0dad4e59500f427373a3587dd208de146ce4d1ed47837e4866acc9d7a53440",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_01.tga",
+      "sha256": "466764cce0203a57e2ec336961bc3c53206021fcee3af81ef18da29aa079c5e8",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_00.tga",
+      "sha256": "ceea03c039f406ec6dbc2dc3ca789ae885a9d6c6a3d33dfa38141a87b3fc2612",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_10.tga",
+      "sha256": "6975f4f5d251150ec35a0a9806e75b484fcffe55aa3237f881a0272315d644f6",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_10.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_04.tga",
+      "sha256": "50c885e93024d6016631a4f546900ed35e107112d356cf1def5e3bc13e128d85",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_05.tga",
+      "sha256": "f06dd6933d244390ee76bef0e9abc3dcb92410251860877b90e74823903eab94",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_11.tga",
+      "sha256": "efeb017884f8df3c8675a813c5cbf48cc1d8cfa0d0d27cbc255f375b2e04e73b",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_11.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_07.tga",
+      "sha256": "d33f823f2fafa31f3398ed912d4e43a9f953c0dd0d34e000284b99542b3b9533",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_07.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_12.tga",
+      "sha256": "08cfcde9dd0dc79c4de18ae736df947ba4d6acd1e3a7ceca252581965fefa5f8",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_12.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_06.tga",
+      "sha256": "22f7e211547b7f4afd488a87bd9d9edcafb779051008ace075341802e6b432df",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_06.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tokedasu.str",
+      "sha256": "b84eb3480abf5d55bfb5fe6af64e4097e8334a9edc63a26acef74b444673e072",
+      "bytes": 18380,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tokedasu.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_09.tga",
+      "sha256": "2e65d25e475140206fd48b5d1a880a5a6519a562568b0dce4be918a31148c559",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_09.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_08.tga",
+      "sha256": "410d936da55554e05e781764a02e5aa43fb3ab51f358ea2c54a3a8d599a96cdb",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_08.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_11.tga",
+      "sha256": "f177389f67be098c8a6437967a1c0d3ed4064a6b047483f40086957e15f01779",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_11.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_05.tga",
+      "sha256": "6a94c244782dc0cedd1972fbf615871528844176a6fc352514318b675a47d8e4",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_04.tga",
+      "sha256": "2ce2a5c37ce1ffe7c059dc5235b9a8b0d082847838c1b80021d2600ed74a5f99",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_10.tga",
+      "sha256": "05b3b6eeee6ad1dd9aea09770d0e6626e51bf22c702448742d29fba3cb635640",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_10.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_06.tga",
+      "sha256": "04dd6fc0ed47885126b6d83f461ff0662e57e29ddda5320002c677ee8d3524ab",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_06.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_12.tga",
+      "sha256": "0b62a865fb5051cd97b193a2f31c42267d328aac0cb588d6f531f5c4b57e0f4a",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_12.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_07.tga",
+      "sha256": "e777a88faf28bae5f0de7ed2ead478954d1c2326059282898644ee8e77624cc1",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_07.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_03.tga",
+      "sha256": "b3ce675812e6c9bc41573a7ac18e61948ec4bf2f218f9ee3d69f238549315691",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_02.tga",
+      "sha256": "9866471fdb68d3649f674bf536138d1d1e4e1922a915394054ec40f7ccc252e0",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/min_tokedasu.str",
+      "sha256": "09882abd2c7e96044a3ee36ea0532aa675c78e29c3ee95c26fc00f182bddcb17",
+      "bytes": 6920,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/min_tokedasu.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_00.tga",
+      "sha256": "29e276a8d92056e17aaac1e8e6f6535f2bfdcd4e394821903bbc8b27b51e2927",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_01.tga",
+      "sha256": "fe5e8aba940321c1cd1cc437c30077ed7a5e539ed66513af830e367e24884408",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_b_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_08.tga",
+      "sha256": "22092e943bcdbc927337918366bd63946f7f9367754a4112af7f2230c5c07594",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_08.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_09.tga",
+      "sha256": "e62fc0662c1488ada4036866df7409037f0f4a4dee932c324ca74a2d161428db",
+      "bytes": 65580,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_tokedasu/tokedasu/tok_smoke_a_09.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuumashouaku.str",
+      "sha256": "ccdbde8293eb9e6c09c4ac495d348e692bb8777745509937991781106c479511",
+      "bytes": 7780,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuumashouaku.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_slash.bmp",
+      "sha256": "da628f688840182a688cb9c380e6769c49ffed45305e3d6ec0268159796e2794",
+      "bytes": 43256,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_slash.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_03.bmp",
+      "sha256": "210914201e31f37d75137b40f51289250948e2d34fe076a8c476de4b33cd5384",
+      "bytes": 8120,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_02.bmp",
+      "sha256": "8c67cc185d84bb7ab0c948b71b4c45e00fc6256ca492011343d46d7e57a99cd3",
+      "bytes": 8120,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_00.bmp",
+      "sha256": "1399d2029c4a1111ed94d5cf5058929bb4a166f59b0dbec723b78ccbaa79bccf",
+      "bytes": 8120,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_01.bmp",
+      "sha256": "ab2dfdf00ebd5fc982098d0e989cfa8b5f21597a4a4415b2df112a34fb23364f",
+      "bytes": 8120,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_prticle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_04.tga",
+      "sha256": "43bce15877e38c4b0d1214c62a4c9c255d8976125641510f963c0e6e7ed454fe",
+      "bytes": 38444,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_05.tga",
+      "sha256": "b269682013c755f4c3e84876142aa32423afc7c751006a13c2397ad608908707",
+      "bytes": 38444,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_02.tga",
+      "sha256": "c9ca483aa3b92f870a66e73662b08383b57c38eb783e1e0293a42632a808b79f",
+      "bytes": 38444,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/min_fuumashouaku.str",
+      "sha256": "0213b79a0941fefcc47dca32444b202b008be212237aa2146f11a6998211fd7c",
+      "bytes": 7780,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/min_fuumashouaku.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_03.tga",
+      "sha256": "9f527c44040086be000f2d569d0f1156164fba037b1a14028eecdd5f648cb09c",
+      "bytes": 38444,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_01.tga",
+      "sha256": "c99ab0990cf4c0aa99df49fe5779e7f28c330d261d97d276e7925366b7c9faec",
+      "bytes": 38444,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_shuriken.tga",
+      "sha256": "67dd99cb685e678809804a3f9a838a014b2d903e8735aab132a6877badd4dc59",
+      "bytes": 57644,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_shuriken.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_00.tga",
+      "sha256": "2e08b476118ee25993858754c12cb153611f9760feebc71de03dfead7de4886e",
+      "bytes": 38444,
+      "source": "data/texture/effect/shinkiro_shiranui/ss_fuumashouaku/fuumashouaku/fuu_trail_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_spiral_pierce_max/spiral_pierce_max_aura.str",
+      "sha256": "33961af968aea5fc679a80044756e04ed58c43995e1172b2cff222529917db83",
+      "bytes": 3488,
+      "source": "data/texture/effect/hyper_novice/hn_spiral_pierce_max/spiral_pierce_max_aura.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/hyper_novice/hn_spiral_pierce_max/spiral_pierce_max_aura_bottom.str",
+      "sha256": "dd7e7e37321d5c18034e067ded37778b7234bc3e9ec3e320fcf565b035170daf",
+      "bytes": 552,
+      "source": "data/texture/effect/hyper_novice/hn_spiral_pierce_max/spiral_pierce_max_aura_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_stars.bmp",
+      "sha256": "4ffb42904ec7eac317218177926f8b324039d185785dd48634d281819e932a3c",
+      "bytes": 49208,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_stars.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/min_ske_enchanting_sky_00.str",
+      "sha256": "027d28029e661d49aaa76ef8f50aa10fef7d250b78e70aa8dd255a0363618c66",
+      "bytes": 10628,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/min_ske_enchanting_sky_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/ske_enchanting_sky_01.str",
+      "sha256": "6aa7e80115ac2e0f0a1358e7b1dbb1e86b7689956fbde8281c54dc372d6ddd54",
+      "bytes": 13392,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/ske_enchanting_sky_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/ske_enchanting_sky_00.str",
+      "sha256": "40ee49af56616c53203d543d40f43e9887ca65832241407a5c3c25457bdad81a",
+      "bytes": 12140,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/ske_enchanting_sky_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/min_ske_enchanting_sky_01.str",
+      "sha256": "e12c45092ede1ef82b746b070879f3dced9d89bdc01e6143700d4e3c0a6af2df",
+      "bytes": 9388,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/min_ske_enchanting_sky_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_backcircle_00.tga",
+      "sha256": "ba21c59b5db48cfeca23a146f09a360127a39f32a6604d33e05468d1d49b83f1",
+      "bytes": 65580,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_backcircle_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_circlealpha.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_circlealpha.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_moon.tga",
+      "sha256": "b479ddf3d9edf855c26d21fe24a62fc196c8335cdced935ed2eae2bcd7e799e4",
+      "bytes": 16428,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_moon.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_innercircle_00.tga",
+      "sha256": "8e59580329ad6c16063c9c0a9e7a09cd8591db55911c9a2e3236cc9a50f3fa06",
+      "bytes": 65580,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_innercircle_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_sun.tga",
+      "sha256": "005c928afbd0cd2f48f30b2ec2cb6de4a923fffd84e2fe41c409c953bca8719c",
+      "bytes": 16428,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_sun.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_innercircle02.tga",
+      "sha256": "a466e4442f3cd2c594d97ed70e263e9b1f87ef512d60de8ccec6adad68165dec",
+      "bytes": 16428,
+      "source": "data/texture/effect/sky_emperor/ske_enchanting_sky/enc_innercircle02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_05.str",
+      "sha256": "890a642c2825c5d18d6e89a4f1d985f4ccf5509eabebfdf88d7e5dd2dfccb585",
+      "bytes": 5608,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_05.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_04.str",
+      "sha256": "16c963824ef7734c4073c6587fceddd60a609f3540df81ad325e595a403d8574",
+      "bytes": 8124,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_04.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ris_outercircle.tga",
+      "sha256": "95a51350e2d956e0907565c32cae47bcdac95fe866862b5eb6e05355e7d25856",
+      "bytes": 88108,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ris_outercircle.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_03.str",
+      "sha256": "2a664ff701eb29bbbe2fe5e6ac31de81371b358f4dc32c90abf5d3c77cf74a50",
+      "bytes": 5608,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_03.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_02.str",
+      "sha256": "86991581650712d1bb9ec1fabe9a9df673d6b9d18b762905b7fd2008a1940355",
+      "bytes": 8124,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_02.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ris_innercircle.tga",
+      "sha256": "72ce0f3f13d985cc87142ad3bd41f34761519b14774a2f2829951784fd3c79be",
+      "bytes": 65580,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ris_innercircle.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_00.str",
+      "sha256": "c2c8e19d04f653957ba9117ab4022f79235f2066b407b25979d7d2a6e75868ac",
+      "bytes": 8112,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_01.str",
+      "sha256": "9e835a6df94117853d9d7b5a96aae1b483f81f494e005a0d8938890e32c17727",
+      "bytes": 5608,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ske_rising_sun_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_03.str",
+      "sha256": "ead985846a92c3445aaea75b32532df48664bb77f03cf57a660728393e1e9980",
+      "bytes": 3836,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_03.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ris_lightglow.bmp",
+      "sha256": "dde2b4c7cdd76c698364870f9e2e07539e10694b50eaa9090aa5d28dd4bd82fd",
+      "bytes": 12344,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ris_lightglow.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_02.str",
+      "sha256": "303bf5a85a04c6ef7c0a387149b7bade8cd024d7cde2657ab9a19868072843b5",
+      "bytes": 5348,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_02.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_00.str",
+      "sha256": "d921cceb359667300894835217bf937e38173c22b43c8f86bc6ba062839722d6",
+      "bytes": 6848,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_01.str",
+      "sha256": "de90d24c5e227ea53164a75330c7b2efaa03a7d3309187e58b39b32e1f85ded7",
+      "bytes": 3836,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_05.str",
+      "sha256": "b335144d6b74eb9744c0afc6137cc2bf308f197d1ce9d96626f73baffc0444a9",
+      "bytes": 3836,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_05.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_04.str",
+      "sha256": "047acb2e88f17223dbd3e50497fc78a73c409f21a149e4d211f75d58ca72ac9c",
+      "bytes": 5348,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/min_ske_rising_sun_04.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ris_sun.tga",
+      "sha256": "005c928afbd0cd2f48f30b2ec2cb6de4a923fffd84e2fe41c409c953bca8719c",
+      "bytes": 16428,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ris_sun.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_sun/ris_circlealpha.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/sky_emperor/ske_rising_sun/ris_circlealpha.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_05.str",
+      "sha256": "a95613f7252aae10667f64f0e2d7e297e4f41c4460842953e4db5fb661a56175",
+      "bytes": 4852,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_05.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_04.str",
+      "sha256": "994bf6287d953cbe4a446145e623045bcb550983afd762e4f5d41cf74ea5d856",
+      "bytes": 7628,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_04.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_05.str",
+      "sha256": "4b4f974cdf24439f3cef57be5f7a2bda7ed2c13433225a8e64d8c507b0e0c9b9",
+      "bytes": 7368,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_05.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_04.str",
+      "sha256": "c8779b499186bdf51b9f54bc51cea075c5d66613218f6d1354c9185e176398fa",
+      "bytes": 6364,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_04.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ris_outercircle.tga",
+      "sha256": "72c07b3edb7a17d486fdac934333c10107a556ae5d9c143e5a873b7883b8552b",
+      "bytes": 79404,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ris_outercircle.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_00.str",
+      "sha256": "34be817bcf8050cdcb8f5a84ee0b7e7e16edb381ab470684c4354b62e80d2198",
+      "bytes": 7604,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_01.str",
+      "sha256": "5f03bf0e6d534bdee14360261a6c1984c98372698e99c6fbc9e3174fe49686e4",
+      "bytes": 7120,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_00.str",
+      "sha256": "3b28807c0792745f83a93e9d75b638c26e159f89676a0eb0950b996f28eeb00a",
+      "bytes": 8868,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_00.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_01.str",
+      "sha256": "76dcb50e393ae58f5a5d059c45edc1387a14855ab730f9432be8eaba4a6bc88e",
+      "bytes": 4604,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_01.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ris_stars.bmp",
+      "sha256": "4ffb42904ec7eac317218177926f8b324039d185785dd48634d281819e932a3c",
+      "bytes": 49208,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ris_stars.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_03.str",
+      "sha256": "ba48a88191565b3c44df6a7566b20fdc39c99a78cb397845cc84c7a4c8756fb3",
+      "bytes": 4852,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_03.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_02.str",
+      "sha256": "2c71e3e9977c0aa81ac74265dc6ac34cb0c7ebf24797fb96c49d95874b495151",
+      "bytes": 7628,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_02.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_03.str",
+      "sha256": "945016e07527367238eba81e7ddb9579ba0363bfcf3a4cf0fb981f0a45019d5b",
+      "bytes": 7368,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ske_rising_moon_03.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_02.str",
+      "sha256": "d2a2d9e6ae5b1c6ec5a74ff7382ba62f28cd91ae18fa33fca5a1151422196b4f",
+      "bytes": 6364,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/min_ske_rising_moon_02.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ris_moon.tga",
+      "sha256": "df8faa6c22cb6eb3508f01ea634ac60d5b57aa483559279f88c3728c3f972d2e",
+      "bytes": 16428,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ris_moon.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ris_circlealpha.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ris_circlealpha.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ris_innercircle_01.tga",
+      "sha256": "08d2d47ba55f74b474e9286e42183d98c60bb0c78a6113e08971ead09fcbcbe3",
+      "bytes": 65580,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ris_innercircle_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/sky_emperor/ske_rising_moon/ris_innercircle_00.tga",
+      "sha256": "8e59580329ad6c16063c9c0a9e7a09cd8591db55911c9a2e3236cc9a50f3fa06",
+      "bytes": 65580,
+      "source": "data/texture/effect/sky_emperor/ske_rising_moon/ris_innercircle_00.tga",
+      "status": "verified original path"
+    }
+  ]
+}

@@ -1,0 +1,1417 @@
+{
+  "name": "skill-closeout-original-assets",
+  "description": "Final original visual-resource replacement pass.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/effect/lord_blast_b.bmp",
+      "sha256": "28fc5b8062d9cf123bded59319c4ffd25a57c90bdc3565e855b9a704be1f13a5",
+      "bytes": 66608,
+      "source": "data/texture/effect/lord_blast_b.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/lord_blast_a.bmp",
+      "sha256": "26c35a903a0606977c65b7c9de3b075c7b11fca88be40235d6ed42cd9e6341e2",
+      "bytes": 66608,
+      "source": "data/texture/effect/lord_blast_a.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/pika02.bmp",
+      "sha256": "04e5293d10d458071b39033757e4b5d442285480493fc6bb25e44f847a9f6feb",
+      "bytes": 5174,
+      "source": "data/texture/effect/pika02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/igle_f.bmp",
+      "sha256": "cf3bc45f8d6a84639ddd13e7ef1a11dcd1f5eeb197d8bef6828c9305725a7836",
+      "bytes": 49208,
+      "source": "data/texture/effect/igle_f.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/blast_stick.bmp",
+      "sha256": "0dfd7a73efd5306909f9a045aa49f99a86632df7e2db37c4fcf20042ae4e806d",
+      "bytes": 22576,
+      "source": "data/texture/effect/blast_stick.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/pokjuk_d.bmp",
+      "sha256": "9a48034dd8ce5b02e70a2b55e2a359688d2f30aea2602154d4f801c924da446d",
+      "bytes": 49208,
+      "source": "data/texture/effect/pokjuk_d.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/pokjuk_a.bmp",
+      "sha256": "e1398cc74bf1d9790499c65e29830beecea32f00f89a7782f678cbb936705ffa",
+      "bytes": 49208,
+      "source": "data/texture/effect/pokjuk_a.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/pokjuk_c.bmp",
+      "sha256": "3c1ea06bfe7c7a29a4ad683831a20f1c2c33ebee4f5e46d36581dd09ce71b746",
+      "bytes": 49208,
+      "source": "data/texture/effect/pokjuk_c.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/rwc2011.str",
+      "sha256": "0a78ae10d4148be41bb05452a400ca14c13f5609c845f44274e514a979f4eedf",
+      "bytes": 31588,
+      "source": "data/texture/effect/rwc2011.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/2011.bmp",
+      "sha256": "ed219f647d71a7b11238f36c4d14ee5714f5fba52813f82b8858b28a5b0828ac",
+      "bytes": 4508,
+      "source": "data/texture/effect/2011.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ghost02_pix.bmp",
+      "sha256": "b0d2796dc12070650d3159378d0a99b45686d5238f25824119c5b1e0357787f7",
+      "bytes": 12344,
+      "source": "data/texture/effect/ghost02_pix.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/rl_fire_dance/firedance.str",
+      "sha256": "aa3f6a10be77105e1f413008c4c1d697963d99653756514a14be67f984cb6474",
+      "bytes": 11312,
+      "source": "data/texture/effect/rl_fire_dance/firedance.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/rl_fire_rain/lord_blast_c.bmp",
+      "sha256": "510b9e3b9bd3806c42ebb1346a8b20fd92a74efbe2473bfa269ed8a5fc84a541",
+      "bytes": 196664,
+      "source": "data/texture/effect/rl_fire_rain/lord_blast_c.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/rl_mess_spiral/pppp2.bmp",
+      "sha256": "fe9618129fecc6a91b4956f1297fd153d6febf9b7d58cb6fd9aa4be3bb2b093f",
+      "bytes": 57464,
+      "source": "data/texture/effect/rl_mess_spiral/pppp2.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/crossrain/cross_rain/cross_rain.str",
+      "sha256": "2aa480089b198f002541bb7764cb76d4da28f181b7be495355df9577f4e35cab",
+      "bytes": 7008,
+      "source": "data/texture/effect/crossrain/cross_rain/cross_rain.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/crossrain/cross_rain_cast_bottom/cross_rain_cast_bottom.str",
+      "sha256": "cc6b24e9d718eb0c8874bc155d924e259d688ba17c41d2ca7cb5e64279da62e7",
+      "bytes": 3484,
+      "source": "data/texture/effect/crossrain/cross_rain_cast_bottom/cross_rain_cast_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/crossrain/cross_rain_bottom/cross_rain_bottom.str",
+      "sha256": "b6d80cfb4f8e609d8284b2e43973268ec9a57a076a2fc675b719210ec8d5e895",
+      "bytes": 23292,
+      "source": "data/texture/effect/crossrain/cross_rain_bottom/cross_rain_bottom.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_blacken_1.tga",
+      "sha256": "a7e906becd77e8bf30dd8ba2125efd5851ab903aa05ad590cb2585ef4eff10d5",
+      "bytes": 6844,
+      "source": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_blacken_1.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_hit_2.bmp",
+      "sha256": "d93dbb59f27043473660187c437ee78a23d74f99d2ae5a007c72e9e5798ed241",
+      "bytes": 21944,
+      "source": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_hit_2.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_glow_4.bmp",
+      "sha256": "e4faa3b15b07f72281d2703e4ccc1dd08ef556be7c0c4bb9c302fd73d98087b9",
+      "bytes": 31016,
+      "source": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_glow_4.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_crack_1.bmp",
+      "sha256": "74e0534ecb1c8ac7a1ea0933018787da9659e4ac1935c5ae8d20967fa1b0e157",
+      "bytes": 77276,
+      "source": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_crack_1.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_circle_4.bmp",
+      "sha256": "a6061bd76fd4ea045119d163e34f1809b37a99f6960168355c9f5882389c31ab",
+      "bytes": 51584,
+      "source": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_circle_4.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_circle_1.bmp",
+      "sha256": "46b96e6938a90d5fbf823f3cf097797cc548db17dd39f1764b8348684e9de663",
+      "bytes": 90056,
+      "source": "data/texture/effect/new_cart_cannon/new_cart_cannon_explosion_bottom/arm_circle_1.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_blacken_1.tga",
+      "sha256": "a7e906becd77e8bf30dd8ba2125efd5851ab903aa05ad590cb2585ef4eff10d5",
+      "bytes": 6844,
+      "source": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_blacken_1.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_hit_2.bmp",
+      "sha256": "d93dbb59f27043473660187c437ee78a23d74f99d2ae5a007c72e9e5798ed241",
+      "bytes": 21944,
+      "source": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_hit_2.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_glow_4.bmp",
+      "sha256": "e4faa3b15b07f72281d2703e4ccc1dd08ef556be7c0c4bb9c302fd73d98087b9",
+      "bytes": 31016,
+      "source": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_glow_4.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_crack_1.bmp",
+      "sha256": "74e0534ecb1c8ac7a1ea0933018787da9659e4ac1935c5ae8d20967fa1b0e157",
+      "bytes": 77276,
+      "source": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_crack_1.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_circle_4.bmp",
+      "sha256": "a6061bd76fd4ea045119d163e34f1809b37a99f6960168355c9f5882389c31ab",
+      "bytes": 51584,
+      "source": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_circle_4.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_circle_1.bmp",
+      "sha256": "46b96e6938a90d5fbf823f3cf097797cc548db17dd39f1764b8348684e9de663",
+      "bytes": 90056,
+      "source": "data/texture/effect/new_armscannon/new_armscannon_explosion_bottom/arm_circle_1.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_ray.bmp",
+      "sha256": "84577c621ca50ac648e9e8fb816f65e87de1e914cae4194242b9e45d2177bdbb",
+      "bytes": 30056,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_ray.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_08.bmp",
+      "sha256": "061f8e3b98011d3f6844db9d9853ca79e915a46e5bb0a895d1b09416d875cfce",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_09.bmp",
+      "sha256": "011ba297aac5bf9824cb5d9a2827ad71094d84b11b0a642bf50e4102a45fe0ce",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_particle.BMP",
+      "sha256": "c679832b9c84b282e98f401c7e4a2346517469181030df0d08f389a7a3798aa3",
+      "bytes": 30056,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_particle.BMP",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/ui_reset_success.str",
+      "sha256": "87a3ac605031d30217d7ebad37eb30c0b3445e1e6ba79f2f56a61dbdc7e184cc",
+      "bytes": 57060,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/ui_reset_success.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_reset.tga",
+      "sha256": "68a5561321731640c41a34b065e098702831e57edc7a920cb1a602ec152e1812",
+      "bytes": 63244,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_reset.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_dot.bmp",
+      "sha256": "fde47282ded3622c08613c255d24ecf497b75a4c08c01a3db7ae3f25bf8f239c",
+      "bytes": 12344,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_dot.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_main.tga",
+      "sha256": "0849fed8f748cafcc242b6c9c9f2d0c133a39b85c59e7adb8a1ada698ed03ffe",
+      "bytes": 351644,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_main.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_02.bmp",
+      "sha256": "f92bc1676bf3ec903839220d55be9c9ac491c7f3ec5009deeafbc47eb3ff12d8",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_03.bmp",
+      "sha256": "8f752b7026308a41b06c2b80f011228e33c18eeef4d173188f963dd9adf45932",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_01.bmp",
+      "sha256": "1622be7eeccdb405beb1c06e33e14d0d191016892ca0a2d9412b789b3c927e0a",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_circle_01.bmp",
+      "sha256": "eb391a0bc6d246c86dccf2b55edc259047dbaaa3a3d138616964477bedab2d3c",
+      "bytes": 29756,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_circle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_circle_00.bmp",
+      "sha256": "39371745df10294f966c60e70406f3dc98f7c4ef37d71258eb292ca479456be4",
+      "bytes": 31556,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_circle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_success.tga",
+      "sha256": "5452290e1b520f713945dde786f368ae1da3006668f000123cdc5f7c6ca51caf",
+      "bytes": 48844,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_success.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_00.bmp",
+      "sha256": "fcd9a679ceb9df2ca1f7ad8b7c3bb1798df591b556170a65fcec62717d414685",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_04.bmp",
+      "sha256": "2189e70aa2a3f26e7887039c2d94b8d71dd46c99c7d8d16ba8b792aac05d9fb5",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_05.bmp",
+      "sha256": "079e0c2714477b1e43622d5e4d52ab3e60d2ec340fcee51ec92446d8a96ad100",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_07.bmp",
+      "sha256": "4bdfe360bff6120e21f7a02a27ba3ffdb82c5d583bf28d2624599c8c1a35445a",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_06.bmp",
+      "sha256": "52c5ec0faf9670d53e0c34a4b7054a87adf0690986d82c1dbeeb5c222af450be",
+      "bytes": 52688,
+      "source": "data/texture/effect/ui_enchant/ui_reset_success/res_helix_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_flare.bmp",
+      "sha256": "8fb2ca8204d22a931cc0ebb6541744118a5309e1e33a5dd70492808ca5fef791",
+      "bytes": 49208,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_flare.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_02.bmp",
+      "sha256": "01dd3a2b0cf135a11363ab619aca3be20f4ca0b938d28b2c0ce9d7ba6b4042a4",
+      "bytes": 13304,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_fail.tga",
+      "sha256": "6b9c438b39622232f7a040136a76df7c2ae445491ef4b1e7ff3cb11db1eb0ead",
+      "bytes": 102444,
+      "source": "data/texture/effect/ui_enchant/ui_fail/ui_fail.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_03.bmp",
+      "sha256": "c286b7d47988d5637ac18e447f9ccbf9cb099a2290f225307fae2f18ba4fb234",
+      "bytes": 13304,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_01.bmp",
+      "sha256": "07207dc80813f3696323eb120b5423ed2b1499134a0db06574974af4b1dae76e",
+      "bytes": 13304,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_00.bmp",
+      "sha256": "1f5ab99b1f3df972b749ae4bfa59bbf4746e06f768f5aa689af79e642c68b967",
+      "bytes": 13304,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_lightning_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_fail.tga",
+      "sha256": "117338410b68cc6403c4e1a6e7d11aeea7ed652fdecc8a42cb16129c34ee2a2c",
+      "bytes": 19308,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_fail.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_levelup_r.tga",
+      "sha256": "9bb4283c40b2b12f15799d8a641f8e809c938a0e1e5630cccfa721170ec767b5",
+      "bytes": 218156,
+      "source": "data/texture/effect/ui_enchant/ui_fail/ui_levelup_r.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_reset_fail.str",
+      "sha256": "e82c62c43377a10bdbdcded3a87816c71a922d09d7e574eac10bccb7c3ae894c",
+      "bytes": 15636,
+      "source": "data/texture/effect/ui_enchant/ui_fail/ui_reset_fail.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_smoke.tga",
+      "sha256": "28ae21cff62a2f1800cb19a6f044b9395e23ed9e490befb37b415affdcda5940",
+      "bytes": 7644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_smoke.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_particle.bmp",
+      "sha256": "d8837b50a3a702678f745e989c62c3ace79e83b0da9f852fadd227fa181216c7",
+      "bytes": 14896,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_particle.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_enchant.tga",
+      "sha256": "a348c29d5c352726fff5de20c3812b881fdc5f2ced3b939726ab55e4e9543ee2",
+      "bytes": 44844,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_enchant.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_fail.tga",
+      "sha256": "117338410b68cc6403c4e1a6e7d11aeea7ed652fdecc8a42cb16129c34ee2a2c",
+      "bytes": 19308,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_fail.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_flare.bmp",
+      "sha256": "8fb2ca8204d22a931cc0ebb6541744118a5309e1e33a5dd70492808ca5fef791",
+      "bytes": 49208,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_flare.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_reset.tga",
+      "sha256": "3786d52bbb6117c9f790e85df093d0341593af3fa1c74a779e8d40274899724a",
+      "bytes": 57644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_reset.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_main_04.tga",
+      "sha256": "eb9dd42d8e4cfa73f3bb58b1388831253e88e7442ab8b664e6de77ab99c91b14",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_main_04.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_main_05.tga",
+      "sha256": "d7bc2c34980be6870f6e813f3b08b87cd85ee89aaaad420bd9c0456c9d02011d",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_main_05.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_main.tga",
+      "sha256": "eb9dd42d8e4cfa73f3bb58b1388831253e88e7442ab8b664e6de77ab99c91b14",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_main.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_main_01.tga",
+      "sha256": "45296e131bdd456a8731d692424cc48bb6f609ba942fc81d02f9a469a145802e",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_main_01.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_levelup_fail.str",
+      "sha256": "e1f78db8134153132643eff8f1b1eed061053c52f1b33ba23ed22bd01864f68d",
+      "bytes": 11336,
+      "source": "data/texture/effect/ui_enchant/ui_fail/ui_levelup_fail.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_main_00.tga",
+      "sha256": "ce5e4ffe8829eb48a843af78f52e6c79e50a3bf6aba4e75cb5d989f7db6e3704",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_main_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_main_02.tga",
+      "sha256": "67b3b61fe337175d0b25441cd731a46edde6cc0b530568f12a2091fa63fe4784",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_main_02.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_main_b.tga",
+      "sha256": "d7bc2c34980be6870f6e813f3b08b87cd85ee89aaaad420bd9c0456c9d02011d",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_main_b.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_main_03.tga",
+      "sha256": "470dee9277cfa699fd8000216f2e6f12629ba4f04c442e4d03a6aec90ca67bc3",
+      "bytes": 363644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_main_03.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/suc_smoke_00.tga",
+      "sha256": "eb12c3b5fca20d35a6c80e8b3d8d5c0a0087a279b596438d891d160b883cfd07",
+      "bytes": 7644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/suc_smoke_00.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/enc_smoke.tga",
+      "sha256": "28ae21cff62a2f1800cb19a6f044b9395e23ed9e490befb37b415affdcda5940",
+      "bytes": 7644,
+      "source": "data/texture/effect/ui_enchant/ui_fail/enc_smoke.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/ui_enchant_fail.str",
+      "sha256": "b071e0983028f94bea0ae1cf3cde730dc6bd1ca9eb5b15ff9d080e7f8ea6dcd3",
+      "bytes": 17672,
+      "source": "data/texture/effect/ui_enchant/ui_fail/ui_enchant_fail.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_fail/res_star.bmp",
+      "sha256": "1fb9570c0e2557398a703c0a473f82726a07b6f2080f39dc18cd450d3579eed0",
+      "bytes": 12344,
+      "source": "data/texture/effect/ui_enchant/ui_fail/res_star.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_16.bmp",
+      "sha256": "64a159845b93e2653fc5dbd324da8359417c148a6e11be7a7c9f0b5244501e1d",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_16.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_02.bmp",
+      "sha256": "41d0d4eac124ced5000c595478b328f8fdcaa69c33e501249815c21e0c896579",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_01.bmp",
+      "sha256": "6f16eb9ad4e3f6f4c1518363ee562f40b5e8dde03ad97ac142f505323619e620",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_00.bmp",
+      "sha256": "403db2c4539c185de9ee83de1ec225f6d74611ead9ddb122f4ed98a6b599186c",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_03.bmp",
+      "sha256": "adcabf3806f18c3a5a00d26e2c43b70ebaed9bccc504f177521f2a3c72415a6b",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_17.bmp",
+      "sha256": "1a6dcf9feb0125baf0c717473d92904d434fef1e016e6ea093ab8ca5815fbab1",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_17.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_01.bmp",
+      "sha256": "da116438393bda05309b28587ba73a00e19a9bfec2a661233828b918666b888f",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_15.bmp",
+      "sha256": "23597a47851f8e8da2e6c48b68364792e102de592d06ccc153350c7d9e090acf",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_15.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_02.bmp",
+      "sha256": "4a6576f09ab1ae45383d9a47b1e73125741077ce62621bd5035c51140919df6a",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_03.bmp",
+      "sha256": "5ebc2754a594bf889dc55c7fc63a2db01c0821be140e411729cf87258cff5ba4",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_14.bmp",
+      "sha256": "9c0f6eb4d65d247df747058ff927d710672410957cf52c65dfca54d463dc9288",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_14.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_00.bmp",
+      "sha256": "e029ea93bd2935b7692d714af9e912f1b76ed241fea07b8164e3f44263e76fa8",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_04.bmp",
+      "sha256": "dfd93a0e2f786233222c5f45c6aeaaff551f3c1ea07e8b973259a4e1f409ced4",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_10.bmp",
+      "sha256": "0742ecd68781bb78134daa48f95e948d4fbbd849819710ec2d854b77a1b5c4cd",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_10.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_07.bmp",
+      "sha256": "ceef1cce6ad3404afcf96be222a761ed857c0b815ce76481ad07fd6a38e829dd",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_06.bmp",
+      "sha256": "49180dd550107cd310a951a7e63fa8e114eedd11deb3f6b584d56d5369ad0a67",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_11.bmp",
+      "sha256": "32202f3f2b78e01e2263bfde61d48dbce3b1e044509b1df9f8761a4121ae5a89",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_11.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_05.bmp",
+      "sha256": "200264b05646be41120006aed5c0a9851c32700aeb06740c708510ff75fb5d50",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_13.bmp",
+      "sha256": "9dcf20dc007cfa0c36306672dc248cb85e59a60b023592967babd12a7b7e1441",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_13.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_07.bmp",
+      "sha256": "a3c2120a98e5067a4e2a87094ef825d24e10ddffc6b03411259fed52c7b35633",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_04.bmp",
+      "sha256": "2d7800e3b2dd66b2cd2ba6352d5616f32258050eedf7c9ddc34e726c1fe8c773",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_05.bmp",
+      "sha256": "a38a910a57b75c07ccab3d76f193d360dbd8b4e5d505879451d53d65a3340199",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_06.bmp",
+      "sha256": "5e77bb561afdfcd8314b56a33778cab89f2717e861830c451367a94c23dd45fa",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_12.bmp",
+      "sha256": "c2f5c354076e429fc72d56db7354274761e43a6851324146e76ea956b6958924",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_12.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_08.bmp",
+      "sha256": "4959858327040181d9d5cead63856479d97a68db9d902ce0acd19b17d917ff01",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_shine_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_08.bmp",
+      "sha256": "cdc6260071451d4af729ca5798bbbec5775dfcc7da98226862cdd45a29df2c26",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_09.bmp",
+      "sha256": "fbbc557898999be27f1e90e214551d81ce8a95e60794ac05088350bbf363e7f7",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_19.bmp",
+      "sha256": "35d2945a1125a882388e034a50f9c803b06a5699e9aa286f152bdae5695b5492",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_19.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/ui_intro_yellow.str",
+      "sha256": "465026063e03d3de07f27083eac1536f9fff5a8b8ecaa253783ad33da9e2b3cf",
+      "bytes": 6792,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/ui_intro_yellow.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_18.bmp",
+      "sha256": "5b492e01d59a98d611d09068b44b7444e67cfb9987a71cd40ce12d430434a6d2",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_yellow/suc_particle_18.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_flare_01.bmp",
+      "sha256": "8c5144bb7f4f9ca30c786677c488c6559ca3d114b11b5b7b10b1ab0dfb5b07f8",
+      "bytes": 49208,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_flare_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_flare_00.bmp",
+      "sha256": "5c9daebdfcf36c981d5461d18625cc7322920fb4022bdb687153f833cee8a69d",
+      "bytes": 49208,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_flare_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_enchant.tga",
+      "sha256": "55194a431494b49b7778ad89ab6fa44f6a8e321eb2b5fab05720cc9b5bb0e415",
+      "bytes": 47244,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_enchant.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_changed.tga",
+      "sha256": "8772c048e11d0eb7ab2bfeb4721c8e4fdf269cb6acf962dbd33e900646065840",
+      "bytes": 47244,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_changed.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/ui_levelup_success.str",
+      "sha256": "979e916c5d978eab0ca27dfe2ca246789c4b6da6130ee9b4ecc59f95d0b4fe21",
+      "bytes": 15668,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/ui_levelup_success.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_main.tga",
+      "sha256": "80b1b145c2136cdb4e57906f26bc0774d40ae46c72071dde7472d5f474bdeaf5",
+      "bytes": 360044,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_main.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_05.bmp",
+      "sha256": "0c060396437a15d8cb383ee7e2b63e32d6846a859658f68a1eb48e3bb787a43a",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_04.bmp",
+      "sha256": "c57c822546c1a385c70b39bd271ae268abb927196629c12856eaaa125aa2287e",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_06.bmp",
+      "sha256": "c038998354178b93e30b8248c3bab55e5b62182c2c104feb7918ea4f2ecfa486",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_07.bmp",
+      "sha256": "9880a6360da6d37706fefa9d0a31095bf5dd9dcc708c2ac310bfe94067536016",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_03.bmp",
+      "sha256": "df8d1b1a22341dc21cda09498107f63187599891f00d6b455f4b4d54ce4a1c96",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_02.bmp",
+      "sha256": "252636e56afd6a907223d21c4a39a1a3e1091475c78954237fb541f7f329d08a",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_00.bmp",
+      "sha256": "8232eedb30bc3026668b3ce893b88c16809af7c09c0ca0d1cecf894026d5fac4",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_01.bmp",
+      "sha256": "4ef15bb9c82a562079c1624f4b81efa3a85353317a5a134f800876b6b5878a47",
+      "bytes": 121256,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_parti_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_levelup_success/cha_circle.bmp",
+      "sha256": "a0bc36d530f7389b4c8cc41bc5e61111a44dd1fc88c362dbbaafa95b31ae7c3b",
+      "bytes": 31556,
+      "source": "data/texture/effect/ui_enchant/ui_levelup_success/cha_circle.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_16.bmp",
+      "sha256": "28ce01af81c52b80a84489f07807e81004170e631aa22bc393c4c22e1df95ab2",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_16.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_02.bmp",
+      "sha256": "3ebd464e0f24565d8b0f9cbf7ee7339e10e31006eba8913e3588af08254aa82a",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_01.bmp",
+      "sha256": "3a7259cb444ffb6bf0d25169074e33d531defa7410043650956506ce93003c29",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_00.bmp",
+      "sha256": "c97425d2b3e94398c60ccb79a182be1c56babfe0b088881ba5c9eb363733a909",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_03.bmp",
+      "sha256": "69fe441ad269595226a8b3f4086ccf9ee2ee859e79b360243ffbe4a33f6887e6",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_17.bmp",
+      "sha256": "b37f600b62d8a47e001181dedcb44575c47dcaede2ac4b7b72117c9a6b71ff1f",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_17.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_01.bmp",
+      "sha256": "12966c0ec7a629063730862151b512b4f621b56cad67e6625a4d90abd97e0a68",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_15.bmp",
+      "sha256": "91538f3101b421d7d65d88b80976969a8d6dc1f0a3e899767d2773e5818327b1",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_15.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_02.bmp",
+      "sha256": "32d7965a1d974a4dd850a1d08a77975b31173964ecf68769077fe893cde30660",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_03.bmp",
+      "sha256": "7d965eebcc4497fa8456c19a74817412324c83ed29250867fc76a0d987e8f6ae",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_14.bmp",
+      "sha256": "2ad3de15063cfe45689b3a2a6890ce2e120af410cacf2849d6b53c823c7b7470",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_14.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_00.bmp",
+      "sha256": "5f8ecbcbc97a838201e5e38336d37695a74077c9b5909f1fbadeb88d260e8f2c",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_04.bmp",
+      "sha256": "b933ae6ce8ce681df871cc3cb5cdd3b7c51578d5b76717fd62552d4189605e1a",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_10.bmp",
+      "sha256": "c278cf3607f508fd7e88be83592f1d06c59945783cfb69a33ad1253c793d4b8b",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_10.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_07.bmp",
+      "sha256": "fd20ac75c505372332364c22373baafa8d8be0464a40864b0b3ed36669ddc17e",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_06.bmp",
+      "sha256": "2afc9de110b7e1af237920d7db6eefa91f41d61bdd47616f11623efbfa8ca113",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_11.bmp",
+      "sha256": "9687cb05b3cdb918ab80544d4a8ab2e32fffb2548c4b543b33770d959c61b857",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_11.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_05.bmp",
+      "sha256": "b58470b50f172516068e0e330af17ffcf972a07282fd1f88ec25a5d25b7949bf",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_13.bmp",
+      "sha256": "7735602aa9b08cb46f8cc248459ebabb46ac0b4ec4b17e3e8e7a2b6a0d8fe112",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_13.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_07.bmp",
+      "sha256": "c475d48163d85e33369dfa2dd7cac5086e901dafde49e74dcfab64ac0dedb050",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_04.bmp",
+      "sha256": "1f5aef5ce4b757bd06757aec65eaa438cdf6f7b5e832d8dbd822227a590ecad0",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_05.bmp",
+      "sha256": "4279124938f452ee0bcd5fcbe3a90b1658a8379e6fee31665bb05d84126773e5",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_06.bmp",
+      "sha256": "00b76cca43e380c1ecb4c12f1c16c8dcd1d8aab5c6a0cadb7872b47067d51de1",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_12.bmp",
+      "sha256": "269dfc1d9f9e6db8bbfd21d5d219260a02650c550972a61f7946b14ea2ec1d47",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_12.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_08.bmp",
+      "sha256": "670bf9483f3b75d311fefb62b24374249fb8e8df9b06b3fa910bcae39b796073",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_shine_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_08.bmp",
+      "sha256": "a32073620fd7ec7c5ca5b8d69207ab802e4a767ad1c1e062a9d3e3e80c87c46f",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_09.bmp",
+      "sha256": "eb324ce45b1f27db66e039280e01d063d928ab5b8ceb82a1953288804130267c",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_19.bmp",
+      "sha256": "37ac373bbd517d153965b26bd2e78b4c2179ccd03f7711845bd0b955089c3486",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_19.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_18.bmp",
+      "sha256": "dcb83063fb152f0c7862fa3ea42f900bd840e1ecf6634995cc9421009ab3a003",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/suc_particle_18.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_blue/ui_intro_blue.str",
+      "sha256": "465026063e03d3de07f27083eac1536f9fff5a8b8ecaa253783ad33da9e2b3cf",
+      "bytes": 6792,
+      "source": "data/texture/effect/ui_enchant/ui_intro_blue/ui_intro_blue.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/ui_enchant_success.str",
+      "sha256": "799dec18c78ae27d865c65f84d0e7f1cd46013f52c0c91f96e55c043eb682057",
+      "bytes": 17788,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/ui_enchant_success.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_success.tga",
+      "sha256": "ee9da054b32ae093d7dcf1e09d5755422e07e1e9f48a9bebf079a4c8951cc124",
+      "bytes": 52044,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_success.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_star_01.bmp",
+      "sha256": "1fb9570c0e2557398a703c0a473f82726a07b6f2080f39dc18cd450d3579eed0",
+      "bytes": 12344,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_star_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_star_00.bmp",
+      "sha256": "9781f428e921ebe2eb5067fe059a240b09823fed489419c6108ad414752a623f",
+      "bytes": 12344,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_star_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_enchant.tga",
+      "sha256": "03b5efbd738e515cdebf93d72d58730f3ac760875729d0ebd88e15e2b65c48c4",
+      "bytes": 52044,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_enchant.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_04.bmp",
+      "sha256": "81aeec93279153a0e45e7fc45d0c3f2e20ad71ad33b11a4cad9bc1397cd3e709",
+      "bytes": 8248,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_05.bmp",
+      "sha256": "fca97718addca4d2a58dfd83e75f45ba76022dbe0ad37789fbaf0ed2a4799319",
+      "bytes": 8248,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_glow.tga",
+      "sha256": "e4603822226b5e154ac456495bbb0d18c01b8ab535f284a5bfea2a1563517743",
+      "bytes": 16684,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_glow.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_01.bmp",
+      "sha256": "0675656d9adeb968b2116d0c007e4f150daa9e28dac2fd96797bf7eb0bcd1dc4",
+      "bytes": 8248,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_00.bmp",
+      "sha256": "bf4d67233a610ff9a6cd5e13cd769761f199cf3d4770d99fa44f43aa1eac9777",
+      "bytes": 8248,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_02.bmp",
+      "sha256": "b19c6fb2d98a05471389da2672ecb8ef342cef0b5e12f664e090389baec601ad",
+      "bytes": 8248,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_03.bmp",
+      "sha256": "3b2882621dd5b5de0471491f20f6eac89f067f1d7630e9e4b69b495757dd239c",
+      "bytes": 8248,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_line_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_circle.bmp",
+      "sha256": "e9b85c5cfa465c590f15dd4f52b8e17b7715750751ab5067df8353990123bb1c",
+      "bytes": 31556,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_circle.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_particle_01.bmp",
+      "sha256": "81e46eb4809b32a4c72cb2ac55f6c5004c5e4280c76899847a30aaebf2360a99",
+      "bytes": 66048,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_particle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_main.tga",
+      "sha256": "ba18dd59b986887d71a2df06f80b99474cf1de76c377005df2a896c2732fcb37",
+      "bytes": 360044,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_main.tga",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_enchant_success/enc_particle.bmp",
+      "sha256": "e8f043e45dba74b4f0a2a39e064021130956e4f83a2ebefb455459a25f96da9b",
+      "bytes": 44156,
+      "source": "data/texture/effect/ui_enchant/ui_enchant_success/enc_particle.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_16.bmp",
+      "sha256": "64a159845b93e2653fc5dbd324da8359417c148a6e11be7a7c9f0b5244501e1d",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_16.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_02.bmp",
+      "sha256": "41d0d4eac124ced5000c595478b328f8fdcaa69c33e501249815c21e0c896579",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_01.bmp",
+      "sha256": "6f16eb9ad4e3f6f4c1518363ee562f40b5e8dde03ad97ac142f505323619e620",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_00.bmp",
+      "sha256": "403db2c4539c185de9ee83de1ec225f6d74611ead9ddb122f4ed98a6b599186c",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_03.bmp",
+      "sha256": "adcabf3806f18c3a5a00d26e2c43b70ebaed9bccc504f177521f2a3c72415a6b",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_17.bmp",
+      "sha256": "1a6dcf9feb0125baf0c717473d92904d434fef1e016e6ea093ab8ca5815fbab1",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_17.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_01.bmp",
+      "sha256": "da116438393bda05309b28587ba73a00e19a9bfec2a661233828b918666b888f",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_01.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_15.bmp",
+      "sha256": "23597a47851f8e8da2e6c48b68364792e102de592d06ccc153350c7d9e090acf",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_15.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_02.bmp",
+      "sha256": "4a6576f09ab1ae45383d9a47b1e73125741077ce62621bd5035c51140919df6a",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_02.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/ui_intro_green.str",
+      "sha256": "465026063e03d3de07f27083eac1536f9fff5a8b8ecaa253783ad33da9e2b3cf",
+      "bytes": 6792,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/ui_intro_green.str",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_03.bmp",
+      "sha256": "5ebc2754a594bf889dc55c7fc63a2db01c0821be140e411729cf87258cff5ba4",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_03.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_14.bmp",
+      "sha256": "9c0f6eb4d65d247df747058ff927d710672410957cf52c65dfca54d463dc9288",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_14.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_00.bmp",
+      "sha256": "e029ea93bd2935b7692d714af9e912f1b76ed241fea07b8164e3f44263e76fa8",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_00.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_04.bmp",
+      "sha256": "dfd93a0e2f786233222c5f45c6aeaaff551f3c1ea07e8b973259a4e1f409ced4",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_10.bmp",
+      "sha256": "0742ecd68781bb78134daa48f95e948d4fbbd849819710ec2d854b77a1b5c4cd",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_10.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_07.bmp",
+      "sha256": "ceef1cce6ad3404afcf96be222a761ed857c0b815ce76481ad07fd6a38e829dd",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_06.bmp",
+      "sha256": "49180dd550107cd310a951a7e63fa8e114eedd11deb3f6b584d56d5369ad0a67",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_11.bmp",
+      "sha256": "32202f3f2b78e01e2263bfde61d48dbce3b1e044509b1df9f8761a4121ae5a89",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_11.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_05.bmp",
+      "sha256": "200264b05646be41120006aed5c0a9851c32700aeb06740c708510ff75fb5d50",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_13.bmp",
+      "sha256": "9dcf20dc007cfa0c36306672dc248cb85e59a60b023592967babd12a7b7e1441",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_13.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_07.bmp",
+      "sha256": "a3c2120a98e5067a4e2a87094ef825d24e10ddffc6b03411259fed52c7b35633",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_07.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_04.bmp",
+      "sha256": "2d7800e3b2dd66b2cd2ba6352d5616f32258050eedf7c9ddc34e726c1fe8c773",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_04.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_05.bmp",
+      "sha256": "a38a910a57b75c07ccab3d76f193d360dbd8b4e5d505879451d53d65a3340199",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_05.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_06.bmp",
+      "sha256": "5e77bb561afdfcd8314b56a33778cab89f2717e861830c451367a94c23dd45fa",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_06.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_12.bmp",
+      "sha256": "c2f5c354076e429fc72d56db7354274761e43a6851324146e76ea956b6958924",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_12.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_08.bmp",
+      "sha256": "4959858327040181d9d5cead63856479d97a68db9d902ce0acd19b17d917ff01",
+      "bytes": 110648,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_shine_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_08.bmp",
+      "sha256": "cdc6260071451d4af729ca5798bbbec5775dfcc7da98226862cdd45a29df2c26",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_08.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_09.bmp",
+      "sha256": "fbbc557898999be27f1e90e214551d81ce8a95e60794ac05088350bbf363e7f7",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_09.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_19.bmp",
+      "sha256": "35d2945a1125a882388e034a50f9c803b06a5699e9aa286f152bdae5695b5492",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_19.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_18.bmp",
+      "sha256": "5b492e01d59a98d611d09068b44b7444e67cfb9987a71cd40ce12d430434a6d2",
+      "bytes": 276536,
+      "source": "data/texture/effect/ui_enchant/ui_intro_green/suc_particle_18.bmp",
+      "status": "verified original path"
+    }
+  ]
+}

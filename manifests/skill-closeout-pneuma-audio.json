@@ -1,0 +1,17 @@
+{
+  "name": "skill-closeout-pneuma-audio",
+  "description": "Original Pneuma audio-resource restoration.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/wav/effect/cd_pneumaticus_procella.wav",
+      "sha256": "72219d44ceaf8b3cba92c7d4ec806183baaa742c05c7afd3ee76b505ce6fa1e5",
+      "bytes": 497526,
+      "source": "data/wav/effect/cd_pneumaticus_procella.wav",
+      "status": "verified original path"
+    }
+  ]
+}

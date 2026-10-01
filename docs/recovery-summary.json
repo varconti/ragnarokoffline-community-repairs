@@ -1,0 +1,13 @@
+{
+  "mods": 26,
+  "resource_recipes": 20,
+  "asset_entries": 6088,
+  "resource_status": {
+    "source not found": 1700,
+    "source differs": 188,
+    "source encrypted or unsupported": 2,
+    "verified original path": 4198
+  },
+  "binary_assets_distributed": 0,
+  "public_source_mods": 2
+}

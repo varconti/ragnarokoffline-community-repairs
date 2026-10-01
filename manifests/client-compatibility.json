@@ -1,0 +1,31 @@
+{
+  "name": "client-compatibility",
+  "description": "Repair enum mismatches in pet, random-option and footprint metadata. Binary game tables are not distributed.",
+  "requires": {
+    "app": ">=1.3.1",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/luafiles514/lua files/hateffectinfo/hateffectinfo.lub",
+      "sha256": "f8632fcb505fda72c8738a1d69ad7b665a88b8288a91ac04f342e3ba7f8a4dfa",
+      "bytes": 48315,
+      "source": null,
+      "status": "source encrypted or unsupported"
+    },
+    {
+      "path": "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+      "sha256": "c41c23cdad58d21866efed0dc3a2b01c8f3849b8b09f834d0f6097b78220f412",
+      "bytes": 19063,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/luafiles514/lua files/datainfo/petinfo.lub",
+      "sha256": "7ea2b01eb3c1975ebb55d25fc009b8ff7d1c8ccc80db3855abbb4626de039db7",
+      "bytes": 36577,
+      "source": null,
+      "status": "source differs"
+    }
+  ]
+}

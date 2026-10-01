@@ -1,0 +1,178 @@
+{
+  "name": "spirit-handler-body",
+  "description": "Missing original Spirit Handler body and weapon sprite resources.",
+  "requires": {
+    "app": ">=1.3.1",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b7\u00d4\u00b5\u00e5.act",
+      "sha256": "1a573d6d0828be102a4ba04b1ad9c81a49cbd12fb64e8b7779cc4ef09f494c71",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b7\u00d4\u00b5\u00e5.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.spr",
+      "sha256": "06d050b7144e5af9280589d21c635bee9e55c80925bd9cfa03919ad0f94dc3b5",
+      "bytes": 4417,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b7\u00d4\u00b5\u00e5.act",
+      "sha256": "ebeb3a9c34696e0d07a0fe7220c595a850295b5071f7fbac8e064813c9e03dca",
+      "bytes": 43316,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b7\u00d4\u00b5\u00e5.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.act",
+      "sha256": "0fbbc9ab5a209c6c0c483de8643d3f9ee3aecd09d704742fe9934a9e536ad9b3",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.act",
+      "sha256": "1167f820589b5b30167574a1ea6a665a39add884281bb49d56cd911817c2ab03",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.spr",
+      "sha256": "cb58544fa8e46db3e2dd082abae484713e3fe24210d470732f1247f241b0e22b",
+      "bytes": 4417,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.spr",
+      "sha256": "06d050b7144e5af9280589d21c635bee9e55c80925bd9cfa03919ad0f94dc3b5",
+      "bytes": 4417,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.act",
+      "sha256": "df15231f63763154d0941cea30bd37840343d32404c9c445827a6d55c3526039",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.spr",
+      "sha256": "fbd1f8a4f654502661bd024120244f61783c16ed3ad97a5007900fc41ee54eaa",
+      "bytes": 4417,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.act",
+      "sha256": "280a7909c0a7aa71628210e3ca5fd9fa0f30c9ecc7e8838869a5ac9dff962982",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.act",
+      "sha256": "b72563d7270edb69133e1ef8877304b8b104cd45afc11ce7a29c7b40f764ec84",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.spr",
+      "sha256": "8d1f590979c675b23ae0a7e0727e5de849dda0487c93d90e5c7753e44861750b",
+      "bytes": 4417,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b0\u00a5\u00bb\u00f6.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.spr",
+      "sha256": "cb58544fa8e46db3e2dd082abae484713e3fe24210d470732f1247f241b0e22b",
+      "bytes": 4417,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b3\u00ec\u00bb\u00f6.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.act",
+      "sha256": "5a60b7f3d0cbe8785241099cab4d0e77f357a481bdba3c7672279ee92922633d",
+      "bytes": 42900,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b0\u00ad\u00be\u00c6\u00c1\u00f6\u00c7\u00ae_\u00b8\u00de\u00c5\u00bb.act",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b7\u00d4\u00b5\u00e5.spr",
+      "sha256": "d1fdc0afc418ab19113764a6f36245167f29cf2ff696f2abd53e47f56b2d074b",
+      "bytes": 3357,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00b3\u00b2_\u00b7\u00d4\u00b5\u00e5.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b7\u00d4\u00b5\u00e5.spr",
+      "sha256": "d1fdc0afc418ab19113764a6f36245167f29cf2ff696f2abd53e47f56b2d074b",
+      "bytes": 3357,
+      "source": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/spirit_handler/spirit_handler_\u00bf\u00a9_\u00b7\u00d4\u00b5\u00e5.spr",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00bf\u00a9/spirit_handler_riding_\u00bf\u00a9.spr",
+      "sha256": "09334c51daff143913df48749c061373b8b853dc2f5dcd0d6735209979aca974",
+      "bytes": 65658,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00bf\u00a9/spirit_handler_\u00bf\u00a9.act",
+      "sha256": "c77a07f09981a06871333a4bf57e6fa447d3db66b7f28a63521787e79d481505",
+      "bytes": 48020,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00bf\u00a9/spirit_handler_\u00bf\u00a9.spr",
+      "sha256": "87618535f252b7deccd9f94e2ab6f6c303aadc5507d121bf82e09792a2a844cd",
+      "bytes": 121250,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00bf\u00a9/spirit_handler_riding_\u00bf\u00a9.act",
+      "sha256": "7c802c87d3d8209f6ef9413af1767faa2e78b31e00f1972cadc1bbb9d58ef878",
+      "bytes": 48276,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00b3\u00b2/spirit_handler_riding_\u00b3\u00b2.act",
+      "sha256": "605c29a82e267fc07c615b12b2aac1861a6b82126088d9dae0b2192f36843c7f",
+      "bytes": 48148,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00b3\u00b2/spirit_handler_\u00b3\u00b2.spr",
+      "sha256": "91fa2efb22235138bd013e6e10303d406e6c4250ece20765ddff7f8bab2923d1",
+      "bytes": 126629,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00b3\u00b2/spirit_handler_\u00b3\u00b2.act",
+      "sha256": "8fe830d553e1e24101ae7f2343b0e58a19ad5bb89061dffa218758e0b214606c",
+      "bytes": 48148,
+      "source": null,
+      "status": "source differs"
+    },
+    {
+      "path": "data/sprite/\u00b5\u00b5\u00b6\u00f7\u00c1\u00b7/\u00b8\u00f6\u00c5\u00eb/\u00b3\u00b2/spirit_handler_riding_\u00b3\u00b2.spr",
+      "sha256": "e089c9c6322b4069e46374de1e2e50632c3bcc34b653c56fdd104761c73489d0",
+      "bytes": 66223,
+      "source": null,
+      "status": "source differs"
+    }
+  ]
+}

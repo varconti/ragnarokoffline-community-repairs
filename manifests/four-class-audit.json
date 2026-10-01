@@ -1,0 +1,262 @@
+{
+  "name": "four-class-audit",
+  "description": "Skill icon and effect resources from the four-class audit.",
+  "requires": {
+    "app": ">=1.3.5",
+    "era": "renewal"
+  },
+  "files": [
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_ATKMIN.bmp",
+      "sha256": "98061be4fb6885dfaaa1ae19fd36e8346ece01857fffef00d88a692f3638639d",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_ATKMIN.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_MATKMAX.bmp",
+      "sha256": "1dee18ae0d2cacb484b5f5f5f1b2ba0bc5fd87efcef2df1824ec6d2900befa7e",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_MATKMAX.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_MYSTERY_POWDER.bmp",
+      "sha256": "d3f1dffb67221de2316cc6cef423151962b7fccb77ab5cb71b5d1201c3c7b9d0",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_MYSTERY_POWDER.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IG_IMPERIAL_PRESSURE.bmp",
+      "sha256": "c676336f769070590bd1f10c55507c0f19a805ecf459215f21807014814d5a93",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IG_IMPERIAL_PRESSURE.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_SPARK_BLASTER.bmp",
+      "sha256": "424ce308aecb4122f1d42459604304579059460b2dace8a71b7b0735c16df6e3",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_SPARK_BLASTER.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_EXPLOSIVE_POWDER.bmp",
+      "sha256": "f46474bcd3cb40f0a167a6dad80ea9c0bc21960d36e0c11e0765237bb6600edc",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_EXPLOSIVE_POWDER.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/DC_FORTUNEKISS2.bmp",
+      "sha256": "d1b2d73ed4badaaf926f1afa9d27c7e893d6479d2353a7d517e090c1d9fb0fb8",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/DC_FORTUNEKISS2.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IG_RADIANT_SPEAR.bmp",
+      "sha256": "3d05af3e735de811138baa7bc7185b481a1b7c3261396d0387497c40ba3f2542",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IG_RADIANT_SPEAR.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/WH_WILD_WALK.bmp",
+      "sha256": "7b3b886ee4c01ac6b0c8d1f0ba442ad55b6080b8ad59a0680bb7b17b0e9d2fa0",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/WH_WILD_WALK.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/ABC_CHASING_SHOT.bmp",
+      "sha256": "b08e41d06e11d291d31964b3e5cae8c6cacecac8805d7578f1dcd594b62709ef",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/ABC_CHASING_SHOT.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BA_POEMBRAGI2.bmp",
+      "sha256": "08b1b9b89ff823171a1626cc27594109b1adae82cba9caadcb01d47d62e5b155",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BA_POEMBRAGI2.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/AG_ENERGY_CONVERSION.bmp",
+      "sha256": "2f9a0f1bf4a2a96167a5a58336652b6e93a2e4988adee8b9fdcbe237338cf4ec",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/AG_ENERGY_CONVERSION.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_RUSH_STRIKE.bmp",
+      "sha256": "55ef1483b6bdd5e2082b4b158b8794a4cb68d7bcd288c719dd21a1fb827aca30",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_RUSH_STRIKE.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_MATKMIN.bmp",
+      "sha256": "1dee18ae0d2cacb484b5f5f5f1b2ba0bc5fd87efcef2df1824ec6d2900befa7e",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_MATKMIN.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_ATKMAX.bmp",
+      "sha256": "98061be4fb6885dfaaa1ae19fd36e8346ece01857fffef00d88a692f3638639d",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_ITEM_ATKMAX.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/EM_PSYCHIC_STREAM.bmp",
+      "sha256": "dc7dfdca86dbd69e78699fbffce83855112928b3db1113c27bcfaa728fedfc1d",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/EM_PSYCHIC_STREAM.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/TR_RHYTHMICAL_WAVE.bmp",
+      "sha256": "67cd48c8beb056413c29500c845f6c4f86e8ee47a5d20c1149b9c2e53976fb61",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/TR_RHYTHMICAL_WAVE.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/ABC_ABYSS_FLAME.bmp",
+      "sha256": "8be717d8732026e221c6599b889b3108e53a6e796a2cd76799a49e5cb6363c71",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/ABC_ABYSS_FLAME.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_MAYHEMIC_THORNS.bmp",
+      "sha256": "fa95057ff308e5b2c63499f23260fb00b8a5626a6e230f5befd200c4ab54126f",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_MAYHEMIC_THORNS.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_WIDE_RESURRECTION.bmp",
+      "sha256": "b653adb1a7ea3e335984bcb1c4c4b3cc4a2fc6768e7c8c0ed5c6037f1d4b50da",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_WIDE_RESURRECTION.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IQ_BLAZING_FLAME_BLAST.bmp",
+      "sha256": "401e11c79af32d93a021260359ee91de391bf8c317ee5aca51d8efeaeb97e329",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IQ_BLAZING_FLAME_BLAST.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/CD_DIVINUS_FLOS.bmp",
+      "sha256": "7f3fca125026ca3fe3444d45b6c61310a082f188cf42a52c8d334c4e8b0b362a",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/CD_DIVINUS_FLOS.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_POWERFUL_SWING.bmp",
+      "sha256": "ee2f2b48df689900d4b13ab3b4ca70b037143bfdf8a8fef337c1807782ada814",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_POWERFUL_SWING.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/ABC_CHASING_BREAK.bmp",
+      "sha256": "d118148f1c6b3041bb5cbdbcbcfa1372da0cf78132ee4490f5cb50302137f521",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/ABC_CHASING_BREAK.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_TRIPLE_LASER.bmp",
+      "sha256": "4414629aa987a575500dd0cddf78221377da63e587e445fe94a9b093c771874f",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_TRIPLE_LASER.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_MIGHTY_SMASH.bmp",
+      "sha256": "9ddcf275da5430a189e4b8239873697c571dddfc4fcec7a20f263574b23d5bc9",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_MIGHTY_SMASH.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/All_EVENT_20TH_ANNIVERSARY.bmp",
+      "sha256": "f1ebedf001753af0d72a96c3aa1a0f7b70e225c74dc73838ce61a0ed0409ffb0",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/All_EVENT_20TH_ANNIVERSARY.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IG_IMPERIAL_CROSS.bmp",
+      "sha256": "d8578d49b921a878bd61083805bcf65384f06732827e1c049b8f65d52caeed3e",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/IG_IMPERIAL_CROSS.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_DUST_EXPLOSION.bmp",
+      "sha256": "fe0cecf68491eec731ca7b4ae699f73cbda6be38a8d2763a4c8daed953e06f0c",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/BO_DUST_EXPLOSION.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_FORCE_TRANSFER.bmp",
+      "sha256": "0d774d0af393cd63df0fc89f5f815e3f069dbea7ccec8ae8ccab8b11173605db",
+      "bytes": 1654,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/GM_FORCE_TRANSFER.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_ENERGY_CANNONADE.bmp",
+      "sha256": "eea107939f880ef926bc1606bbfed1e397f3fa9b2f077b836f34a82231287c35",
+      "bytes": 1782,
+      "source": "data/texture/\u00c0\u00af\u00c0\u00fa\u00c0\u00ce\u00c5\u00cd\u00c6\u00e4\u00c0\u00cc\u00bd\u00ba/item/MT_ENERGY_CANNONADE.bmp",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/bo_mystery_powder_hit.wav",
+      "sha256": "f70b255f34505e361b9e70da85fc0cea124624f6d3ebd34853ff3a2c8e9d4754",
+      "bytes": 20292,
+      "source": "data/wav/effect/bo_mystery_powder_hit.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/bo_mayhemic_thorns.wav",
+      "sha256": "e6460a8463bbcad5d628ba58bcbc558bbe9c16a5ba449c3dcac4eb62d57babaa",
+      "bytes": 23914,
+      "source": "data/wav/effect/bo_mayhemic_thorns.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/bo_explosive_powder.wav",
+      "sha256": "98f1fe4f16f9fcc0fa8fa260bd15ea3d0f9e0094b40230d486ad2371b68b6696",
+      "bytes": 31966,
+      "source": "data/wav/effect/bo_explosive_powder.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/bo_mystery_powder.wav",
+      "sha256": "17ee450ca2931c0dcc82e83cbd32a1b2dc1f15ced03fe4f403118844114494cb",
+      "bytes": 23634,
+      "source": "data/wav/effect/bo_mystery_powder.wav",
+      "status": "verified original path"
+    },
+    {
+      "path": "data/wav/effect/wh_crescive_bolt.wav",
+      "sha256": "1057cbf6ed5127c390489c70531ac4777ca9e80883503bf487705fcbfc2e9d5f",
+      "bytes": 26702,
+      "source": "data/wav/effect/wh_crescive_bolt.wav",
+      "status": "verified original path"
+    }
+  ]
+}
